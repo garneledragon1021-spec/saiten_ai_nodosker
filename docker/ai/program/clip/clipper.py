@@ -23,14 +23,25 @@ def clip(file_name, train_data, clipped_name):
     #閾値
     model.conf = 0.50
     results = model(file_name)
+    
+    data = []
 
+    #矩形の数繰り返す
     for result in results:
+        
+        #座標取得・格納
         pos = result.boxes.xyxy
-        num_list = [result.names[cls.item()] for cls in result.boxes.cls.int()]
-        for (point, num) in zip(pos, num_list):
-            clipped = img[int(point[1]) : int(point[3]),int(point[0]) : int(point[2])]
-            cv2.imwrite(clipped_name + "/" + str(count) + ".jpg", clipped)
-            count = count + 1
+    
+        #矩形切り取り・保存
+        for point in pos: 
+            clipped = img[int(point[1]):int(point[3]), int(point[0]):int(point[2])]
+            data.append([clipped, point[0]])
+            
+    data.sort(key=lambda x: x[1])
+    
+    for i, (clipped_img, x_pos) in enumerate(data, start=0):
+        save_path = f"{clipped_name}/{i}.jpg"
+        cv2.imwrite(save_path, clipped_img)
         
     return 0
 

@@ -30,7 +30,7 @@ if not os.path.isdir(clipped_folder):
     os.mkdir(clipped_folder)
 
 #数字検出プログラム
-exec_detect = os.path.join(base_dir, "program/detect/detect.py")
+exec_detect = os.path.join(base_dir, "program/detect/detect_new.py")
 
 #QRコード用プログラム実行
 #throwcommand = os.path.abspath(exec_7seg) + " " + exec_qr + " " + org_file + " " + cutted_file
@@ -52,17 +52,17 @@ if re.match("fujishima startup QRcode", str(qr_res.stdout)[2:-2]):
     
     #数字検出プログラム実行
     index = 1
-    file_list = glob.glob(os.path.join(clipped_folder, "*.jpg"))
     
-    #大問の個数分繰り返す
-    for img_path in file_list:
-        #detect.py呼び出し
-        throwcommand = exec_7seg + " " + exec_detect + " " + img_path + " " + train_data_score + " " + result_path + " " + str(index)
-        result = subprocess.run(throwcommand, shell=True, text=True)
+    
+    
+    #detect.py呼び出し
+    throwcommand = exec_7seg + " " + exec_detect + " " + train_data_score + " " + result_path + " " + clipped_folder
+    result = subprocess.run(throwcommand, shell=True, text=True)
 
-        #現在の大問番号
-        index = index + 1
-        #print(result.stdout)
-        #出力データは、テキストファイルのカンマ区切り or JSONファイル
+    #現在の大問番号
+    index = index + 1
+    #print(result.stdout)
+    #出力データは、テキストファイルのカンマ区切り or JSONファイル
+        
 elif str(qr_res.stdout) == "Different":
     print("skip!!")

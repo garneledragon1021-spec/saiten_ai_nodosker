@@ -1,19 +1,5 @@
-[
-  [
-    {
-      "question1": {
-        "score": "12"
-      }
-    },
-    {
-      "question2": {
-        "score": "84"
-      }
-    }
-  ],
-  {
-    "question3": {
-      "score": "95"
-    }
-  }
-]
+{
+  "question1": "12",
+  "question2": "95",
+  "question3": "84"
+}
