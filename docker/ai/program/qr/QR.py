@@ -1,7 +1,7 @@
-import qrcode
-import cv2
-import sys
-from pyzbar.pyzbar import decode
+import qrcode                       #QRコード関係
+import cv2                          #画像処理関係
+import sys                          #外部引数取得
+from pyzbar.pyzbar import decode    #デコード
 
 #初期設定
 args = sys.argv

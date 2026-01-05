@@ -1,68 +1,54 @@
-#Pythonファイル実行用ファイル
-import subprocess
-import os
-import glob
-import sys
-import re
+import subprocess   #他プログラム呼び出し
+import os           #ファイル操作
+import glob         #ファイル取得
+import sys          #外部引数取得
+import re           #文字列操作
 
-
-#初期設定
+#外部入力
 args = sys.argv
 
-file_name = args[1]     #指定ファイル名
+file_name = args[1]     #画像（入力）
 
-org_file = "/home/sou/saiten_ai_nodocker/docker/images/origin/" + file_name + ".jpg"    #画像ファイル名(仮)
-cutted_file = "/home/sou/saiten_ai_nodocker/docker/images/cutted/" + file_name + ".jpg"  #QRコード検出・切り取り処理
-clipped_folder = "/home/sou/saiten_ai_nodocker/docker/images/clipped/" + file_name   #矩形切り取り処理画像フォルダ
-result_path = "/home/sou/saiten_ai_nodocker/docker/result/" + file_name + ".json"   #点数データ格納用ファイルパス
+#docker無しで動かすため絶対参照しているよ
+org_file = "/home/sou/saiten_ai_nodocker/docker/images/origin/" + file_name + ".jpg"        #画像パス
+cutted_file = "/home/sou/saiten_ai_nodocker/docker/images/cutted/" + file_name + ".jpg"     #QR.py処理後画像パス
+clipped_folder = "/home/sou/saiten_ai_nodocker/docker/images/clipped/" + file_name          #clipper.py処理後画像ファイルパス
+result_path = "/home/sou/saiten_ai_nodocker/docker/result/" + file_name + ".json"           #点数jsonファイルパス（出力）
+
 base_dir = os.path.dirname(__file__)
-train_data_box = os.path.join(base_dir, "program/clip/ref/best.pt")   #学習データ(矩形検出)
-train_data_score = os.path.join(base_dir, "program/detect/ref/best.pt")   #学習データ(数字検出)
+train_data_box = os.path.join(base_dir, "program/clip/ref/best.pt")                         #学習データ(矩形検出)
+train_data_score = os.path.join(base_dir, "program/detect/ref/best.pt")                     #学習データ(数字検出)
 
-exec_7seg = "python3"
+exec_7seg = "python3"          #実行時コマンド用
 
-#QRコード用プログラム
-exec_qr = os.path.join(base_dir, "program/qr/QR.py")
+exec_qr = os.path.join(base_dir, "program/qr/QR.py")                        #QR.pyパス
 
-#矩形枠用プログラム
-exec_box = os.path.join(base_dir, "program/clip/clipper.py")
+exec_box = os.path.join(base_dir, "program/clip/clipper.py")                #clipper.pyパス
+
+#切り取り画像保存フォルダ作成
 if not os.path.isdir(clipped_folder):
     os.mkdir(clipped_folder)
 
-#数字検出プログラム
-exec_detect = os.path.join(base_dir, "program/detect/detect_new.py")
+exec_detect = os.path.join(base_dir, "program/detect/detect_new.py")        #detect_new.pyパス
 
-#QRコード用プログラム実行
-#throwcommand = os.path.abspath(exec_7seg) + " " + exec_qr + " " + org_file + " " + cutted_file
+#QR.py実行（python3 QR.py 元画像パス 切り取り画像パス）
 throwcommand = exec_7seg + " " + exec_qr + " " + org_file + " " + cutted_file
+
+#出力
 qr_res = subprocess.run(throwcommand, shell=True, capture_output=True)
 
-# print("STDOUT:", repr(qr_res.stdout))
-# print("STDERR:", repr(qr_res.stderr))
-# print("RETURN CODE:", qr_res.returncode)
+#print(str(qr_res.stdout))
 
-print("通過")
-
-print(str(qr_res.stdout))
-
+#QR.pyの結果が正しければ
 if re.match("fujishima startup QRcode", str(qr_res.stdout)[2:-2]):
-    #矩形枠用プログラム実行
+    #clipper.py実行（python3 clipper.py 切り取り画像パス 学習データパス 矩形切り取り画像保存フォルダ）
     throwcommand = exec_7seg + " " + exec_box + " " + cutted_file + " " + train_data_box + " " + clipped_folder
     subprocess.run(throwcommand, shell=True)
     
-    #数字検出プログラム実行
-    index = 1
-    
-    
-    
-    #detect.py呼び出し
+    #detect.py実行（python3 detect_new.py 矩形切り取り画像保存フォルダ 学習データパス 点数jsonファイルパス）
     throwcommand = exec_7seg + " " + exec_detect + " " + train_data_score + " " + result_path + " " + clipped_folder
-    result = subprocess.run(throwcommand, shell=True, text=True)
+    subprocess.run(throwcommand, shell=True, text=True)
 
-    #現在の大問番号
-    index = index + 1
-    #print(result.stdout)
-    #出力データは、テキストファイルのカンマ区切り or JSONファイル
-        
+#例外        
 elif str(qr_res.stdout) == "Different":
     print("skip!!")

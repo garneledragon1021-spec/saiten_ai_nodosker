@@ -1,10 +1,10 @@
-import math
 import cv2
 from ultralytics import YOLO
 import sys
 import json
 import glob
 import os
+#import math
 
 args = sys.argv
 
@@ -118,23 +118,34 @@ def detect_call ():
     
     #ファイルはこれやで
     file_list = glob.glob(os.path.join(clipped_folder, "*.jpg"))
-    # ファイル名(拡張子除く)を数値として昇順ソート（0.jpg,1.jpg,2.jpg...）
+    
+    # ファイル名でソート
     file_list.sort(key=lambda p: int(os.path.splitext(os.path.basename(p))[0]))
     
     result = []
     
+    #矩形の回数分繰り返す
     for img_path in file_list:
+        #数字検出
         score = detect(img_path, train_data)
+        #大問ごとの点数をリストへ格納
         result.append(score)
-        
+    
+    #json出力
     json_Write(result)
     
     return 0
 
-
+#json出力関数
 def json_Write(result):
+    #リストの内容をディクショナリに変換
     new_data = {f"question{i+1}": str(score) for i, score in enumerate(result)}
+    
+    #jsonをopenして書き込み
     with open(result_name, 'w', encoding='utf-8') as f:
         json.dump(new_data, f, indent=2)
         
+    return 0
+
+
 detect_call()
