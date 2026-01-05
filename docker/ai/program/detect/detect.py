@@ -13,8 +13,8 @@ args = sys.argv
 
 clipped_name = args[1]  #矩形切り取り画像
 train_data = args[2]    #学習重みデータ
-result_name = args[3]   #点数結果出力ファイル
-number = "question" + str(int(args[4]) + 1)    #大問番号
+result_name = args[3]   #点数結果出力ファイル(json)
+number = "question" + str(args[4])    #大問番号
 
 #文字➡数字変換
 def numCheck(data):
@@ -39,18 +39,6 @@ def numCheck(data):
     elif data=="nine":
         return 9
 
-#値を示す
-def res(data, count):
-    ans=0
-    if count==1:
-        ans = data[0]
-    elif count==2:
-        ans = data[0] * 10 + data[1]
-    elif count==3:
-        ans = data[0] * 100 + data[1] * 10 + data[2]
-    
-    return ans
-
 #桁毎に正しく並べ直す
 def sort(org, count, pos):
     i=0
@@ -74,7 +62,21 @@ def sort(org, count, pos):
 
     return data
 
+#値を示す
+def res(data, count):
+    ans=0
+    #もし点数が一桁なら・・・
+    if count==1:
+        ans = data[0]
+    elif count==2:
+        ans = data[0] * 10 + data[1]
+    elif count==3:
+        ans = data[0] * 100 + data[1] * 10 + data[2]
+    
+    return ans
+
 def detect(file_name, train_data):
+    
     count=0
     data = [0, 0, 0]
     pos = [0,0,0]
@@ -90,9 +92,16 @@ def detect(file_name, train_data):
     results = model(file_name)
     
     for result in results:
+        
+        #矩形の座標
         point_list = result.boxes.xyxy
+        
+        #それぞれ画像のクラスIDを取得し,numCheckへ渡すためリストへ
         num_list = [result.names[cls.item()] for cls in result.boxes.cls.int()]
+        
+        #zip関数でpoint_listとnum_listをペアに（タプルに）
         for (point, num) in zip(point_list, num_list):
+            
             data[count] = numCheck(num)  
             xmin = point[0]
 

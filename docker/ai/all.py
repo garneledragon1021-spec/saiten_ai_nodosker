@@ -51,12 +51,16 @@ if re.match("fujishima startup QRcode", str(qr_res.stdout)[2:-2]):
     subprocess.run(throwcommand, shell=True)
     
     #数字検出プログラム実行
-    index = 0
+    index = 1
     file_list = glob.glob(os.path.join(clipped_folder, "*.jpg"))
+    
+    #大問の個数分繰り返す
     for img_path in file_list:
+        #detect.py呼び出し
         throwcommand = exec_7seg + " " + exec_detect + " " + img_path + " " + train_data_score + " " + result_path + " " + str(index)
         result = subprocess.run(throwcommand, shell=True, text=True)
 
+        #現在の大問番号
         index = index + 1
         #print(result.stdout)
         #出力データは、テキストファイルのカンマ区切り or JSONファイル
