@@ -5,7 +5,6 @@ import sys                          #外部引数取得
 #import torch
 #import math
 
-
 args = sys.argv
 
 cutted_name = args[1]   #QR切り取り画像(入力)

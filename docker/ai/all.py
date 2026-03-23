@@ -9,20 +9,19 @@ args = sys.argv
 
 file_name = args[1]     #画像（入力）
 
-#docker無しで動かすため絶対参照しているよ
-org_file = "/home/sou/saiten_ai_nodocker/docker/images/origin/" + file_name + ".jpg"        #画像パス
-cutted_file = "/home/sou/saiten_ai_nodocker/docker/images/cutted/" + file_name + ".jpg"     #QR.py処理後画像パス
-clipped_folder = "/home/sou/saiten_ai_nodocker/docker/images/clipped/" + file_name          #clipper.py処理後画像ファイルパス
-result_path = "/home/sou/saiten_ai_nodocker/docker/result/" + file_name + ".json"           #点数jsonファイルパス（出力）
-
+#誰でも動かせるように相対参照しているよ
 base_dir = os.path.dirname(__file__)
 train_data_box = os.path.join(base_dir, "program/clip/ref/best.pt")                         #学習データ(矩形検出)
 train_data_score = os.path.join(base_dir, "program/detect/ref/best.pt")                     #学習データ(数字検出)
 
+org_file = os.path.join(base_dir, "../images/origin/" + file_name + ".jpg")          #画像パス
+cutted_file = os.path.join(base_dir, "../images/cutted/" + file_name + ".jpg")       #QR.py処理後画像パス
+clipped_folder = os.path.join(base_dir, "../images/clipped/" + file_name)            #clipper.py処理後画像ファイルパス
+result_path = os.path.join(base_dir, "../result/" + file_name + ".json")             #点数jsonファイルパス（出力）
+
 exec_7seg = "python3"          #実行時コマンド用
 
 exec_qr = os.path.join(base_dir, "program/qr/QR.py")                        #QR.pyパス
-
 exec_box = os.path.join(base_dir, "program/clip/clipper.py")                #clipper.pyパス
 
 #切り取り画像保存フォルダ作成
@@ -43,7 +42,7 @@ qr_res = subprocess.run(throwcommand, shell=True, capture_output=True)
 if re.match("fujishima startup QRcode", str(qr_res.stdout)[2:-2]):
     #clipper.py実行（python3 clipper.py 切り取り画像パス 学習データパス 矩形切り取り画像保存フォルダ）
     throwcommand = exec_7seg + " " + exec_box + " " + cutted_file + " " + train_data_box + " " + clipped_folder
-    subprocess.run(throwcommand, shell=True)
+    subprocess.run(throwcommand, shell=True, capture_output=False)
     
     #detect.py実行（python3 detect_new.py 矩形切り取り画像保存フォルダ 学習データパス 点数jsonファイルパス）
     throwcommand = exec_7seg + " " + exec_detect + " " + train_data_score + " " + result_path + " " + clipped_folder
