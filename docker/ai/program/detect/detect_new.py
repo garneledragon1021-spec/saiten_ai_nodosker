@@ -147,7 +147,6 @@ def detect_call ():
     file_list.sort(key=lambda p: int(os.path.splitext(os.path.basename(p))[0]))
     
     result = []
-    point_sum = 0
     
     #矩形の回数分繰り返す
     for i, img_path in enumerate(file_list):
@@ -157,10 +156,7 @@ def detect_call ():
         print(f"[DEBUG] Detected score: {score}")
         #大問ごとの点数をリストへ格納
         result.append(score)
-        point_sum += score
-
-    result.append(point_sum)
-
+    
     #json出力
     print("[DEBUG] Writing JSON result")
     json_Write(result)
