@@ -6,6 +6,10 @@ from pyzbar.pyzbar import decode    #デコード
 #初期設定
 args = sys.argv
 
+if len(args) < 3:
+    print("Different")
+    sys.exit(1)
+
 file_name = args[1]     #元画像
 cutted_name = args[2]   #切り取り画像
 
@@ -31,30 +35,38 @@ def create_QR():
 
 #QRコード読み取り
 def read_QR(img_data):
-    #img_data = cv2.imread(file_data)#画像読み込み
+    if img_data is None:
+        return "Different"
+
     decoded_qr = decode(img_data)   #画像ファイルのデコード
-    h, w, c = img_data.shape        #画像の幅(x座標の最大値)(w),高さ(y座標の最大値)(h),チャンネル(c)
+    if not decoded_qr:
+        return "Different"
+
+    h, w, _ = img_data.shape        #画像の幅(x座標の最大値)(w),高さ(y座標の最大値)(h),チャンネル(c)
 
     for obj in decoded_qr:
         data = obj.data.decode("utf-8") #QRコード情報
-        #print(obj.rect)
-        #切り取り画像座標情報
-        xmin = obj.rect.left                    #左上X座標(最小値)
-        xmax = w                                #右下x座標(最大値)
-        #ymin = obj.rect.top                    #左上y座標(最小値)
-        ymin = obj.rect.top + obj.rect.height   #左上y座標(最小値)
-        ymax = h                                #右下y座標(最大値)
+        if data != "fujishima startup QRcode":
+            continue
 
-    if data == "fujishima startup QRcode":
+        #切り取り画像座標情報
+        xmin = max(obj.rect.left, 0)                 #左上X座標(最小値)
+        ymin = max(obj.rect.top + obj.rect.height, 0)  #QR直下を開始位置にする
+        xmax = w                                     #右下x座標(最大値)
+        ymax = h                                     #右下y座標(最大値)
+
         cut_img = img_data[ymin:ymax, xmin:xmax]    #画像切り取り
+        if cut_img.size == 0:
+            return "Different"
+
         cv2.imwrite(cutted_name, cut_img) #切り取り画像保存
         return data
-    else:
-        return "Different"
+
+    return "Different"
 
 #create_QR() #QRコード作成
 
 img_data = cv2.imread(file_name)    #画像読み込み
-data = read_QR(img_data)              #読み込み実行
+data = read_QR(img_data)            #読み込み実行
 
 print(data)

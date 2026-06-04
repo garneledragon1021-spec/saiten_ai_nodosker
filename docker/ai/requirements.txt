@@ -1,0 +1,18 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
+torchaudio
+
+# Ultralytics YOLO
+ultralytics
+
+# OpenCV (headless for container)
+opencv-python-headless
+
+# ZXing/zbar wrapper
+pyzbar
+
+# QR code helper
+qrcode
+
+numpy

@@ -4,13 +4,21 @@ import sys
 import json
 import glob
 import os
+import traceback
 #import math
 
+print("[DEBUG detect_new.py] Script started", flush=True)
+
 args = sys.argv
+print(f"[DEBUG detect_new.py] args: {args}", flush=True)
 
 train_data = args[1]    #学習重みデータ
 result_name = args[2]   #点数結果出力ファイル(json)
 clipped_folder = args[3]  #矩形切り取り画像フォルダ
+
+print(f"[DEBUG detect_new.py] train_data: {train_data}", flush=True)
+print(f"[DEBUG detect_new.py] result_name: {result_name}", flush=True)
+print(f"[DEBUG detect_new.py] clipped_folder: {clipped_folder}", flush=True)
 
 #文字➡数字変換
 def numCheck(data):
@@ -63,20 +71,31 @@ def res(data, count):
 #数字検出
 def detect(file_name, train_data):
     
+    print(f"[DEBUG detect] Starting detection for: {file_name}")
+    print(f"[DEBUG detect] Model path: {train_data}")
+    
     count=0
     data = [0, 0, 0]
     pos = [0,0,0]
     
     #重みデータ
+    print("[DEBUG detect] Loading YOLO model...")
     model = YOLO(train_data, verbose=False)
+    print("[DEBUG detect] YOLO model loaded")
+    
     #対象画像
+    print("[DEBUG detect] Reading image...")
     img = cv2.imread(file_name)
+    print(f"[DEBUG detect] Image shape: {img.shape if img is not None else 'None'}")
+    
     #BGRをRGBに変換.
     img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB) 
 
     #閾値
+    print("[DEBUG detect] Running inference...")
     model.conf = 0.75
     results = model(file_name)
+    print(f"[DEBUG detect] Inference complete, results: {len(results)}")
     
     #数字の個数分繰り返す
     for result in results:
@@ -86,6 +105,8 @@ def detect(file_name, train_data):
         
         #それぞれ画像のクラスIDを取得し,numCheckへ渡すためリストへ
         num_list = [result.names[cls.item()] for cls in result.boxes.cls.int()]
+        
+        print(f"[DEBUG detect] Found {len(num_list)} numbers: {num_list}")
         
         #zipで数字と座標をペアに（タプルに）
         for (point, num) in zip(point_list, num_list):
@@ -112,12 +133,15 @@ def detect(file_name, train_data):
     result = res(score_random, count)
     
     #結果出力
+    print(f"[DEBUG detect] Final score: {result}")
     return result
 
 def detect_call ():
     
     #ファイルはこれやで
+    print(f"[DEBUG] clipped_folder = {clipped_folder}")
     file_list = glob.glob(os.path.join(clipped_folder, "*.jpg"))
+    print(f"[DEBUG] Found {len(file_list)} images")
     
     # ファイル名でソート
     file_list.sort(key=lambda p: int(os.path.splitext(os.path.basename(p))[0]))
@@ -126,9 +150,11 @@ def detect_call ():
     point_sum = 0
     
     #矩形の回数分繰り返す
-    for img_path in file_list:
+    for i, img_path in enumerate(file_list):
+        print(f"[DEBUG] Processing image {i+1}/{len(file_list)}: {img_path}")
         #数字検出
         score = detect(img_path, train_data)
+        print(f"[DEBUG] Detected score: {score}")
         #大問ごとの点数をリストへ格納
         result.append(score)
         point_sum += score
@@ -136,7 +162,9 @@ def detect_call ():
     result.append(point_sum)
 
     #json出力
+    print("[DEBUG] Writing JSON result")
     json_Write(result)
+    print("[DEBUG] Done")
     
     return 0
 
@@ -151,5 +179,11 @@ def json_Write(result):
         
     return 0
 
-
-detect_call()
+try:
+    print("[DEBUG detect_new.py] Calling detect_call()", flush=True)
+    detect_call()
+    print("[DEBUG detect_new.py] detect_call() completed successfully", flush=True)
+except Exception as e:
+    print(f"[ERROR detect_new.py] Exception occurred: {e}", flush=True)
+    traceback.print_exc()
+    sys.exit(1)
