@@ -1,18 +1,22 @@
+# CPU wheel index for PyTorch
 --extra-index-url https://download.pytorch.org/whl/cpu
+
+# PyTorch and vision/audio support
 torch
 torchvision
 torchaudio
 
-# Ultralytics YOLO
+# Ultralytics YOLO model runtime
 ultralytics
 
-# OpenCV (headless for container)
+# Image processing
 opencv-python-headless
 
-# ZXing/zbar wrapper
+# Barcode/QR code decoding
 pyzbar
 
 # QR code helper
 qrcode
 
+# Numeric arrays
 numpy

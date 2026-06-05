@@ -161,8 +161,8 @@ def main():
     file_name = args.file_name
     base_dir = args.base_dir
 
-    train_data_box = os.path.join(base_dir, "program/clip/ref/best.pt")
-    train_data_score = os.path.join(base_dir, "program/detect/ref/best.pt")
+    train_data_box = os.path.join(base_dir, "train_data/ref/best_cripper.pt")
+    train_data_score = os.path.join(base_dir, "train_data/ref/best_detecter.pt")
 
     org_file = os.path.normpath(os.path.join(base_dir, "../images/origin", f"{file_name}.jpg"))
     cutted_file = os.path.normpath(os.path.join(base_dir, "../images/cutted", f"{file_name}.jpg"))
