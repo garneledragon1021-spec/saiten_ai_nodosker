@@ -1,0 +1,5 @@
+path: /Users/sou/github/saiten_ai_ebina/docker/ai/train_data/generated/box_detector
+train: images/train
+val: images/val
+names:
+  0: box
