@@ -1,0 +1,5400 @@
+{
+  "box_dataset": {
+    "source_images": 100,
+    "train_images": 480,
+    "val_images": 20,
+    "total_labels": 2453,
+    "empty_images": [],
+    "label_counts": {
+      "1.jpg": 1,
+      "2.jpg": 1,
+      "3.jpg": 1,
+      "4.jpg": 2,
+      "5.jpg": 2,
+      "6.jpg": 2,
+      "7.jpg": 2,
+      "8.jpg": 2,
+      "9.jpg": 3,
+      "10.jpg": 3,
+      "11.jpg": 3,
+      "12.jpg": 3,
+      "13.jpg": 3,
+      "14.jpg": 3,
+      "15.jpg": 3,
+      "16.jpg": 3,
+      "17.jpg": 2,
+      "18.jpg": 3,
+      "19.jpg": 3,
+      "20.jpg": 3,
+      "21.jpg": 2,
+      "22.jpg": 3,
+      "23.jpg": 3,
+      "24.jpg": 4,
+      "25.jpg": 4,
+      "26.jpg": 4,
+      "27.jpg": 4,
+      "28.jpg": 4,
+      "29.jpg": 4,
+      "30.jpg": 4,
+      "31.jpg": 4,
+      "32.jpg": 4,
+      "33.jpg": 4,
+      "34.jpg": 4,
+      "35.jpg": 2,
+      "36.jpg": 4,
+      "37.jpg": 4,
+      "38.jpg": 4,
+      "39.jpg": 4,
+      "40.jpg": 4,
+      "41.jpg": 4,
+      "42.jpg": 4,
+      "43.jpg": 4,
+      "44.jpg": 4,
+      "45.jpg": 4,
+      "46.jpg": 4,
+      "47.jpg": 4,
+      "48.jpg": 4,
+      "49.jpg": 5,
+      "50.jpg": 9,
+      "51.jpg": 9,
+      "52.jpg": 9,
+      "53.jpg": 10,
+      "54.jpg": 10,
+      "55.jpg": 5,
+      "56.jpg": 5,
+      "57.jpg": 5,
+      "58.jpg": 6,
+      "59.jpg": 5,
+      "60.jpg": 5,
+      "61.jpg": 5,
+      "62.jpg": 5,
+      "63.jpg": 5,
+      "64.jpg": 5,
+      "65.jpg": 5,
+      "66.jpg": 5,
+      "67.jpg": 5,
+      "68.jpg": 2,
+      "69.jpg": 6,
+      "70.jpg": 6,
+      "71.jpg": 6,
+      "72.jpg": 6,
+      "73.jpg": 6,
+      "74.jpg": 6,
+      "75.jpg": 6,
+      "76.jpg": 6,
+      "77.jpg": 6,
+      "78.jpg": 6,
+      "79.jpg": 6,
+      "80.jpg": 6,
+      "81.jpg": 6,
+      "82.jpg": 6,
+      "83.jpg": 6,
+      "84.jpg": 7,
+      "85.jpg": 7,
+      "86.jpg": 7,
+      "87.jpg": 7,
+      "88.jpg": 7,
+      "89.jpg": 7,
+      "90.jpg": 5,
+      "91.jpg": 7,
+      "92.jpg": 7,
+      "93.jpg": 7,
+      "94.jpg": 8,
+      "95.jpg": 8,
+      "96.jpg": 8,
+      "97.jpg": 8,
+      "98.jpg": 8,
+      "99.jpg": 8,
+      "100.jpg": 8
+    },
+    "yaml": "docker/ai/train_data/generated/box_detector/data.yaml"
+  },
+  "digit_dataset": {
+    "source_images": 100,
+    "train_images": 1158,
+    "val_images": 93,
+    "total_labels": 2478,
+    "skipped_crops": 9,
+    "label_counts": {
+      "1_00": {
+        "digits": 3,
+        "classes": [
+          "five",
+          "one",
+          "one"
+        ],
+        "confidences": [
+          0.7565,
+          0.808,
+          0.6691
+        ]
+      },
+      "2_00": {
+        "digits": 1,
+        "classes": [
+          "two"
+        ],
+        "confidences": [
+          0.9225
+        ]
+      },
+      "3_00": {
+        "digits": 1,
+        "classes": [
+          "three"
+        ],
+        "confidences": [
+          0.9226
+        ]
+      },
+      "4_00": {
+        "digits": 1,
+        "classes": [
+          "four"
+        ],
+        "confidences": [
+          0.9537
+        ]
+      },
+      "4_01": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "five"
+        ],
+        "confidences": [
+          0.6784,
+          0.5855
+        ]
+      },
+      "5_00": {
+        "digits": 1,
+        "classes": [
+          "six"
+        ],
+        "confidences": [
+          0.9322
+        ]
+      },
+      "5_01": {
+        "digits": 1,
+        "classes": [
+          "one"
+        ],
+        "confidences": [
+          0.8815
+        ]
+      },
+      "6_00": {
+        "digits": 1,
+        "classes": [
+          "eight"
+        ],
+        "confidences": [
+          0.9511
+        ]
+      },
+      "6_01": {
+        "digits": 1,
+        "classes": [
+          "nine"
+        ],
+        "confidences": [
+          0.9291
+        ]
+      },
+      "7_00": {
+        "digits": 3,
+        "classes": [
+          "one",
+          "one",
+          "one"
+        ],
+        "confidences": [
+          0.7825,
+          0.6848,
+          0.8577
+        ]
+      },
+      "7_01": {
+        "digits": 3,
+        "classes": [
+          "one",
+          "zero",
+          "one"
+        ],
+        "confidences": [
+          0.6635,
+          0.8974,
+          0.5238
+        ]
+      },
+      "8_00": {
+        "digits": 2,
+        "classes": [
+          "one",
+          "two"
+        ],
+        "confidences": [
+          0.8699,
+          0.9161
+        ]
+      },
+      "8_01": {
+        "digits": 2,
+        "classes": [
+          "one",
+          "three"
+        ],
+        "confidences": [
+          0.8455,
+          0.9478
+        ]
+      },
+      "9_00": {
+        "digits": 3,
+        "classes": [
+          "one",
+          "zero",
+          "zero"
+        ],
+        "confidences": [
+          0.9076,
+          0.9713,
+          0.9635
+        ]
+      },
+      "9_01": {
+        "digits": 2,
+        "classes": [
+          "nine",
+          "nine"
+        ],
+        "confidences": [
+          0.9139,
+          0.9272
+        ]
+      },
+      "9_02": {
+        "digits": 3,
+        "classes": [
+          "nine",
+          "eight",
+          "one"
+        ],
+        "confidences": [
+          0.92,
+          0.9211,
+          0.7862
+        ]
+      },
+      "10_00": {
+        "digits": 2,
+        "classes": [
+          "nine",
+          "five"
+        ],
+        "confidences": [
+          0.9333,
+          0.9198
+        ]
+      },
+      "10_01": {
+        "digits": 2,
+        "classes": [
+          "nine",
+          "six"
+        ],
+        "confidences": [
+          0.9197,
+          0.9271
+        ]
+      },
+      "10_02": {
+        "digits": 2,
+        "classes": [
+          "nine",
+          "seven"
+        ],
+        "confidences": [
+          0.9253,
+          0.9145
+        ]
+      },
+      "11_00": {
+        "digits": 2,
+        "classes": [
+          "nine",
+          "two"
+        ],
+        "confidences": [
+          0.9191,
+          0.9066
+        ]
+      },
+      "11_01": {
+        "digits": 2,
+        "classes": [
+          "nine",
+          "four"
+        ],
+        "confidences": [
+          0.8983,
+          0.9484
+        ]
+      },
+      "11_02": {
+        "digits": 2,
+        "classes": [
+          "nine",
+          "three"
+        ],
+        "confidences": [
+          0.9031,
+          0.9485
+        ]
+      },
+      "12_00": {
+        "digits": 2,
+        "classes": [
+          "nine",
+          "one"
+        ],
+        "confidences": [
+          0.8939,
+          0.6652
+        ]
+      },
+      "12_01": {
+        "digits": 2,
+        "classes": [
+          "nine",
+          "zero"
+        ],
+        "confidences": [
+          0.9113,
+          0.7869
+        ]
+      },
+      "12_02": {
+        "digits": 2,
+        "classes": [
+          "eight",
+          "nine"
+        ],
+        "confidences": [
+          0.9533,
+          0.933
+        ]
+      },
+      "13_00": {
+        "digits": 2,
+        "classes": [
+          "eight",
+          "seven"
+        ],
+        "confidences": [
+          0.9396,
+          0.8924
+        ]
+      },
+      "13_01": {
+        "digits": 2,
+        "classes": [
+          "eight",
+          "eight"
+        ],
+        "confidences": [
+          0.9362,
+          0.9297
+        ]
+      },
+      "13_02": {
+        "digits": 2,
+        "classes": [
+          "eight",
+          "six"
+        ],
+        "confidences": [
+          0.9001,
+          0.9322
+        ]
+      },
+      "14_00": {
+        "digits": 2,
+        "classes": [
+          "eight",
+          "five"
+        ],
+        "confidences": [
+          0.9574,
+          0.9322
+        ]
+      },
+      "14_01": {
+        "digits": 2,
+        "classes": [
+          "eight",
+          "four"
+        ],
+        "confidences": [
+          0.9495,
+          0.9616
+        ]
+      },
+      "14_02": {
+        "digits": 2,
+        "classes": [
+          "eight",
+          "three"
+        ],
+        "confidences": [
+          0.9494,
+          0.9118
+        ]
+      },
+      "15_00": {
+        "digits": 2,
+        "classes": [
+          "eight",
+          "two"
+        ],
+        "confidences": [
+          0.9514,
+          0.8978
+        ]
+      },
+      "15_01": {
+        "digits": 3,
+        "classes": [
+          "eight",
+          "one",
+          "one"
+        ],
+        "confidences": [
+          0.9016,
+          0.8319,
+          0.889
+        ]
+      },
+      "15_02": {
+        "digits": 2,
+        "classes": [
+          "eight",
+          "zero"
+        ],
+        "confidences": [
+          0.9532,
+          0.9402
+        ]
+      },
+      "16_00": {
+        "digits": 2,
+        "classes": [
+          "seven",
+          "seven"
+        ],
+        "confidences": [
+          0.9275,
+          0.9362
+        ]
+      },
+      "16_01": {
+        "digits": 2,
+        "classes": [
+          "seven",
+          "eight"
+        ],
+        "confidences": [
+          0.9254,
+          0.9488
+        ]
+      },
+      "16_02": {
+        "digits": 2,
+        "classes": [
+          "seven",
+          "nine"
+        ],
+        "confidences": [
+          0.9227,
+          0.913
+        ]
+      },
+      "17_00": {
+        "digits": 2,
+        "classes": [
+          "seven",
+          "six"
+        ],
+        "confidences": [
+          0.9343,
+          0.9336
+        ]
+      },
+      "17_01": {
+        "digits": 2,
+        "classes": [
+          "seven",
+          "four"
+        ],
+        "confidences": [
+          0.9347,
+          0.9509
+        ]
+      },
+      "18_00": {
+        "digits": 2,
+        "classes": [
+          "seven",
+          "two"
+        ],
+        "confidences": [
+          0.9217,
+          0.92
+        ]
+      },
+      "18_01": {
+        "digits": 2,
+        "classes": [
+          "seven",
+          "three"
+        ],
+        "confidences": [
+          0.9406,
+          0.9424
+        ]
+      },
+      "18_02": {
+        "digits": 2,
+        "classes": [
+          "two",
+          "one"
+        ],
+        "confidences": [
+          0.8812,
+          0.7188
+        ]
+      },
+      "19_00": {
+        "digits": 2,
+        "classes": [
+          "seven",
+          "zero"
+        ],
+        "confidences": [
+          0.8673,
+          0.8333
+        ]
+      },
+      "19_01": {
+        "digits": 3,
+        "classes": [
+          "one",
+          "one",
+          "seven"
+        ],
+        "confidences": [
+          0.8198,
+          0.7227,
+          0.7965
+        ]
+      },
+      "19_02": {
+        "digits": 2,
+        "classes": [
+          "six",
+          "nine"
+        ],
+        "confidences": [
+          0.8939,
+          0.9398
+        ]
+      },
+      "20_00": {
+        "digits": 2,
+        "classes": [
+          "six",
+          "seven"
+        ],
+        "confidences": [
+          0.9241,
+          0.9043
+        ]
+      },
+      "20_01": {
+        "digits": 2,
+        "classes": [
+          "six",
+          "six"
+        ],
+        "confidences": [
+          0.895,
+          0.9138
+        ]
+      },
+      "20_02": {
+        "digits": 2,
+        "classes": [
+          "six",
+          "eight"
+        ],
+        "confidences": [
+          0.8311,
+          0.9446
+        ]
+      },
+      "21_00": {
+        "digits": 3,
+        "classes": [
+          "zero",
+          "six",
+          "four"
+        ],
+        "confidences": [
+          0.8632,
+          0.8894,
+          0.9496
+        ]
+      },
+      "21_01": {
+        "digits": 2,
+        "classes": [
+          "six",
+          "three"
+        ],
+        "confidences": [
+          0.9202,
+          0.9563
+        ]
+      },
+      "22_00": {
+        "digits": 2,
+        "classes": [
+          "six",
+          "two"
+        ],
+        "confidences": [
+          0.9192,
+          0.8818
+        ]
+      },
+      "22_01": {
+        "digits": 2,
+        "classes": [
+          "six",
+          "zero"
+        ],
+        "confidences": [
+          0.8997,
+          0.9295
+        ]
+      },
+      "22_02": {
+        "digits": 2,
+        "classes": [
+          "six",
+          "one"
+        ],
+        "confidences": [
+          0.9263,
+          0.6396
+        ]
+      },
+      "23_00": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "eight"
+        ],
+        "confidences": [
+          0.944,
+          0.9419
+        ]
+      },
+      "23_01": {
+        "digits": 1,
+        "classes": [
+          "one"
+        ],
+        "confidences": [
+          0.8338
+        ]
+      },
+      "23_02": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "seven"
+        ],
+        "confidences": [
+          0.925,
+          0.9008
+        ]
+      },
+      "24_00": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "five"
+        ],
+        "confidences": [
+          0.9407,
+          0.9208
+        ]
+      },
+      "24_01": {
+        "digits": 2,
+        "classes": [
+          "seven",
+          "three"
+        ],
+        "confidences": [
+          0.9332,
+          0.9348
+        ]
+      },
+      "24_02": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "four"
+        ],
+        "confidences": [
+          0.9292,
+          0.9629
+        ]
+      },
+      "24_03": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "six"
+        ],
+        "confidences": [
+          0.929,
+          0.9266
+        ]
+      },
+      "25_00": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "one"
+        ],
+        "confidences": [
+          0.892,
+          0.6119
+        ]
+      },
+      "25_01": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "three"
+        ],
+        "confidences": [
+          0.9457,
+          0.9188
+        ]
+      },
+      "25_02": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "two"
+        ],
+        "confidences": [
+          0.8821,
+          0.9177
+        ]
+      },
+      "25_03": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "zero"
+        ],
+        "confidences": [
+          0.9412,
+          0.9471
+        ]
+      },
+      "26_00": {
+        "digits": 2,
+        "classes": [
+          "four",
+          "nine"
+        ],
+        "confidences": [
+          0.9486,
+          0.9212
+        ]
+      },
+      "26_01": {
+        "digits": 2,
+        "classes": [
+          "four",
+          "eight"
+        ],
+        "confidences": [
+          0.9471,
+          0.945
+        ]
+      },
+      "26_02": {
+        "digits": 2,
+        "classes": [
+          "four",
+          "seven"
+        ],
+        "confidences": [
+          0.9289,
+          0.9291
+        ]
+      },
+      "26_03": {
+        "digits": 2,
+        "classes": [
+          "four",
+          "six"
+        ],
+        "confidences": [
+          0.9276,
+          0.9116
+        ]
+      },
+      "27_00": {
+        "digits": 2,
+        "classes": [
+          "four",
+          "three"
+        ],
+        "confidences": [
+          0.9601,
+          0.9191
+        ]
+      },
+      "27_01": {
+        "digits": 2,
+        "classes": [
+          "four",
+          "five"
+        ],
+        "confidences": [
+          0.9418,
+          0.8766
+        ]
+      },
+      "27_02": {
+        "digits": 2,
+        "classes": [
+          "four",
+          "two"
+        ],
+        "confidences": [
+          0.9657,
+          0.9233
+        ]
+      },
+      "27_03": {
+        "digits": 2,
+        "classes": [
+          "four",
+          "four"
+        ],
+        "confidences": [
+          0.9251,
+          0.9331
+        ]
+      },
+      "28_00": {
+        "digits": 2,
+        "classes": [
+          "four",
+          "one"
+        ],
+        "confidences": [
+          0.9272,
+          0.5346
+        ]
+      },
+      "28_01": {
+        "digits": 2,
+        "classes": [
+          "three",
+          "eight"
+        ],
+        "confidences": [
+          0.9357,
+          0.9019
+        ]
+      },
+      "28_02": {
+        "digits": 2,
+        "classes": [
+          "three",
+          "nine"
+        ],
+        "confidences": [
+          0.9368,
+          0.9307
+        ]
+      },
+      "28_03": {
+        "digits": 2,
+        "classes": [
+          "four",
+          "zero"
+        ],
+        "confidences": [
+          0.9227,
+          0.9512
+        ]
+      },
+      "29_00": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "three"
+        ],
+        "confidences": [
+          0.9132,
+          0.9114
+        ]
+      },
+      "29_01": {
+        "digits": 2,
+        "classes": [
+          "three",
+          "six"
+        ],
+        "confidences": [
+          0.9396,
+          0.9061
+        ]
+      },
+      "29_02": {
+        "digits": 2,
+        "classes": [
+          "three",
+          "seven"
+        ],
+        "confidences": [
+          0.9399,
+          0.5916
+        ]
+      },
+      "29_03": {
+        "digits": 2,
+        "classes": [
+          "three",
+          "five"
+        ],
+        "confidences": [
+          0.9396,
+          0.9035
+        ]
+      },
+      "30_00": {
+        "digits": 2,
+        "classes": [
+          "three",
+          "one"
+        ],
+        "confidences": [
+          0.9621,
+          0.8374
+        ]
+      },
+      "30_01": {
+        "digits": 2,
+        "classes": [
+          "three",
+          "two"
+        ],
+        "confidences": [
+          0.9434,
+          0.9133
+        ]
+      },
+      "30_02": {
+        "digits": 2,
+        "classes": [
+          "three",
+          "three"
+        ],
+        "confidences": [
+          0.9354,
+          0.9433
+        ]
+      },
+      "30_03": {
+        "digits": 2,
+        "classes": [
+          "three",
+          "four"
+        ],
+        "confidences": [
+          0.9358,
+          0.9603
+        ]
+      },
+      "31_00": {
+        "digits": 2,
+        "classes": [
+          "three",
+          "zero"
+        ],
+        "confidences": [
+          0.8754,
+          0.892
+        ]
+      },
+      "31_01": {
+        "digits": 2,
+        "classes": [
+          "three",
+          "one"
+        ],
+        "confidences": [
+          0.9514,
+          0.8825
+        ]
+      },
+      "31_02": {
+        "digits": 2,
+        "classes": [
+          "two",
+          "eight"
+        ],
+        "confidences": [
+          0.9341,
+          0.9481
+        ]
+      },
+      "31_03": {
+        "digits": 2,
+        "classes": [
+          "two",
+          "nine"
+        ],
+        "confidences": [
+          0.9216,
+          0.8756
+        ]
+      },
+      "32_00": {
+        "digits": 2,
+        "classes": [
+          "two",
+          "four"
+        ],
+        "confidences": [
+          0.9212,
+          0.9581
+        ]
+      },
+      "32_01": {
+        "digits": 2,
+        "classes": [
+          "two",
+          "seven"
+        ],
+        "confidences": [
+          0.902,
+          0.9088
+        ]
+      },
+      "32_02": {
+        "digits": 2,
+        "classes": [
+          "two",
+          "six"
+        ],
+        "confidences": [
+          0.9071,
+          0.9117
+        ]
+      },
+      "32_03": {
+        "digits": 2,
+        "classes": [
+          "two",
+          "five"
+        ],
+        "confidences": [
+          0.9185,
+          0.8989
+        ]
+      },
+      "33_00": {
+        "digits": 2,
+        "classes": [
+          "two",
+          "three"
+        ],
+        "confidences": [
+          0.9114,
+          0.9206
+        ]
+      },
+      "33_02": {
+        "digits": 2,
+        "classes": [
+          "two",
+          "two"
+        ],
+        "confidences": [
+          0.9124,
+          0.8852
+        ]
+      },
+      "33_03": {
+        "digits": 1,
+        "classes": [
+          "two"
+        ],
+        "confidences": [
+          0.9146
+        ]
+      },
+      "34_00": {
+        "digits": 2,
+        "classes": [
+          "one",
+          "nine"
+        ],
+        "confidences": [
+          0.8662,
+          0.9322
+        ]
+      },
+      "34_01": {
+        "digits": 2,
+        "classes": [
+          "two",
+          "one"
+        ],
+        "confidences": [
+          0.8889,
+          0.7716
+        ]
+      },
+      "34_02": {
+        "digits": 2,
+        "classes": [
+          "one",
+          "seven"
+        ],
+        "confidences": [
+          0.7539,
+          0.8589
+        ]
+      },
+      "34_03": {
+        "digits": 1,
+        "classes": [
+          "eight"
+        ],
+        "confidences": [
+          0.9506
+        ]
+      },
+      "35_00": {
+        "digits": 3,
+        "classes": [
+          "one",
+          "six",
+          "five"
+        ],
+        "confidences": [
+          0.8212,
+          0.9325,
+          0.9394
+        ]
+      },
+      "35_01": {
+        "digits": 3,
+        "classes": [
+          "four",
+          "one",
+          "three"
+        ],
+        "confidences": [
+          0.9329,
+          0.6968,
+          0.9503
+        ]
+      },
+      "36_00": {
+        "digits": 1,
+        "classes": [
+          "nine"
+        ],
+        "confidences": [
+          0.9024
+        ]
+      },
+      "36_01": {
+        "digits": 2,
+        "classes": [
+          "one",
+          "zero"
+        ],
+        "confidences": [
+          0.7423,
+          0.9314
+        ]
+      },
+      "36_02": {
+        "digits": 2,
+        "classes": [
+          "one",
+          "two"
+        ],
+        "confidences": [
+          0.7745,
+          0.9165
+        ]
+      },
+      "36_03": {
+        "digits": 2,
+        "classes": [
+          "one",
+          "one"
+        ],
+        "confidences": [
+          0.8443,
+          0.8503
+        ]
+      },
+      "37_00": {
+        "digits": 1,
+        "classes": [
+          "seven"
+        ],
+        "confidences": [
+          0.8984
+        ]
+      },
+      "37_01": {
+        "digits": 1,
+        "classes": [
+          "six"
+        ],
+        "confidences": [
+          0.9304
+        ]
+      },
+      "37_02": {
+        "digits": 1,
+        "classes": [
+          "eight"
+        ],
+        "confidences": [
+          0.943
+        ]
+      },
+      "37_03": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "five"
+        ],
+        "confidences": [
+          0.6235,
+          0.7023
+        ]
+      },
+      "38_00": {
+        "digits": 1,
+        "classes": [
+          "four"
+        ],
+        "confidences": [
+          0.9299
+        ]
+      },
+      "38_01": {
+        "digits": 1,
+        "classes": [
+          "three"
+        ],
+        "confidences": [
+          0.9458
+        ]
+      },
+      "38_02": {
+        "digits": 1,
+        "classes": [
+          "two"
+        ],
+        "confidences": [
+          0.8296
+        ]
+      },
+      "38_03": {
+        "digits": 1,
+        "classes": [
+          "one"
+        ],
+        "confidences": [
+          0.5783
+        ]
+      },
+      "39_00": {
+        "digits": 1,
+        "classes": [
+          "one"
+        ],
+        "confidences": [
+          0.8097
+        ]
+      },
+      "39_01": {
+        "digits": 3,
+        "classes": [
+          "one",
+          "zero",
+          "zero"
+        ],
+        "confidences": [
+          0.8801,
+          0.9634,
+          0.9406
+        ]
+      },
+      "39_02": {
+        "digits": 2,
+        "classes": [
+          "nine",
+          "nine"
+        ],
+        "confidences": [
+          0.9275,
+          0.922
+        ]
+      },
+      "39_03": {
+        "digits": 2,
+        "classes": [
+          "nine",
+          "eight"
+        ],
+        "confidences": [
+          0.9294,
+          0.9527
+        ]
+      },
+      "40_00": {
+        "digits": 2,
+        "classes": [
+          "nine",
+          "seven"
+        ],
+        "confidences": [
+          0.9297,
+          0.7247
+        ]
+      },
+      "40_01": {
+        "digits": 2,
+        "classes": [
+          "nine",
+          "five"
+        ],
+        "confidences": [
+          0.9383,
+          0.9119
+        ]
+      },
+      "40_02": {
+        "digits": 2,
+        "classes": [
+          "nine",
+          "six"
+        ],
+        "confidences": [
+          0.9291,
+          0.9101
+        ]
+      },
+      "40_03": {
+        "digits": 2,
+        "classes": [
+          "nine",
+          "four"
+        ],
+        "confidences": [
+          0.9371,
+          0.9642
+        ]
+      },
+      "41_00": {
+        "digits": 3,
+        "classes": [
+          "five",
+          "nine",
+          "three"
+        ],
+        "confidences": [
+          0.709,
+          0.8937,
+          0.9222
+        ]
+      },
+      "41_01": {
+        "digits": 2,
+        "classes": [
+          "nine",
+          "zero"
+        ],
+        "confidences": [
+          0.914,
+          0.8915
+        ]
+      },
+      "41_02": {
+        "digits": 2,
+        "classes": [
+          "nine",
+          "two"
+        ],
+        "confidences": [
+          0.9341,
+          0.9158
+        ]
+      },
+      "41_03": {
+        "digits": 2,
+        "classes": [
+          "nine",
+          "one"
+        ],
+        "confidences": [
+          0.9442,
+          0.8657
+        ]
+      },
+      "42_00": {
+        "digits": 2,
+        "classes": [
+          "eight",
+          "nine"
+        ],
+        "confidences": [
+          0.952,
+          0.934
+        ]
+      },
+      "42_01": {
+        "digits": 2,
+        "classes": [
+          "eight",
+          "eight"
+        ],
+        "confidences": [
+          0.9459,
+          0.9377
+        ]
+      },
+      "42_02": {
+        "digits": 2,
+        "classes": [
+          "eight",
+          "seven"
+        ],
+        "confidences": [
+          0.9583,
+          0.9233
+        ]
+      },
+      "42_03": {
+        "digits": 2,
+        "classes": [
+          "eight",
+          "six"
+        ],
+        "confidences": [
+          0.9607,
+          0.9481
+        ]
+      },
+      "43_00": {
+        "digits": 2,
+        "classes": [
+          "eight",
+          "five"
+        ],
+        "confidences": [
+          0.9416,
+          0.928
+        ]
+      },
+      "43_01": {
+        "digits": 2,
+        "classes": [
+          "eight",
+          "four"
+        ],
+        "confidences": [
+          0.9514,
+          0.9372
+        ]
+      },
+      "43_02": {
+        "digits": 2,
+        "classes": [
+          "eight",
+          "three"
+        ],
+        "confidences": [
+          0.9527,
+          0.9316
+        ]
+      },
+      "43_03": {
+        "digits": 1,
+        "classes": [
+          "zero"
+        ],
+        "confidences": [
+          0.9484
+        ]
+      },
+      "44_00": {
+        "digits": 1,
+        "classes": [
+          "one"
+        ],
+        "confidences": [
+          0.6135
+        ]
+      },
+      "44_01": {
+        "digits": 1,
+        "classes": [
+          "zero"
+        ],
+        "confidences": [
+          0.9697
+        ]
+      },
+      "44_02": {
+        "digits": 2,
+        "classes": [
+          "eight",
+          "three"
+        ],
+        "confidences": [
+          0.9459,
+          0.9318
+        ]
+      },
+      "44_03": {
+        "digits": 2,
+        "classes": [
+          "eight",
+          "two"
+        ],
+        "confidences": [
+          0.9256,
+          0.9185
+        ]
+      },
+      "45_00": {
+        "digits": 1,
+        "classes": [
+          "one"
+        ],
+        "confidences": [
+          0.6715
+        ]
+      },
+      "45_01": {
+        "digits": 2,
+        "classes": [
+          "eight",
+          "zero"
+        ],
+        "confidences": [
+          0.941,
+          0.9384
+        ]
+      },
+      "45_02": {
+        "digits": 1,
+        "classes": [
+          "two"
+        ],
+        "confidences": [
+          0.9158
+        ]
+      },
+      "45_03": {
+        "digits": 1,
+        "classes": [
+          "eight"
+        ],
+        "confidences": [
+          0.9576
+        ]
+      },
+      "46_00": {
+        "digits": 1,
+        "classes": [
+          "eight"
+        ],
+        "confidences": [
+          0.9577
+        ]
+      },
+      "46_01": {
+        "digits": 2,
+        "classes": [
+          "seven",
+          "nine"
+        ],
+        "confidences": [
+          0.6281,
+          0.8668
+        ]
+      },
+      "46_02": {
+        "digits": 2,
+        "classes": [
+          "seven",
+          "seven"
+        ],
+        "confidences": [
+          0.8717,
+          0.843
+        ]
+      },
+      "46_03": {
+        "digits": 2,
+        "classes": [
+          "two",
+          "five"
+        ],
+        "confidences": [
+          0.9094,
+          0.9273
+        ]
+      },
+      "47_00": {
+        "digits": 2,
+        "classes": [
+          "seven",
+          "five"
+        ],
+        "confidences": [
+          0.921,
+          0.9289
+        ]
+      },
+      "47_01": {
+        "digits": 2,
+        "classes": [
+          "seven",
+          "six"
+        ],
+        "confidences": [
+          0.8155,
+          0.9005
+        ]
+      },
+      "47_02": {
+        "digits": 1,
+        "classes": [
+          "two"
+        ],
+        "confidences": [
+          0.8924
+        ]
+      },
+      "47_03": {
+        "digits": 2,
+        "classes": [
+          "seven",
+          "four"
+        ],
+        "confidences": [
+          0.8612,
+          0.9304
+        ]
+      },
+      "48_00": {
+        "digits": 2,
+        "classes": [
+          "seven",
+          "three"
+        ],
+        "confidences": [
+          0.8283,
+          0.9278
+        ]
+      },
+      "48_01": {
+        "digits": 2,
+        "classes": [
+          "seven",
+          "one"
+        ],
+        "confidences": [
+          0.946,
+          0.9053
+        ]
+      },
+      "48_02": {
+        "digits": 2,
+        "classes": [
+          "seven",
+          "two"
+        ],
+        "confidences": [
+          0.9359,
+          0.8875
+        ]
+      },
+      "48_03": {
+        "digits": 2,
+        "classes": [
+          "seven",
+          "zero"
+        ],
+        "confidences": [
+          0.9304,
+          0.9756
+        ]
+      },
+      "49_00": {
+        "digits": 2,
+        "classes": [
+          "seven",
+          "zero"
+        ],
+        "confidences": [
+          0.9242,
+          0.9663
+        ]
+      },
+      "49_01": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "four"
+        ],
+        "confidences": [
+          0.9313,
+          0.9531
+        ]
+      },
+      "49_02": {
+        "digits": 2,
+        "classes": [
+          "six",
+          "nine"
+        ],
+        "confidences": [
+          0.9117,
+          0.9516
+        ]
+      },
+      "49_03": {
+        "digits": 2,
+        "classes": [
+          "six",
+          "eight"
+        ],
+        "confidences": [
+          0.926,
+          0.918
+        ]
+      },
+      "49_04": {
+        "digits": 2,
+        "classes": [
+          "three",
+          "two"
+        ],
+        "confidences": [
+          0.9438,
+          0.8958
+        ]
+      },
+      "50_00": {
+        "digits": 2,
+        "classes": [
+          "six",
+          "six"
+        ],
+        "confidences": [
+          0.9355,
+          0.9211
+        ]
+      },
+      "50_01": {
+        "digits": 2,
+        "classes": [
+          "six",
+          "five"
+        ],
+        "confidences": [
+          0.9186,
+          0.9267
+        ]
+      },
+      "50_02": {
+        "digits": 2,
+        "classes": [
+          "six",
+          "seven"
+        ],
+        "confidences": [
+          0.9316,
+          0.9148
+        ]
+      },
+      "50_03": {
+        "digits": 2,
+        "classes": [
+          "six",
+          "zero"
+        ],
+        "confidences": [
+          0.9021,
+          0.9459
+        ]
+      },
+      "50_04": {
+        "digits": 2,
+        "classes": [
+          "six",
+          "four"
+        ],
+        "confidences": [
+          0.9267,
+          0.9492
+        ]
+      },
+      "50_05": {
+        "digits": 2,
+        "classes": [
+          "six",
+          "three"
+        ],
+        "confidences": [
+          0.8674,
+          0.9125
+        ]
+      },
+      "50_06": {
+        "digits": 2,
+        "classes": [
+          "one",
+          "five"
+        ],
+        "confidences": [
+          0.8626,
+          0.9229
+        ]
+      },
+      "50_07": {
+        "digits": 2,
+        "classes": [
+          "six",
+          "two"
+        ],
+        "confidences": [
+          0.8988,
+          0.8909
+        ]
+      },
+      "50_08": {
+        "digits": 1,
+        "classes": [
+          "three"
+        ],
+        "confidences": [
+          0.9319
+        ]
+      },
+      "51_00": {
+        "digits": 1,
+        "classes": [
+          "five"
+        ],
+        "confidences": [
+          0.9273
+        ]
+      },
+      "51_01": {
+        "digits": 2,
+        "classes": [
+          "six",
+          "two"
+        ],
+        "confidences": [
+          0.9026,
+          0.8763
+        ]
+      },
+      "51_02": {
+        "digits": 2,
+        "classes": [
+          "six",
+          "one"
+        ],
+        "confidences": [
+          0.9397,
+          0.6515
+        ]
+      },
+      "51_03": {
+        "digits": 2,
+        "classes": [
+          "seven",
+          "three"
+        ],
+        "confidences": [
+          0.9346,
+          0.9454
+        ]
+      },
+      "51_05": {
+        "digits": 1,
+        "classes": [
+          "three"
+        ],
+        "confidences": [
+          0.9267
+        ]
+      },
+      "51_06": {
+        "digits": 3,
+        "classes": [
+          "zero",
+          "six",
+          "zero"
+        ],
+        "confidences": [
+          0.6858,
+          0.8136,
+          0.9294
+        ]
+      },
+      "51_07": {
+        "digits": 1,
+        "classes": [
+          "eight"
+        ],
+        "confidences": [
+          0.9427
+        ]
+      },
+      "51_08": {
+        "digits": 3,
+        "classes": [
+          "one",
+          "six",
+          "nine"
+        ],
+        "confidences": [
+          0.6865,
+          0.9161,
+          0.9134
+        ]
+      },
+      "52_00": {
+        "digits": 2,
+        "classes": [
+          "six",
+          "zero"
+        ],
+        "confidences": [
+          0.9117,
+          0.9734
+        ]
+      },
+      "52_01": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "zero"
+        ],
+        "confidences": [
+          0.9158,
+          0.9589
+        ]
+      },
+      "52_02": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "four"
+        ],
+        "confidences": [
+          0.8982,
+          0.9636
+        ]
+      },
+      "52_03": {
+        "digits": 2,
+        "classes": [
+          "six",
+          "three"
+        ],
+        "confidences": [
+          0.9255,
+          0.937
+        ]
+      },
+      "52_04": {
+        "digits": 2,
+        "classes": [
+          "three",
+          "two"
+        ],
+        "confidences": [
+          0.9474,
+          0.872
+        ]
+      },
+      "52_05": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "two"
+        ],
+        "confidences": [
+          0.9276,
+          0.9078
+        ]
+      },
+      "52_06": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "three"
+        ],
+        "confidences": [
+          0.9284,
+          0.9264
+        ]
+      },
+      "52_07": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "nine"
+        ],
+        "confidences": [
+          0.9026,
+          0.9434
+        ]
+      },
+      "52_08": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "one"
+        ],
+        "confidences": [
+          0.9303,
+          0.8888
+        ]
+      },
+      "53_00": {
+        "digits": 2,
+        "classes": [
+          "four",
+          "nine"
+        ],
+        "confidences": [
+          0.9215,
+          0.9053
+        ]
+      },
+      "53_01": {
+        "digits": 3,
+        "classes": [
+          "four",
+          "one",
+          "three"
+        ],
+        "confidences": [
+          0.941,
+          0.7296,
+          0.9391
+        ]
+      },
+      "53_02": {
+        "digits": 2,
+        "classes": [
+          "four",
+          "eight"
+        ],
+        "confidences": [
+          0.9133,
+          0.942
+        ]
+      },
+      "53_03": {
+        "digits": 2,
+        "classes": [
+          "four",
+          "five"
+        ],
+        "confidences": [
+          0.9488,
+          0.951
+        ]
+      },
+      "53_04": {
+        "digits": 2,
+        "classes": [
+          "four",
+          "four"
+        ],
+        "confidences": [
+          0.9552,
+          0.9549
+        ]
+      },
+      "53_05": {
+        "digits": 2,
+        "classes": [
+          "four",
+          "one"
+        ],
+        "confidences": [
+          0.9213,
+          0.6729
+        ]
+      },
+      "53_06": {
+        "digits": 2,
+        "classes": [
+          "four",
+          "seven"
+        ],
+        "confidences": [
+          0.9202,
+          0.9346
+        ]
+      },
+      "53_07": {
+        "digits": 2,
+        "classes": [
+          "four",
+          "zero"
+        ],
+        "confidences": [
+          0.9515,
+          0.899
+        ]
+      },
+      "53_08": {
+        "digits": 2,
+        "classes": [
+          "four",
+          "six"
+        ],
+        "confidences": [
+          0.9666,
+          0.9221
+        ]
+      },
+      "53_09": {
+        "digits": 3,
+        "classes": [
+          "four",
+          "one",
+          "two"
+        ],
+        "confidences": [
+          0.878,
+          0.8789,
+          0.8583
+        ]
+      },
+      "54_00": {
+        "digits": 1,
+        "classes": [
+          "six"
+        ],
+        "confidences": [
+          0.8804
+        ]
+      },
+      "54_02": {
+        "digits": 1,
+        "classes": [
+          "nine"
+        ],
+        "confidences": [
+          0.9197
+        ]
+      },
+      "54_03": {
+        "digits": 2,
+        "classes": [
+          "one",
+          "zero"
+        ],
+        "confidences": [
+          0.886,
+          0.9435
+        ]
+      },
+      "54_04": {
+        "digits": 3,
+        "classes": [
+          "one",
+          "zero",
+          "zero"
+        ],
+        "confidences": [
+          0.7494,
+          0.8068,
+          0.7907
+        ]
+      },
+      "54_05": {
+        "digits": 1,
+        "classes": [
+          "two"
+        ],
+        "confidences": [
+          0.9053
+        ]
+      },
+      "54_06": {
+        "digits": 2,
+        "classes": [
+          "one",
+          "four"
+        ],
+        "confidences": [
+          0.8738,
+          0.8949
+        ]
+      },
+      "54_07": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "five"
+        ],
+        "confidences": [
+          0.5588,
+          0.9
+        ]
+      },
+      "54_08": {
+        "digits": 3,
+        "classes": [
+          "four",
+          "one",
+          "one"
+        ],
+        "confidences": [
+          0.8897,
+          0.8861,
+          0.605
+        ]
+      },
+      "54_09": {
+        "digits": 2,
+        "classes": [
+          "six",
+          "two"
+        ],
+        "confidences": [
+          0.9338,
+          0.9031
+        ]
+      },
+      "55_00": {
+        "digits": 1,
+        "classes": [
+          "five"
+        ],
+        "confidences": [
+          0.9382
+        ]
+      },
+      "55_01": {
+        "digits": 2,
+        "classes": [
+          "one",
+          "four"
+        ],
+        "confidences": [
+          0.8258,
+          0.9563
+        ]
+      },
+      "55_02": {
+        "digits": 1,
+        "classes": [
+          "three"
+        ],
+        "confidences": [
+          0.9443
+        ]
+      },
+      "55_03": {
+        "digits": 1,
+        "classes": [
+          "two"
+        ],
+        "confidences": [
+          0.9198
+        ]
+      },
+      "55_04": {
+        "digits": 1,
+        "classes": [
+          "one"
+        ],
+        "confidences": [
+          0.7944
+        ]
+      },
+      "56_00": {
+        "digits": 2,
+        "classes": [
+          "zero",
+          "six"
+        ],
+        "confidences": [
+          0.7573,
+          0.8053
+        ]
+      },
+      "56_01": {
+        "digits": 1,
+        "classes": [
+          "seven"
+        ],
+        "confidences": [
+          0.918
+        ]
+      },
+      "56_02": {
+        "digits": 2,
+        "classes": [
+          "one",
+          "zero"
+        ],
+        "confidences": [
+          0.8174,
+          0.8777
+        ]
+      },
+      "56_03": {
+        "digits": 2,
+        "classes": [
+          "seven",
+          "zero"
+        ],
+        "confidences": [
+          0.6112,
+          0.5434
+        ]
+      },
+      "56_04": {
+        "digits": 1,
+        "classes": [
+          "nine"
+        ],
+        "confidences": [
+          0.9009
+        ]
+      },
+      "57_00": {
+        "digits": 2,
+        "classes": [
+          "one",
+          "one"
+        ],
+        "confidences": [
+          0.7923,
+          0.6756
+        ]
+      },
+      "57_01": {
+        "digits": 2,
+        "classes": [
+          "one",
+          "two"
+        ],
+        "confidences": [
+          0.7111,
+          0.89
+        ]
+      },
+      "57_02": {
+        "digits": 2,
+        "classes": [
+          "one",
+          "three"
+        ],
+        "confidences": [
+          0.7944,
+          0.9183
+        ]
+      },
+      "57_03": {
+        "digits": 2,
+        "classes": [
+          "one",
+          "four"
+        ],
+        "confidences": [
+          0.5999,
+          0.8942
+        ]
+      },
+      "57_04": {
+        "digits": 2,
+        "classes": [
+          "one",
+          "five"
+        ],
+        "confidences": [
+          0.7041,
+          0.9059
+        ]
+      },
+      "58_01": {
+        "digits": 3,
+        "classes": [
+          "one",
+          "six",
+          "one"
+        ],
+        "confidences": [
+          0.7842,
+          0.9167,
+          0.8033
+        ]
+      },
+      "58_02": {
+        "digits": 2,
+        "classes": [
+          "one",
+          "eight"
+        ],
+        "confidences": [
+          0.8385,
+          0.9082
+        ]
+      },
+      "58_03": {
+        "digits": 2,
+        "classes": [
+          "one",
+          "nine"
+        ],
+        "confidences": [
+          0.7315,
+          0.9308
+        ]
+      },
+      "58_04": {
+        "digits": 3,
+        "classes": [
+          "one",
+          "one",
+          "one"
+        ],
+        "confidences": [
+          0.7949,
+          0.7687,
+          0.7366
+        ]
+      },
+      "58_05": {
+        "digits": 2,
+        "classes": [
+          "two",
+          "zero"
+        ],
+        "confidences": [
+          0.8615,
+          0.904
+        ]
+      },
+      "59_00": {
+        "digits": 2,
+        "classes": [
+          "two",
+          "six"
+        ],
+        "confidences": [
+          0.8995,
+          0.9153
+        ]
+      },
+      "59_01": {
+        "digits": 1,
+        "classes": [
+          "one"
+        ],
+        "confidences": [
+          0.5363
+        ]
+      },
+      "59_02": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "five"
+        ],
+        "confidences": [
+          0.9317,
+          0.8793
+        ]
+      },
+      "59_03": {
+        "digits": 2,
+        "classes": [
+          "three",
+          "five"
+        ],
+        "confidences": [
+          0.9458,
+          0.8438
+        ]
+      },
+      "59_04": {
+        "digits": 1,
+        "classes": [
+          "five"
+        ],
+        "confidences": [
+          0.8204
+        ]
+      },
+      "60_00": {
+        "digits": 2,
+        "classes": [
+          "three",
+          "one"
+        ],
+        "confidences": [
+          0.9482,
+          0.6638
+        ]
+      },
+      "60_01": {
+        "digits": 2,
+        "classes": [
+          "three",
+          "zero"
+        ],
+        "confidences": [
+          0.9462,
+          0.9497
+        ]
+      },
+      "60_02": {
+        "digits": 2,
+        "classes": [
+          "two",
+          "nine"
+        ],
+        "confidences": [
+          0.9199,
+          0.8454
+        ]
+      },
+      "60_03": {
+        "digits": 2,
+        "classes": [
+          "two",
+          "seven"
+        ],
+        "confidences": [
+          0.9268,
+          0.943
+        ]
+      },
+      "60_04": {
+        "digits": 2,
+        "classes": [
+          "two",
+          "eight"
+        ],
+        "confidences": [
+          0.9271,
+          0.9528
+        ]
+      },
+      "61_00": {
+        "digits": 2,
+        "classes": [
+          "three",
+          "six"
+        ],
+        "confidences": [
+          0.9447,
+          0.929
+        ]
+      },
+      "61_01": {
+        "digits": 2,
+        "classes": [
+          "three",
+          "five"
+        ],
+        "confidences": [
+          0.9257,
+          0.8851
+        ]
+      },
+      "61_02": {
+        "digits": 2,
+        "classes": [
+          "three",
+          "four"
+        ],
+        "confidences": [
+          0.95,
+          0.9619
+        ]
+      },
+      "61_03": {
+        "digits": 2,
+        "classes": [
+          "three",
+          "three"
+        ],
+        "confidences": [
+          0.9393,
+          0.9517
+        ]
+      },
+      "61_04": {
+        "digits": 1,
+        "classes": [
+          "zero"
+        ],
+        "confidences": [
+          0.5636
+        ]
+      },
+      "62_00": {
+        "digits": 2,
+        "classes": [
+          "three",
+          "seven"
+        ],
+        "confidences": [
+          0.9497,
+          0.944
+        ]
+      },
+      "62_01": {
+        "digits": 2,
+        "classes": [
+          "four",
+          "one"
+        ],
+        "confidences": [
+          0.9447,
+          0.6398
+        ]
+      },
+      "62_02": {
+        "digits": 1,
+        "classes": [
+          "four"
+        ],
+        "confidences": [
+          0.9463
+        ]
+      },
+      "62_03": {
+        "digits": 2,
+        "classes": [
+          "three",
+          "nine"
+        ],
+        "confidences": [
+          0.946,
+          0.9435
+        ]
+      },
+      "62_04": {
+        "digits": 2,
+        "classes": [
+          "three",
+          "eight"
+        ],
+        "confidences": [
+          0.9284,
+          0.9766
+        ]
+      },
+      "63_00": {
+        "digits": 2,
+        "classes": [
+          "four",
+          "two"
+        ],
+        "confidences": [
+          0.9219,
+          0.894
+        ]
+      },
+      "63_01": {
+        "digits": 2,
+        "classes": [
+          "four",
+          "one"
+        ],
+        "confidences": [
+          0.931,
+          0.6281
+        ]
+      },
+      "63_02": {
+        "digits": 2,
+        "classes": [
+          "four",
+          "four"
+        ],
+        "confidences": [
+          0.9219,
+          0.9195
+        ]
+      },
+      "63_03": {
+        "digits": 3,
+        "classes": [
+          "four",
+          "one",
+          "three"
+        ],
+        "confidences": [
+          0.9243,
+          0.7141,
+          0.9248
+        ]
+      },
+      "63_04": {
+        "digits": 2,
+        "classes": [
+          "four",
+          "five"
+        ],
+        "confidences": [
+          0.9626,
+          0.9068
+        ]
+      },
+      "64_00": {
+        "digits": 2,
+        "classes": [
+          "four",
+          "six"
+        ],
+        "confidences": [
+          0.9069,
+          0.8928
+        ]
+      },
+      "64_01": {
+        "digits": 2,
+        "classes": [
+          "four",
+          "seven"
+        ],
+        "confidences": [
+          0.9417,
+          0.9488
+        ]
+      },
+      "64_02": {
+        "digits": 2,
+        "classes": [
+          "four",
+          "eight"
+        ],
+        "confidences": [
+          0.9551,
+          0.9393
+        ]
+      },
+      "64_03": {
+        "digits": 2,
+        "classes": [
+          "four",
+          "nine"
+        ],
+        "confidences": [
+          0.9262,
+          0.9399
+        ]
+      },
+      "64_04": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "zero"
+        ],
+        "confidences": [
+          0.937,
+          0.8846
+        ]
+      },
+      "65_00": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "four"
+        ],
+        "confidences": [
+          0.9319,
+          0.9475
+        ]
+      },
+      "65_01": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "three"
+        ],
+        "confidences": [
+          0.9252,
+          0.9199
+        ]
+      },
+      "65_02": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "two"
+        ],
+        "confidences": [
+          0.9239,
+          0.9242
+        ]
+      },
+      "65_03": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "six"
+        ],
+        "confidences": [
+          0.8663,
+          0.9558
+        ]
+      },
+      "65_04": {
+        "digits": 1,
+        "classes": [
+          "five"
+        ],
+        "confidences": [
+          0.9239
+        ]
+      },
+      "66_00": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "five"
+        ],
+        "confidences": [
+          0.8755,
+          0.9129
+        ]
+      },
+      "66_01": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "eight"
+        ],
+        "confidences": [
+          0.9295,
+          0.9301
+        ]
+      },
+      "66_02": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "seven"
+        ],
+        "confidences": [
+          0.8784,
+          0.9398
+        ]
+      },
+      "66_03": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "nine"
+        ],
+        "confidences": [
+          0.8967,
+          0.9466
+        ]
+      },
+      "66_04": {
+        "digits": 2,
+        "classes": [
+          "six",
+          "zero"
+        ],
+        "confidences": [
+          0.8635,
+          0.9008
+        ]
+      },
+      "67_00": {
+        "digits": 2,
+        "classes": [
+          "six",
+          "three"
+        ],
+        "confidences": [
+          0.8972,
+          0.9374
+        ]
+      },
+      "67_01": {
+        "digits": 2,
+        "classes": [
+          "six",
+          "one"
+        ],
+        "confidences": [
+          0.9179,
+          0.6663
+        ]
+      },
+      "67_02": {
+        "digits": 2,
+        "classes": [
+          "six",
+          "two"
+        ],
+        "confidences": [
+          0.9265,
+          0.9055
+        ]
+      },
+      "67_03": {
+        "digits": 2,
+        "classes": [
+          "six",
+          "four"
+        ],
+        "confidences": [
+          0.9212,
+          0.9721
+        ]
+      },
+      "67_04": {
+        "digits": 2,
+        "classes": [
+          "six",
+          "five"
+        ],
+        "confidences": [
+          0.9388,
+          0.8766
+        ]
+      },
+      "68_00": {
+        "digits": 2,
+        "classes": [
+          "six",
+          "six"
+        ],
+        "confidences": [
+          0.8818,
+          0.9184
+        ]
+      },
+      "68_01": {
+        "digits": 2,
+        "classes": [
+          "seven",
+          "zero"
+        ],
+        "confidences": [
+          0.9344,
+          0.8553
+        ]
+      },
+      "69_00": {
+        "digits": 2,
+        "classes": [
+          "seven",
+          "one"
+        ],
+        "confidences": [
+          0.9237,
+          0.8048
+        ]
+      },
+      "69_01": {
+        "digits": 2,
+        "classes": [
+          "seven",
+          "two"
+        ],
+        "confidences": [
+          0.9244,
+          0.9096
+        ]
+      },
+      "69_02": {
+        "digits": 2,
+        "classes": [
+          "seven",
+          "three"
+        ],
+        "confidences": [
+          0.9381,
+          0.923
+        ]
+      },
+      "69_03": {
+        "digits": 2,
+        "classes": [
+          "seven",
+          "five"
+        ],
+        "confidences": [
+          0.953,
+          0.9197
+        ]
+      },
+      "69_04": {
+        "digits": 2,
+        "classes": [
+          "seven",
+          "four"
+        ],
+        "confidences": [
+          0.9309,
+          0.9475
+        ]
+      },
+      "69_05": {
+        "digits": 2,
+        "classes": [
+          "seven",
+          "six"
+        ],
+        "confidences": [
+          0.9437,
+          0.9223
+        ]
+      },
+      "70_00": {
+        "digits": 2,
+        "classes": [
+          "eight",
+          "zero"
+        ],
+        "confidences": [
+          0.9707,
+          0.866
+        ]
+      },
+      "70_01": {
+        "digits": 2,
+        "classes": [
+          "seven",
+          "seven"
+        ],
+        "confidences": [
+          0.9289,
+          0.9387
+        ]
+      },
+      "70_02": {
+        "digits": 2,
+        "classes": [
+          "eight",
+          "two"
+        ],
+        "confidences": [
+          0.9652,
+          0.9167
+        ]
+      },
+      "70_03": {
+        "digits": 2,
+        "classes": [
+          "seven",
+          "nine"
+        ],
+        "confidences": [
+          0.9237,
+          0.9567
+        ]
+      },
+      "70_04": {
+        "digits": 2,
+        "classes": [
+          "eight",
+          "one"
+        ],
+        "confidences": [
+          0.9529,
+          0.6338
+        ]
+      },
+      "70_05": {
+        "digits": 2,
+        "classes": [
+          "seven",
+          "eight"
+        ],
+        "confidences": [
+          0.9563,
+          0.9555
+        ]
+      },
+      "71_00": {
+        "digits": 2,
+        "classes": [
+          "eight",
+          "four"
+        ],
+        "confidences": [
+          0.9685,
+          0.9519
+        ]
+      },
+      "71_01": {
+        "digits": 2,
+        "classes": [
+          "eight",
+          "three"
+        ],
+        "confidences": [
+          0.9618,
+          0.9433
+        ]
+      },
+      "71_02": {
+        "digits": 2,
+        "classes": [
+          "eight",
+          "six"
+        ],
+        "confidences": [
+          0.974,
+          0.9352
+        ]
+      },
+      "71_03": {
+        "digits": 2,
+        "classes": [
+          "eight",
+          "five"
+        ],
+        "confidences": [
+          0.9448,
+          0.9407
+        ]
+      },
+      "71_04": {
+        "digits": 2,
+        "classes": [
+          "eight",
+          "seven"
+        ],
+        "confidences": [
+          0.9469,
+          0.9493
+        ]
+      },
+      "71_05": {
+        "digits": 2,
+        "classes": [
+          "eight",
+          "eight"
+        ],
+        "confidences": [
+          0.9456,
+          0.9607
+        ]
+      },
+      "72_00": {
+        "digits": 2,
+        "classes": [
+          "nine",
+          "zero"
+        ],
+        "confidences": [
+          0.941,
+          0.9133
+        ]
+      },
+      "72_01": {
+        "digits": 2,
+        "classes": [
+          "eight",
+          "nine"
+        ],
+        "confidences": [
+          0.9591,
+          0.9439
+        ]
+      },
+      "72_02": {
+        "digits": 2,
+        "classes": [
+          "nine",
+          "one"
+        ],
+        "confidences": [
+          0.9324,
+          0.6941
+        ]
+      },
+      "72_03": {
+        "digits": 2,
+        "classes": [
+          "nine",
+          "two"
+        ],
+        "confidences": [
+          0.9529,
+          0.9129
+        ]
+      },
+      "72_04": {
+        "digits": 2,
+        "classes": [
+          "zero",
+          "three"
+        ],
+        "confidences": [
+          0.8604,
+          0.9512
+        ]
+      },
+      "72_05": {
+        "digits": 2,
+        "classes": [
+          "nine",
+          "four"
+        ],
+        "confidences": [
+          0.9129,
+          0.9288
+        ]
+      },
+      "73_00": {
+        "digits": 2,
+        "classes": [
+          "eight",
+          "nine"
+        ],
+        "confidences": [
+          0.9518,
+          0.9491
+        ]
+      },
+      "73_01": {
+        "digits": 2,
+        "classes": [
+          "nine",
+          "seven"
+        ],
+        "confidences": [
+          0.9415,
+          0.9424
+        ]
+      },
+      "73_02": {
+        "digits": 2,
+        "classes": [
+          "nine",
+          "five"
+        ],
+        "confidences": [
+          0.9441,
+          0.8803
+        ]
+      },
+      "73_03": {
+        "digits": 2,
+        "classes": [
+          "nine",
+          "six"
+        ],
+        "confidences": [
+          0.9541,
+          0.9219
+        ]
+      },
+      "73_04": {
+        "digits": 2,
+        "classes": [
+          "nine",
+          "nine"
+        ],
+        "confidences": [
+          0.9489,
+          0.9453
+        ]
+      },
+      "73_05": {
+        "digits": 2,
+        "classes": [
+          "nine",
+          "eight"
+        ],
+        "confidences": [
+          0.9489,
+          0.9605
+        ]
+      },
+      "74_00": {
+        "digits": 2,
+        "classes": [
+          "nine",
+          "four"
+        ],
+        "confidences": [
+          0.9365,
+          0.9397
+        ]
+      },
+      "74_01": {
+        "digits": 2,
+        "classes": [
+          "nine",
+          "three"
+        ],
+        "confidences": [
+          0.9173,
+          0.958
+        ]
+      },
+      "74_02": {
+        "digits": 2,
+        "classes": [
+          "nine",
+          "zero"
+        ],
+        "confidences": [
+          0.9444,
+          0.8449
+        ]
+      },
+      "74_03": {
+        "digits": 2,
+        "classes": [
+          "nine",
+          "two"
+        ],
+        "confidences": [
+          0.9278,
+          0.9078
+        ]
+      },
+      "74_04": {
+        "digits": 2,
+        "classes": [
+          "nine",
+          "one"
+        ],
+        "confidences": [
+          0.9381,
+          0.8243
+        ]
+      },
+      "74_05": {
+        "digits": 2,
+        "classes": [
+          "nine",
+          "five"
+        ],
+        "confidences": [
+          0.9152,
+          0.8937
+        ]
+      },
+      "75_00": {
+        "digits": 2,
+        "classes": [
+          "nine",
+          "six"
+        ],
+        "confidences": [
+          0.9284,
+          0.9282
+        ]
+      },
+      "75_01": {
+        "digits": 2,
+        "classes": [
+          "nine",
+          "seven"
+        ],
+        "confidences": [
+          0.7928,
+          0.9502
+        ]
+      },
+      "75_02": {
+        "digits": 2,
+        "classes": [
+          "nine",
+          "eight"
+        ],
+        "confidences": [
+          0.924,
+          0.9673
+        ]
+      },
+      "75_03": {
+        "digits": 3,
+        "classes": [
+          "zero",
+          "nine",
+          "nine"
+        ],
+        "confidences": [
+          0.7018,
+          0.8903,
+          0.9345
+        ]
+      },
+      "75_04": {
+        "digits": 3,
+        "classes": [
+          "one",
+          "zero",
+          "zero"
+        ],
+        "confidences": [
+          0.8487,
+          0.9639,
+          0.9393
+        ]
+      },
+      "76_00": {
+        "digits": 1,
+        "classes": [
+          "five"
+        ],
+        "confidences": [
+          0.9218
+        ]
+      },
+      "76_01": {
+        "digits": 3,
+        "classes": [
+          "one",
+          "two",
+          "one"
+        ],
+        "confidences": [
+          0.7396,
+          0.9012,
+          0.6849
+        ]
+      },
+      "76_02": {
+        "digits": 1,
+        "classes": [
+          "three"
+        ],
+        "confidences": [
+          0.831
+        ]
+      },
+      "76_04": {
+        "digits": 1,
+        "classes": [
+          "four"
+        ],
+        "confidences": [
+          0.9378
+        ]
+      },
+      "76_05": {
+        "digits": 1,
+        "classes": [
+          "zero"
+        ],
+        "confidences": [
+          0.7187
+        ]
+      },
+      "77_01": {
+        "digits": 1,
+        "classes": [
+          "eight"
+        ],
+        "confidences": [
+          0.9707
+        ]
+      },
+      "77_02": {
+        "digits": 2,
+        "classes": [
+          "one",
+          "zero"
+        ],
+        "confidences": [
+          0.7902,
+          0.9427
+        ]
+      },
+      "77_03": {
+        "digits": 3,
+        "classes": [
+          "one",
+          "seven",
+          "one"
+        ],
+        "confidences": [
+          0.6577,
+          0.6124,
+          0.6879
+        ]
+      },
+      "77_04": {
+        "digits": 2,
+        "classes": [
+          "one",
+          "one"
+        ],
+        "confidences": [
+          0.8349,
+          0.7502
+        ]
+      },
+      "77_05": {
+        "digits": 1,
+        "classes": [
+          "six"
+        ],
+        "confidences": [
+          0.8741
+        ]
+      },
+      "78_00": {
+        "digits": 2,
+        "classes": [
+          "one",
+          "seven"
+        ],
+        "confidences": [
+          0.5524,
+          0.8729
+        ]
+      },
+      "78_01": {
+        "digits": 2,
+        "classes": [
+          "one",
+          "two"
+        ],
+        "confidences": [
+          0.5669,
+          0.8852
+        ]
+      },
+      "78_02": {
+        "digits": 2,
+        "classes": [
+          "one",
+          "three"
+        ],
+        "confidences": [
+          0.74,
+          0.9615
+        ]
+      },
+      "78_03": {
+        "digits": 3,
+        "classes": [
+          "one",
+          "one",
+          "four"
+        ],
+        "confidences": [
+          0.7295,
+          0.5247,
+          0.9366
+        ]
+      },
+      "78_04": {
+        "digits": 2,
+        "classes": [
+          "one",
+          "six"
+        ],
+        "confidences": [
+          0.889,
+          0.9098
+        ]
+      },
+      "78_05": {
+        "digits": 2,
+        "classes": [
+          "one",
+          "five"
+        ],
+        "confidences": [
+          0.7653,
+          0.9264
+        ]
+      },
+      "79_00": {
+        "digits": 2,
+        "classes": [
+          "two",
+          "three"
+        ],
+        "confidences": [
+          0.9315,
+          0.9545
+        ]
+      },
+      "79_01": {
+        "digits": 2,
+        "classes": [
+          "two",
+          "one"
+        ],
+        "confidences": [
+          0.9164,
+          0.6612
+        ]
+      },
+      "79_02": {
+        "digits": 2,
+        "classes": [
+          "one",
+          "eight"
+        ],
+        "confidences": [
+          0.8307,
+          0.9661
+        ]
+      },
+      "79_03": {
+        "digits": 2,
+        "classes": [
+          "two",
+          "two"
+        ],
+        "confidences": [
+          0.9211,
+          0.9094
+        ]
+      },
+      "79_04": {
+        "digits": 2,
+        "classes": [
+          "one",
+          "nine"
+        ],
+        "confidences": [
+          0.8256,
+          0.9356
+        ]
+      },
+      "79_05": {
+        "digits": 2,
+        "classes": [
+          "two",
+          "zero"
+        ],
+        "confidences": [
+          0.8564,
+          0.9582
+        ]
+      },
+      "80_00": {
+        "digits": 2,
+        "classes": [
+          "two",
+          "eight"
+        ],
+        "confidences": [
+          0.8539,
+          0.9611
+        ]
+      },
+      "80_01": {
+        "digits": 2,
+        "classes": [
+          "two",
+          "nine"
+        ],
+        "confidences": [
+          0.9121,
+          0.901
+        ]
+      },
+      "80_02": {
+        "digits": 2,
+        "classes": [
+          "two",
+          "seven"
+        ],
+        "confidences": [
+          0.9404,
+          0.948
+        ]
+      },
+      "80_03": {
+        "digits": 2,
+        "classes": [
+          "two",
+          "six"
+        ],
+        "confidences": [
+          0.918,
+          0.9287
+        ]
+      },
+      "80_04": {
+        "digits": 2,
+        "classes": [
+          "two",
+          "five"
+        ],
+        "confidences": [
+          0.922,
+          0.9246
+        ]
+      },
+      "80_05": {
+        "digits": 3,
+        "classes": [
+          "two",
+          "one",
+          "four"
+        ],
+        "confidences": [
+          0.9099,
+          0.5503,
+          0.8468
+        ]
+      },
+      "81_00": {
+        "digits": 2,
+        "classes": [
+          "three",
+          "zero"
+        ],
+        "confidences": [
+          0.9422,
+          0.6274
+        ]
+      },
+      "81_01": {
+        "digits": 2,
+        "classes": [
+          "three",
+          "three"
+        ],
+        "confidences": [
+          0.9173,
+          0.9681
+        ]
+      },
+      "81_02": {
+        "digits": 2,
+        "classes": [
+          "three",
+          "two"
+        ],
+        "confidences": [
+          0.9505,
+          0.9276
+        ]
+      },
+      "81_03": {
+        "digits": 2,
+        "classes": [
+          "three",
+          "five"
+        ],
+        "confidences": [
+          0.9497,
+          0.9471
+        ]
+      },
+      "81_04": {
+        "digits": 2,
+        "classes": [
+          "three",
+          "four"
+        ],
+        "confidences": [
+          0.9127,
+          0.9392
+        ]
+      },
+      "81_05": {
+        "digits": 2,
+        "classes": [
+          "eight",
+          "one"
+        ],
+        "confidences": [
+          0.8165,
+          0.8691
+        ]
+      },
+      "82_00": {
+        "digits": 3,
+        "classes": [
+          "three",
+          "three",
+          "five"
+        ],
+        "confidences": [
+          0.9067,
+          0.5605,
+          0.872
+        ]
+      },
+      "82_01": {
+        "digits": 2,
+        "classes": [
+          "three",
+          "nine"
+        ],
+        "confidences": [
+          0.945,
+          0.9442
+        ]
+      },
+      "82_02": {
+        "digits": 2,
+        "classes": [
+          "three",
+          "eight"
+        ],
+        "confidences": [
+          0.9361,
+          0.965
+        ]
+      },
+      "82_03": {
+        "digits": 2,
+        "classes": [
+          "three",
+          "six"
+        ],
+        "confidences": [
+          0.9006,
+          0.8787
+        ]
+      },
+      "82_04": {
+        "digits": 2,
+        "classes": [
+          "four",
+          "zero"
+        ],
+        "confidences": [
+          0.9642,
+          0.9449
+        ]
+      },
+      "82_05": {
+        "digits": 2,
+        "classes": [
+          "three",
+          "seven"
+        ],
+        "confidences": [
+          0.9042,
+          0.942
+        ]
+      },
+      "83_00": {
+        "digits": 3,
+        "classes": [
+          "one",
+          "four",
+          "two"
+        ],
+        "confidences": [
+          0.795,
+          0.9275,
+          0.9122
+        ]
+      },
+      "83_01": {
+        "digits": 3,
+        "classes": [
+          "one",
+          "four",
+          "six"
+        ],
+        "confidences": [
+          0.7302,
+          0.9517,
+          0.9426
+        ]
+      },
+      "83_02": {
+        "digits": 3,
+        "classes": [
+          "one",
+          "four",
+          "three"
+        ],
+        "confidences": [
+          0.7518,
+          0.9174,
+          0.9512
+        ]
+      },
+      "83_03": {
+        "digits": 3,
+        "classes": [
+          "one",
+          "four",
+          "one"
+        ],
+        "confidences": [
+          0.854,
+          0.9265,
+          0.7808
+        ]
+      },
+      "83_04": {
+        "digits": 2,
+        "classes": [
+          "four",
+          "five"
+        ],
+        "confidences": [
+          0.9368,
+          0.9444
+        ]
+      },
+      "83_05": {
+        "digits": 2,
+        "classes": [
+          "four",
+          "four"
+        ],
+        "confidences": [
+          0.8986,
+          0.8498
+        ]
+      },
+      "84_00": {
+        "digits": 1,
+        "classes": [
+          "five"
+        ],
+        "confidences": [
+          0.9227
+        ]
+      },
+      "84_01": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "three"
+        ],
+        "confidences": [
+          0.9505,
+          0.9416
+        ]
+      },
+      "84_02": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "two"
+        ],
+        "confidences": [
+          0.9297,
+          0.9174
+        ]
+      },
+      "84_03": {
+        "digits": 2,
+        "classes": [
+          "four",
+          "nine"
+        ],
+        "confidences": [
+          0.9431,
+          0.942
+        ]
+      },
+      "84_04": {
+        "digits": 2,
+        "classes": [
+          "four",
+          "eight"
+        ],
+        "confidences": [
+          0.9429,
+          0.9496
+        ]
+      },
+      "84_05": {
+        "digits": 3,
+        "classes": [
+          "one",
+          "four",
+          "seven"
+        ],
+        "confidences": [
+          0.7938,
+          0.9227,
+          0.9275
+        ]
+      },
+      "84_06": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "zero"
+        ],
+        "confidences": [
+          0.9181,
+          0.8679
+        ]
+      },
+      "85_00": {
+        "digits": 2,
+        "classes": [
+          "six",
+          "zero"
+        ],
+        "confidences": [
+          0.9102,
+          0.9107
+        ]
+      },
+      "85_01": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "nine"
+        ],
+        "confidences": [
+          0.8696,
+          0.9166
+        ]
+      },
+      "85_02": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "eight"
+        ],
+        "confidences": [
+          0.9392,
+          0.9572
+        ]
+      },
+      "85_03": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "seven"
+        ],
+        "confidences": [
+          0.927,
+          0.9447
+        ]
+      },
+      "85_04": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "six"
+        ],
+        "confidences": [
+          0.95,
+          0.9383
+        ]
+      },
+      "85_05": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "five"
+        ],
+        "confidences": [
+          0.9158,
+          0.8955
+        ]
+      },
+      "85_06": {
+        "digits": 3,
+        "classes": [
+          "five",
+          "one",
+          "four"
+        ],
+        "confidences": [
+          0.9101,
+          0.6621,
+          0.883
+        ]
+      },
+      "86_00": {
+        "digits": 2,
+        "classes": [
+          "six",
+          "one"
+        ],
+        "confidences": [
+          0.9004,
+          0.7587
+        ]
+      },
+      "86_01": {
+        "digits": 2,
+        "classes": [
+          "six",
+          "two"
+        ],
+        "confidences": [
+          0.9354,
+          0.9057
+        ]
+      },
+      "86_02": {
+        "digits": 2,
+        "classes": [
+          "six",
+          "three"
+        ],
+        "confidences": [
+          0.9424,
+          0.9533
+        ]
+      },
+      "86_03": {
+        "digits": 2,
+        "classes": [
+          "six",
+          "four"
+        ],
+        "confidences": [
+          0.9552,
+          0.9656
+        ]
+      },
+      "86_04": {
+        "digits": 2,
+        "classes": [
+          "six",
+          "five"
+        ],
+        "confidences": [
+          0.9187,
+          0.943
+        ]
+      },
+      "86_05": {
+        "digits": 2,
+        "classes": [
+          "six",
+          "six"
+        ],
+        "confidences": [
+          0.9116,
+          0.9324
+        ]
+      },
+      "86_06": {
+        "digits": 2,
+        "classes": [
+          "six",
+          "seven"
+        ],
+        "confidences": [
+          0.9136,
+          0.9459
+        ]
+      },
+      "87_00": {
+        "digits": 2,
+        "classes": [
+          "six",
+          "eight"
+        ],
+        "confidences": [
+          0.9165,
+          0.9657
+        ]
+      },
+      "87_02": {
+        "digits": 2,
+        "classes": [
+          "six",
+          "nine"
+        ],
+        "confidences": [
+          0.8375,
+          0.9207
+        ]
+      },
+      "87_03": {
+        "digits": 2,
+        "classes": [
+          "seven",
+          "zero"
+        ],
+        "confidences": [
+          0.9575,
+          0.7032
+        ]
+      },
+      "87_04": {
+        "digits": 2,
+        "classes": [
+          "seven",
+          "one"
+        ],
+        "confidences": [
+          0.9082,
+          0.8298
+        ]
+      },
+      "87_05": {
+        "digits": 2,
+        "classes": [
+          "seven",
+          "two"
+        ],
+        "confidences": [
+          0.9368,
+          0.93
+        ]
+      },
+      "87_06": {
+        "digits": 2,
+        "classes": [
+          "seven",
+          "three"
+        ],
+        "confidences": [
+          0.9232,
+          0.926
+        ]
+      },
+      "88_00": {
+        "digits": 2,
+        "classes": [
+          "seven",
+          "four"
+        ],
+        "confidences": [
+          0.9286,
+          0.8901
+        ]
+      },
+      "88_01": {
+        "digits": 2,
+        "classes": [
+          "seven",
+          "five"
+        ],
+        "confidences": [
+          0.9379,
+          0.853
+        ]
+      },
+      "88_02": {
+        "digits": 2,
+        "classes": [
+          "seven",
+          "six"
+        ],
+        "confidences": [
+          0.9085,
+          0.9717
+        ]
+      },
+      "88_03": {
+        "digits": 2,
+        "classes": [
+          "seven",
+          "seven"
+        ],
+        "confidences": [
+          0.9563,
+          0.9284
+        ]
+      },
+      "88_04": {
+        "digits": 2,
+        "classes": [
+          "seven",
+          "eight"
+        ],
+        "confidences": [
+          0.9351,
+          0.9464
+        ]
+      },
+      "88_05": {
+        "digits": 2,
+        "classes": [
+          "seven",
+          "nine"
+        ],
+        "confidences": [
+          0.9336,
+          0.9106
+        ]
+      },
+      "88_06": {
+        "digits": 2,
+        "classes": [
+          "eight",
+          "zero"
+        ],
+        "confidences": [
+          0.9223,
+          0.9205
+        ]
+      },
+      "89_00": {
+        "digits": 2,
+        "classes": [
+          "eight",
+          "five"
+        ],
+        "confidences": [
+          0.9507,
+          0.9351
+        ]
+      },
+      "89_01": {
+        "digits": 2,
+        "classes": [
+          "eight",
+          "one"
+        ],
+        "confidences": [
+          0.9629,
+          0.817
+        ]
+      },
+      "89_02": {
+        "digits": 2,
+        "classes": [
+          "eight",
+          "four"
+        ],
+        "confidences": [
+          0.9592,
+          0.9598
+        ]
+      },
+      "89_04": {
+        "digits": 2,
+        "classes": [
+          "eight",
+          "three"
+        ],
+        "confidences": [
+          0.9719,
+          0.9495
+        ]
+      },
+      "89_05": {
+        "digits": 1,
+        "classes": [
+          "two"
+        ],
+        "confidences": [
+          0.9012
+        ]
+      },
+      "89_06": {
+        "digits": 2,
+        "classes": [
+          "eight",
+          "two"
+        ],
+        "confidences": [
+          0.9677,
+          0.9353
+        ]
+      },
+      "90_00": {
+        "digits": 2,
+        "classes": [
+          "eight",
+          "nine"
+        ],
+        "confidences": [
+          0.9454,
+          0.9236
+        ]
+      },
+      "90_01": {
+        "digits": 2,
+        "classes": [
+          "eight",
+          "six"
+        ],
+        "confidences": [
+          0.966,
+          0.9386
+        ]
+      },
+      "90_02": {
+        "digits": 3,
+        "classes": [
+          "six",
+          "eight",
+          "eight"
+        ],
+        "confidences": [
+          0.9553,
+          0.9464,
+          0.9542
+        ]
+      },
+      "90_03": {
+        "digits": 3,
+        "classes": [
+          "one",
+          "nine",
+          "two"
+        ],
+        "confidences": [
+          0.8014,
+          0.9136,
+          0.9293
+        ]
+      },
+      "90_04": {
+        "digits": 2,
+        "classes": [
+          "nine",
+          "zero"
+        ],
+        "confidences": [
+          0.9467,
+          0.9101
+        ]
+      },
+      "91_00": {
+        "digits": 2,
+        "classes": [
+          "nine",
+          "nine"
+        ],
+        "confidences": [
+          0.9128,
+          0.9465
+        ]
+      },
+      "91_01": {
+        "digits": 3,
+        "classes": [
+          "nine",
+          "zero",
+          "eight"
+        ],
+        "confidences": [
+          0.7016,
+          0.6824,
+          0.9564
+        ]
+      },
+      "91_02": {
+        "digits": 2,
+        "classes": [
+          "nine",
+          "seven"
+        ],
+        "confidences": [
+          0.9011,
+          0.9653
+        ]
+      },
+      "91_03": {
+        "digits": 2,
+        "classes": [
+          "nine",
+          "three"
+        ],
+        "confidences": [
+          0.9113,
+          0.949
+        ]
+      },
+      "91_04": {
+        "digits": 2,
+        "classes": [
+          "nine",
+          "six"
+        ],
+        "confidences": [
+          0.9129,
+          0.9102
+        ]
+      },
+      "91_05": {
+        "digits": 2,
+        "classes": [
+          "nine",
+          "five"
+        ],
+        "confidences": [
+          0.9256,
+          0.9089
+        ]
+      },
+      "91_06": {
+        "digits": 3,
+        "classes": [
+          "nine",
+          "four",
+          "one"
+        ],
+        "confidences": [
+          0.8881,
+          0.9064,
+          0.7378
+        ]
+      },
+      "92_00": {
+        "digits": 3,
+        "classes": [
+          "one",
+          "zero",
+          "zero"
+        ],
+        "confidences": [
+          0.875,
+          0.9329,
+          0.9413
+        ]
+      },
+      "92_01": {
+        "digits": 1,
+        "classes": [
+          "two"
+        ],
+        "confidences": [
+          0.8858
+        ]
+      },
+      "92_02": {
+        "digits": 1,
+        "classes": [
+          "four"
+        ],
+        "confidences": [
+          0.9383
+        ]
+      },
+      "92_03": {
+        "digits": 2,
+        "classes": [
+          "nine",
+          "one"
+        ],
+        "confidences": [
+          0.9405,
+          0.841
+        ]
+      },
+      "92_04": {
+        "digits": 1,
+        "classes": [
+          "one"
+        ],
+        "confidences": [
+          0.5999
+        ]
+      },
+      "92_05": {
+        "digits": 1,
+        "classes": [
+          "three"
+        ],
+        "confidences": [
+          0.9592
+        ]
+      },
+      "92_06": {
+        "digits": 3,
+        "classes": [
+          "zero",
+          "nine",
+          "two"
+        ],
+        "confidences": [
+          0.7771,
+          0.659,
+          0.8957
+        ]
+      },
+      "93_00": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "five"
+        ],
+        "confidences": [
+          0.9266,
+          0.9147
+        ]
+      },
+      "93_01": {
+        "digits": 1,
+        "classes": [
+          "six"
+        ],
+        "confidences": [
+          0.91
+        ]
+      },
+      "93_02": {
+        "digits": 1,
+        "classes": [
+          "seven"
+        ],
+        "confidences": [
+          0.9524
+        ]
+      },
+      "93_03": {
+        "digits": 1,
+        "classes": [
+          "eight"
+        ],
+        "confidences": [
+          0.961
+        ]
+      },
+      "93_04": {
+        "digits": 1,
+        "classes": [
+          "nine"
+        ],
+        "confidences": [
+          0.9132
+        ]
+      },
+      "93_05": {
+        "digits": 2,
+        "classes": [
+          "one",
+          "zero"
+        ],
+        "confidences": [
+          0.8359,
+          0.9386
+        ]
+      },
+      "93_06": {
+        "digits": 1,
+        "classes": [
+          "one"
+        ],
+        "confidences": [
+          0.7225
+        ]
+      },
+      "94_00": {
+        "digits": 2,
+        "classes": [
+          "one",
+          "five"
+        ],
+        "confidences": [
+          0.8737,
+          0.9433
+        ]
+      },
+      "94_01": {
+        "digits": 2,
+        "classes": [
+          "one",
+          "four"
+        ],
+        "confidences": [
+          0.8694,
+          0.9408
+        ]
+      },
+      "94_02": {
+        "digits": 2,
+        "classes": [
+          "one",
+          "three"
+        ],
+        "confidences": [
+          0.8274,
+          0.9382
+        ]
+      },
+      "94_03": {
+        "digits": 2,
+        "classes": [
+          "one",
+          "two"
+        ],
+        "confidences": [
+          0.8385,
+          0.911
+        ]
+      },
+      "94_04": {
+        "digits": 2,
+        "classes": [
+          "one",
+          "nine"
+        ],
+        "confidences": [
+          0.9081,
+          0.8791
+        ]
+      },
+      "94_05": {
+        "digits": 2,
+        "classes": [
+          "one",
+          "eight"
+        ],
+        "confidences": [
+          0.8541,
+          0.9727
+        ]
+      },
+      "94_06": {
+        "digits": 2,
+        "classes": [
+          "one",
+          "seven"
+        ],
+        "confidences": [
+          0.8737,
+          0.9591
+        ]
+      },
+      "94_07": {
+        "digits": 2,
+        "classes": [
+          "one",
+          "six"
+        ],
+        "confidences": [
+          0.8949,
+          0.9178
+        ]
+      },
+      "95_00": {
+        "digits": 2,
+        "classes": [
+          "two",
+          "six"
+        ],
+        "confidences": [
+          0.9037,
+          0.927
+        ]
+      },
+      "95_01": {
+        "digits": 2,
+        "classes": [
+          "two",
+          "five"
+        ],
+        "confidences": [
+          0.859,
+          0.9214
+        ]
+      },
+      "95_02": {
+        "digits": 1,
+        "classes": [
+          "zero"
+        ],
+        "confidences": [
+          0.8197
+        ]
+      },
+      "95_03": {
+        "digits": 2,
+        "classes": [
+          "two",
+          "four"
+        ],
+        "confidences": [
+          0.9189,
+          0.9422
+        ]
+      },
+      "95_04": {
+        "digits": 2,
+        "classes": [
+          "two",
+          "three"
+        ],
+        "confidences": [
+          0.9002,
+          0.9436
+        ]
+      },
+      "95_05": {
+        "digits": 2,
+        "classes": [
+          "two",
+          "two"
+        ],
+        "confidences": [
+          0.8801,
+          0.8933
+        ]
+      },
+      "95_06": {
+        "digits": 2,
+        "classes": [
+          "two",
+          "one"
+        ],
+        "confidences": [
+          0.8576,
+          0.814
+        ]
+      },
+      "95_07": {
+        "digits": 2,
+        "classes": [
+          "two",
+          "zero"
+        ],
+        "confidences": [
+          0.8848,
+          0.6802
+        ]
+      },
+      "96_00": {
+        "digits": 2,
+        "classes": [
+          "two",
+          "seven"
+        ],
+        "confidences": [
+          0.9199,
+          0.9488
+        ]
+      },
+      "96_01": {
+        "digits": 2,
+        "classes": [
+          "two",
+          "eight"
+        ],
+        "confidences": [
+          0.9181,
+          0.9544
+        ]
+      },
+      "96_02": {
+        "digits": 2,
+        "classes": [
+          "two",
+          "nine"
+        ],
+        "confidences": [
+          0.9273,
+          0.9375
+        ]
+      },
+      "96_03": {
+        "digits": 2,
+        "classes": [
+          "three",
+          "zero"
+        ],
+        "confidences": [
+          0.9466,
+          0.8754
+        ]
+      },
+      "96_04": {
+        "digits": 2,
+        "classes": [
+          "three",
+          "one"
+        ],
+        "confidences": [
+          0.9525,
+          0.772
+        ]
+      },
+      "96_05": {
+        "digits": 2,
+        "classes": [
+          "three",
+          "two"
+        ],
+        "confidences": [
+          0.9428,
+          0.9171
+        ]
+      },
+      "96_06": {
+        "digits": 2,
+        "classes": [
+          "three",
+          "one"
+        ],
+        "confidences": [
+          0.9266,
+          0.7532
+        ]
+      },
+      "96_07": {
+        "digits": 2,
+        "classes": [
+          "three",
+          "three"
+        ],
+        "confidences": [
+          0.9287,
+          0.9329
+        ]
+      },
+      "97_00": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "seven"
+        ],
+        "confidences": [
+          0.9194,
+          0.8489
+        ]
+      },
+      "97_01": {
+        "digits": 2,
+        "classes": [
+          "one",
+          "seven"
+        ],
+        "confidences": [
+          0.8275,
+          0.8804
+        ]
+      },
+      "97_02": {
+        "digits": 2,
+        "classes": [
+          "zero",
+          "four"
+        ],
+        "confidences": [
+          0.8509,
+          0.6325
+        ]
+      },
+      "97_03": {
+        "digits": 2,
+        "classes": [
+          "six",
+          "three"
+        ],
+        "confidences": [
+          0.9447,
+          0.9525
+        ]
+      },
+      "97_04": {
+        "digits": 2,
+        "classes": [
+          "eight",
+          "three"
+        ],
+        "confidences": [
+          0.9545,
+          0.937
+        ]
+      },
+      "97_05": {
+        "digits": 2,
+        "classes": [
+          "one",
+          "three"
+        ],
+        "confidences": [
+          0.8897,
+          0.9485
+        ]
+      },
+      "97_06": {
+        "digits": 2,
+        "classes": [
+          "nine",
+          "three"
+        ],
+        "confidences": [
+          0.716,
+          0.9474
+        ]
+      },
+      "97_07": {
+        "digits": 2,
+        "classes": [
+          "three",
+          "three"
+        ],
+        "confidences": [
+          0.6652,
+          0.9437
+        ]
+      },
+      "98_00": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "zero"
+        ],
+        "confidences": [
+          0.9225,
+          0.8308
+        ]
+      },
+      "98_01": {
+        "digits": 2,
+        "classes": [
+          "four",
+          "nine"
+        ],
+        "confidences": [
+          0.9299,
+          0.9202
+        ]
+      },
+      "98_02": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "five"
+        ],
+        "confidences": [
+          0.7784,
+          0.7804
+        ]
+      },
+      "98_03": {
+        "digits": 3,
+        "classes": [
+          "one",
+          "five",
+          "seven"
+        ],
+        "confidences": [
+          0.8242,
+          0.7372,
+          0.9231
+        ]
+      },
+      "98_04": {
+        "digits": 3,
+        "classes": [
+          "four",
+          "one",
+          "six"
+        ],
+        "confidences": [
+          0.9394,
+          0.8638,
+          0.8631
+        ]
+      },
+      "98_05": {
+        "digits": 3,
+        "classes": [
+          "one",
+          "four",
+          "five"
+        ],
+        "confidences": [
+          0.8783,
+          0.9144,
+          0.8825
+        ]
+      },
+      "98_06": {
+        "digits": 3,
+        "classes": [
+          "one",
+          "four",
+          "four"
+        ],
+        "confidences": [
+          0.8524,
+          0.5349,
+          0.8442
+        ]
+      },
+      "98_07": {
+        "digits": 3,
+        "classes": [
+          "one",
+          "four",
+          "three"
+        ],
+        "confidences": [
+          0.6131,
+          0.7992,
+          0.863
+        ]
+      },
+      "99_00": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "five"
+        ],
+        "confidences": [
+          0.8768,
+          0.8967
+        ]
+      },
+      "99_01": {
+        "digits": 3,
+        "classes": [
+          "one",
+          "zero",
+          "one"
+        ],
+        "confidences": [
+          0.8568,
+          0.8974,
+          0.8706
+        ]
+      },
+      "99_02": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "six"
+        ],
+        "confidences": [
+          0.8457,
+          0.9318
+        ]
+      },
+      "99_03": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "two"
+        ],
+        "confidences": [
+          0.7932,
+          0.912
+        ]
+      },
+      "99_04": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "seven"
+        ],
+        "confidences": [
+          0.9429,
+          0.9309
+        ]
+      },
+      "99_05": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "four"
+        ],
+        "confidences": [
+          0.9276,
+          0.9315
+        ]
+      },
+      "99_06": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "three"
+        ],
+        "confidences": [
+          0.9206,
+          0.8862
+        ]
+      },
+      "99_07": {
+        "digits": 2,
+        "classes": [
+          "five",
+          "eight"
+        ],
+        "confidences": [
+          0.8742,
+          0.9144
+        ]
+      },
+      "100_00": {
+        "digits": 3,
+        "classes": [
+          "one",
+          "five",
+          "nine"
+        ],
+        "confidences": [
+          0.5446,
+          0.8283,
+          0.9459
+        ]
+      },
+      "100_01": {
+        "digits": 2,
+        "classes": [
+          "six",
+          "five"
+        ],
+        "confidences": [
+          0.9442,
+          0.8895
+        ]
+      },
+      "100_02": {
+        "digits": 2,
+        "classes": [
+          "six",
+          "three"
+        ],
+        "confidences": [
+          0.8959,
+          0.9038
+        ]
+      },
+      "100_03": {
+        "digits": 2,
+        "classes": [
+          "six",
+          "zero"
+        ],
+        "confidences": [
+          0.9204,
+          0.6679
+        ]
+      },
+      "100_04": {
+        "digits": 3,
+        "classes": [
+          "six",
+          "one",
+          "four"
+        ],
+        "confidences": [
+          0.9175,
+          0.6703,
+          0.683
+        ]
+      },
+      "100_05": {
+        "digits": 3,
+        "classes": [
+          "zero",
+          "one",
+          "one"
+        ],
+        "confidences": [
+          0.8149,
+          0.8791,
+          0.8284
+        ]
+      },
+      "100_06": {
+        "digits": 3,
+        "classes": [
+          "zero",
+          "zero",
+          "one"
+        ],
+        "confidences": [
+          0.9238,
+          0.9443,
+          0.7688
+        ]
+      },
+      "100_07": {
+        "digits": 3,
+        "classes": [
+          "one",
+          "zero",
+          "one"
+        ],
+        "confidences": [
+          0.8399,
+          0.9433,
+          0.6663
+        ]
+      }
+    },
+    "yaml": "docker/ai/train_data/generated/digit_detector/data.yaml",
+    "crops_with_labels": 479
+  },
+  "training": {
+    "box": {
+      "save_dir": "docker/ai/train_data/runs/box_finetune",
+      "best": "docker/ai/train_data/runs/box_finetune/weights/best.pt",
+      "ref_copy": "docker/ai/train_data/ref/best_cripper_finetuned.pt",
+      "epochs": 8,
+      "imgsz": 640,
+      "batch": 8,
+      "metrics": {
+        "precision": 0.98846,
+        "recall": 1.0,
+        "mAP50": 0.9949,
+        "mAP50-95": 0.99094
+      },
+      "coreml": "docker/ai/train_data/ref/best_cripper_finetuned.mlpackage"
+    },
+    "digit": {
+      "save_dir": "docker/ai/train_data/runs/digit_finetune",
+      "best": "docker/ai/train_data/runs/digit_finetune/weights/best.pt",
+      "ref_copy": "docker/ai/train_data/ref/best_detecter_finetuned.pt",
+      "epochs": 3,
+      "imgsz": 512,
+      "batch": 16,
+      "metrics": {
+        "precision": 0.92688,
+        "recall": 0.91237,
+        "mAP50": 0.93314,
+        "mAP50-95": 0.81601
+      },
+      "coreml": "docker/ai/train_data/ref/best_detecter_finetuned.mlpackage"
+    }
+  }
+}
