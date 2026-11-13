@@ -1,2 +1,24 @@
 .vscode/
 .box/
+.gradle/
+.idea/
+local.properties
+**/build/
+.model-cache/
+.android-tools/
+.kotlin/
+*.iml
+captures/
+*.apk
+__pycache__/
+*.pyc
+*.jks
+*.keystore
+# Keep supplied answer photos/screenshots and derived image crops local.
+evaluation/**/*.png
+evaluation/**/*.jpg
+evaluation/**/*.jpeg
+evaluation/**/*.jpe
+app/src/androidTest/assets/reported-live.png
+app/src/androidTest/assets/sample-answer.jpg
+dist/sample-answer.jpg

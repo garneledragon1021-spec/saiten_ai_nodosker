@@ -1,0 +1,13 @@
+{
+  "confirmed_order": "Image (5) through Image (12), confirmed by user",
+  "photos": [
+    {"number": 5, "scores": [10, 14, 23, 24], "total": 71},
+    {"number": 6, "scores": [8, 20, 27, 18], "total": 73},
+    {"number": 7, "scores": [6, 4, 30, 27], "total": 67},
+    {"number": 8, "scores": [18, 20, 30, 27], "total": 95},
+    {"number": 9, "scores": [18, 20, 27, 3], "total": 68},
+    {"number": 10, "scores": [20, 20, 30, 30], "total": 100},
+    {"number": 11, "scores": [12, 18, 6, 24], "total": 60},
+    {"number": 12, "scores": [16, 20, 30, 30], "total": 96}
+  ]
+}

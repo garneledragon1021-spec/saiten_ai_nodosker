@@ -1,0 +1,2471 @@
+[
+  {
+    "id": "row01-baseline",
+    "family": "constructed-baseline",
+    "file": "row01-baseline.png",
+    "expected": [
+      1,
+      8,
+      9,
+      92
+    ],
+    "source_ids": [
+      "1_00",
+      "6_00",
+      "6_01",
+      "11_00"
+    ]
+  },
+  {
+    "id": "row01-low_resolution",
+    "family": "constructed-low_resolution",
+    "file": "row01-low_resolution.png",
+    "expected": [
+      1,
+      8,
+      9,
+      92
+    ],
+    "source_ids": [
+      "1_00",
+      "6_00",
+      "6_01",
+      "11_00"
+    ]
+  },
+  {
+    "id": "row01-dark",
+    "family": "constructed-dark",
+    "file": "row01-dark.png",
+    "expected": [
+      1,
+      8,
+      9,
+      92
+    ],
+    "source_ids": [
+      "1_00",
+      "6_00",
+      "6_01",
+      "11_00"
+    ]
+  },
+  {
+    "id": "row01-shadow",
+    "family": "constructed-shadow",
+    "file": "row01-shadow.png",
+    "expected": [
+      1,
+      8,
+      9,
+      92
+    ],
+    "source_ids": [
+      "1_00",
+      "6_00",
+      "6_01",
+      "11_00"
+    ]
+  },
+  {
+    "id": "row01-blur",
+    "family": "constructed-blur",
+    "file": "row01-blur.png",
+    "expected": [
+      1,
+      8,
+      9,
+      92
+    ],
+    "source_ids": [
+      "1_00",
+      "6_00",
+      "6_01",
+      "11_00"
+    ]
+  },
+  {
+    "id": "row01-jpeg35",
+    "family": "constructed-jpeg35",
+    "file": "row01-jpeg35.png",
+    "expected": [
+      1,
+      8,
+      9,
+      92
+    ],
+    "source_ids": [
+      "1_00",
+      "6_00",
+      "6_01",
+      "11_00"
+    ]
+  },
+  {
+    "id": "row02-baseline",
+    "family": "constructed-baseline",
+    "file": "row02-baseline.png",
+    "expected": [
+      94,
+      93,
+      77,
+      78
+    ],
+    "source_ids": [
+      "11_01",
+      "11_02",
+      "16_00",
+      "16_01"
+    ]
+  },
+  {
+    "id": "row02-low_resolution",
+    "family": "constructed-low_resolution",
+    "file": "row02-low_resolution.png",
+    "expected": [
+      94,
+      93,
+      77,
+      78
+    ],
+    "source_ids": [
+      "11_01",
+      "11_02",
+      "16_00",
+      "16_01"
+    ]
+  },
+  {
+    "id": "row02-dark",
+    "family": "constructed-dark",
+    "file": "row02-dark.png",
+    "expected": [
+      94,
+      93,
+      77,
+      78
+    ],
+    "source_ids": [
+      "11_01",
+      "11_02",
+      "16_00",
+      "16_01"
+    ]
+  },
+  {
+    "id": "row02-shadow",
+    "family": "constructed-shadow",
+    "file": "row02-shadow.png",
+    "expected": [
+      94,
+      93,
+      77,
+      78
+    ],
+    "source_ids": [
+      "11_01",
+      "11_02",
+      "16_00",
+      "16_01"
+    ]
+  },
+  {
+    "id": "row02-blur",
+    "family": "constructed-blur",
+    "file": "row02-blur.png",
+    "expected": [
+      94,
+      93,
+      77,
+      78
+    ],
+    "source_ids": [
+      "11_01",
+      "11_02",
+      "16_00",
+      "16_01"
+    ]
+  },
+  {
+    "id": "row02-jpeg35",
+    "family": "constructed-jpeg35",
+    "file": "row02-jpeg35.png",
+    "expected": [
+      94,
+      93,
+      77,
+      78
+    ],
+    "source_ids": [
+      "11_01",
+      "11_02",
+      "16_00",
+      "16_01"
+    ]
+  },
+  {
+    "id": "row03-baseline",
+    "family": "constructed-baseline",
+    "file": "row03-baseline.png",
+    "expected": [
+      79,
+      64,
+      63,
+      49
+    ],
+    "source_ids": [
+      "16_02",
+      "21_00",
+      "21_01",
+      "26_00"
+    ]
+  },
+  {
+    "id": "row03-low_resolution",
+    "family": "constructed-low_resolution",
+    "file": "row03-low_resolution.png",
+    "expected": [
+      79,
+      64,
+      63,
+      49
+    ],
+    "source_ids": [
+      "16_02",
+      "21_00",
+      "21_01",
+      "26_00"
+    ]
+  },
+  {
+    "id": "row03-dark",
+    "family": "constructed-dark",
+    "file": "row03-dark.png",
+    "expected": [
+      79,
+      64,
+      63,
+      49
+    ],
+    "source_ids": [
+      "16_02",
+      "21_00",
+      "21_01",
+      "26_00"
+    ]
+  },
+  {
+    "id": "row03-shadow",
+    "family": "constructed-shadow",
+    "file": "row03-shadow.png",
+    "expected": [
+      79,
+      64,
+      63,
+      49
+    ],
+    "source_ids": [
+      "16_02",
+      "21_00",
+      "21_01",
+      "26_00"
+    ]
+  },
+  {
+    "id": "row03-blur",
+    "family": "constructed-blur",
+    "file": "row03-blur.png",
+    "expected": [
+      79,
+      64,
+      63,
+      49
+    ],
+    "source_ids": [
+      "16_02",
+      "21_00",
+      "21_01",
+      "26_00"
+    ]
+  },
+  {
+    "id": "row03-jpeg35",
+    "family": "constructed-jpeg35",
+    "file": "row03-jpeg35.png",
+    "expected": [
+      79,
+      64,
+      63,
+      49
+    ],
+    "source_ids": [
+      "16_02",
+      "21_00",
+      "21_01",
+      "26_00"
+    ]
+  },
+  {
+    "id": "row04-baseline",
+    "family": "constructed-baseline",
+    "file": "row04-baseline.png",
+    "expected": [
+      48,
+      47,
+      46,
+      30
+    ],
+    "source_ids": [
+      "26_01",
+      "26_02",
+      "26_03",
+      "31_00"
+    ]
+  },
+  {
+    "id": "row04-low_resolution",
+    "family": "constructed-low_resolution",
+    "file": "row04-low_resolution.png",
+    "expected": [
+      48,
+      47,
+      46,
+      30
+    ],
+    "source_ids": [
+      "26_01",
+      "26_02",
+      "26_03",
+      "31_00"
+    ]
+  },
+  {
+    "id": "row04-dark",
+    "family": "constructed-dark",
+    "file": "row04-dark.png",
+    "expected": [
+      48,
+      47,
+      46,
+      30
+    ],
+    "source_ids": [
+      "26_01",
+      "26_02",
+      "26_03",
+      "31_00"
+    ]
+  },
+  {
+    "id": "row04-shadow",
+    "family": "constructed-shadow",
+    "file": "row04-shadow.png",
+    "expected": [
+      48,
+      47,
+      46,
+      30
+    ],
+    "source_ids": [
+      "26_01",
+      "26_02",
+      "26_03",
+      "31_00"
+    ]
+  },
+  {
+    "id": "row04-blur",
+    "family": "constructed-blur",
+    "file": "row04-blur.png",
+    "expected": [
+      48,
+      47,
+      46,
+      30
+    ],
+    "source_ids": [
+      "26_01",
+      "26_02",
+      "26_03",
+      "31_00"
+    ]
+  },
+  {
+    "id": "row04-jpeg35",
+    "family": "constructed-jpeg35",
+    "file": "row04-jpeg35.png",
+    "expected": [
+      48,
+      47,
+      46,
+      30
+    ],
+    "source_ids": [
+      "26_01",
+      "26_02",
+      "26_03",
+      "31_00"
+    ]
+  },
+  {
+    "id": "row05-baseline",
+    "family": "constructed-baseline",
+    "file": "row05-baseline.png",
+    "expected": [
+      31,
+      28,
+      29,
+      9
+    ],
+    "source_ids": [
+      "31_01",
+      "31_02",
+      "31_03",
+      "36_00"
+    ]
+  },
+  {
+    "id": "row05-low_resolution",
+    "family": "constructed-low_resolution",
+    "file": "row05-low_resolution.png",
+    "expected": [
+      31,
+      28,
+      29,
+      9
+    ],
+    "source_ids": [
+      "31_01",
+      "31_02",
+      "31_03",
+      "36_00"
+    ]
+  },
+  {
+    "id": "row05-dark",
+    "family": "constructed-dark",
+    "file": "row05-dark.png",
+    "expected": [
+      31,
+      28,
+      29,
+      9
+    ],
+    "source_ids": [
+      "31_01",
+      "31_02",
+      "31_03",
+      "36_00"
+    ]
+  },
+  {
+    "id": "row05-shadow",
+    "family": "constructed-shadow",
+    "file": "row05-shadow.png",
+    "expected": [
+      31,
+      28,
+      29,
+      9
+    ],
+    "source_ids": [
+      "31_01",
+      "31_02",
+      "31_03",
+      "36_00"
+    ]
+  },
+  {
+    "id": "row05-blur",
+    "family": "constructed-blur",
+    "file": "row05-blur.png",
+    "expected": [
+      31,
+      28,
+      29,
+      9
+    ],
+    "source_ids": [
+      "31_01",
+      "31_02",
+      "31_03",
+      "36_00"
+    ]
+  },
+  {
+    "id": "row05-jpeg35",
+    "family": "constructed-jpeg35",
+    "file": "row05-jpeg35.png",
+    "expected": [
+      31,
+      28,
+      29,
+      9
+    ],
+    "source_ids": [
+      "31_01",
+      "31_02",
+      "31_03",
+      "36_00"
+    ]
+  },
+  {
+    "id": "row06-baseline",
+    "family": "constructed-baseline",
+    "file": "row06-baseline.png",
+    "expected": [
+      10,
+      12,
+      11,
+      93
+    ],
+    "source_ids": [
+      "36_01",
+      "36_02",
+      "36_03",
+      "41_00"
+    ]
+  },
+  {
+    "id": "row06-low_resolution",
+    "family": "constructed-low_resolution",
+    "file": "row06-low_resolution.png",
+    "expected": [
+      10,
+      12,
+      11,
+      93
+    ],
+    "source_ids": [
+      "36_01",
+      "36_02",
+      "36_03",
+      "41_00"
+    ]
+  },
+  {
+    "id": "row06-dark",
+    "family": "constructed-dark",
+    "file": "row06-dark.png",
+    "expected": [
+      10,
+      12,
+      11,
+      93
+    ],
+    "source_ids": [
+      "36_01",
+      "36_02",
+      "36_03",
+      "41_00"
+    ]
+  },
+  {
+    "id": "row06-shadow",
+    "family": "constructed-shadow",
+    "file": "row06-shadow.png",
+    "expected": [
+      10,
+      12,
+      11,
+      93
+    ],
+    "source_ids": [
+      "36_01",
+      "36_02",
+      "36_03",
+      "41_00"
+    ]
+  },
+  {
+    "id": "row06-blur",
+    "family": "constructed-blur",
+    "file": "row06-blur.png",
+    "expected": [
+      10,
+      12,
+      11,
+      93
+    ],
+    "source_ids": [
+      "36_01",
+      "36_02",
+      "36_03",
+      "41_00"
+    ]
+  },
+  {
+    "id": "row06-jpeg35",
+    "family": "constructed-jpeg35",
+    "file": "row06-jpeg35.png",
+    "expected": [
+      10,
+      12,
+      11,
+      93
+    ],
+    "source_ids": [
+      "36_01",
+      "36_02",
+      "36_03",
+      "41_00"
+    ]
+  },
+  {
+    "id": "row07-baseline",
+    "family": "constructed-baseline",
+    "file": "row07-baseline.png",
+    "expected": [
+      90,
+      92,
+      91,
+      78
+    ],
+    "source_ids": [
+      "41_01",
+      "41_02",
+      "41_03",
+      "46_00"
+    ]
+  },
+  {
+    "id": "row07-low_resolution",
+    "family": "constructed-low_resolution",
+    "file": "row07-low_resolution.png",
+    "expected": [
+      90,
+      92,
+      91,
+      78
+    ],
+    "source_ids": [
+      "41_01",
+      "41_02",
+      "41_03",
+      "46_00"
+    ]
+  },
+  {
+    "id": "row07-dark",
+    "family": "constructed-dark",
+    "file": "row07-dark.png",
+    "expected": [
+      90,
+      92,
+      91,
+      78
+    ],
+    "source_ids": [
+      "41_01",
+      "41_02",
+      "41_03",
+      "46_00"
+    ]
+  },
+  {
+    "id": "row07-shadow",
+    "family": "constructed-shadow",
+    "file": "row07-shadow.png",
+    "expected": [
+      90,
+      92,
+      91,
+      78
+    ],
+    "source_ids": [
+      "41_01",
+      "41_02",
+      "41_03",
+      "46_00"
+    ]
+  },
+  {
+    "id": "row07-blur",
+    "family": "constructed-blur",
+    "file": "row07-blur.png",
+    "expected": [
+      90,
+      92,
+      91,
+      78
+    ],
+    "source_ids": [
+      "41_01",
+      "41_02",
+      "41_03",
+      "46_00"
+    ]
+  },
+  {
+    "id": "row07-jpeg35",
+    "family": "constructed-jpeg35",
+    "file": "row07-jpeg35.png",
+    "expected": [
+      90,
+      92,
+      91,
+      78
+    ],
+    "source_ids": [
+      "41_01",
+      "41_02",
+      "41_03",
+      "46_00"
+    ]
+  },
+  {
+    "id": "row08-baseline",
+    "family": "constructed-baseline",
+    "file": "row08-baseline.png",
+    "expected": [
+      79,
+      77,
+      25,
+      5
+    ],
+    "source_ids": [
+      "46_01",
+      "46_02",
+      "46_03",
+      "51_00"
+    ]
+  },
+  {
+    "id": "row08-low_resolution",
+    "family": "constructed-low_resolution",
+    "file": "row08-low_resolution.png",
+    "expected": [
+      79,
+      77,
+      25,
+      5
+    ],
+    "source_ids": [
+      "46_01",
+      "46_02",
+      "46_03",
+      "51_00"
+    ]
+  },
+  {
+    "id": "row08-dark",
+    "family": "constructed-dark",
+    "file": "row08-dark.png",
+    "expected": [
+      79,
+      77,
+      25,
+      5
+    ],
+    "source_ids": [
+      "46_01",
+      "46_02",
+      "46_03",
+      "51_00"
+    ]
+  },
+  {
+    "id": "row08-shadow",
+    "family": "constructed-shadow",
+    "file": "row08-shadow.png",
+    "expected": [
+      79,
+      77,
+      25,
+      5
+    ],
+    "source_ids": [
+      "46_01",
+      "46_02",
+      "46_03",
+      "51_00"
+    ]
+  },
+  {
+    "id": "row08-blur",
+    "family": "constructed-blur",
+    "file": "row08-blur.png",
+    "expected": [
+      79,
+      77,
+      25,
+      5
+    ],
+    "source_ids": [
+      "46_01",
+      "46_02",
+      "46_03",
+      "51_00"
+    ]
+  },
+  {
+    "id": "row08-jpeg35",
+    "family": "constructed-jpeg35",
+    "file": "row08-jpeg35.png",
+    "expected": [
+      79,
+      77,
+      25,
+      5
+    ],
+    "source_ids": [
+      "46_01",
+      "46_02",
+      "46_03",
+      "51_00"
+    ]
+  },
+  {
+    "id": "row09-baseline",
+    "family": "constructed-baseline",
+    "file": "row09-baseline.png",
+    "expected": [
+      62,
+      61,
+      73,
+      3
+    ],
+    "source_ids": [
+      "51_01",
+      "51_02",
+      "51_03",
+      "51_05"
+    ]
+  },
+  {
+    "id": "row09-low_resolution",
+    "family": "constructed-low_resolution",
+    "file": "row09-low_resolution.png",
+    "expected": [
+      62,
+      61,
+      73,
+      3
+    ],
+    "source_ids": [
+      "51_01",
+      "51_02",
+      "51_03",
+      "51_05"
+    ]
+  },
+  {
+    "id": "row09-dark",
+    "family": "constructed-dark",
+    "file": "row09-dark.png",
+    "expected": [
+      62,
+      61,
+      73,
+      3
+    ],
+    "source_ids": [
+      "51_01",
+      "51_02",
+      "51_03",
+      "51_05"
+    ]
+  },
+  {
+    "id": "row09-shadow",
+    "family": "constructed-shadow",
+    "file": "row09-shadow.png",
+    "expected": [
+      62,
+      61,
+      73,
+      3
+    ],
+    "source_ids": [
+      "51_01",
+      "51_02",
+      "51_03",
+      "51_05"
+    ]
+  },
+  {
+    "id": "row09-blur",
+    "family": "constructed-blur",
+    "file": "row09-blur.png",
+    "expected": [
+      62,
+      61,
+      73,
+      3
+    ],
+    "source_ids": [
+      "51_01",
+      "51_02",
+      "51_03",
+      "51_05"
+    ]
+  },
+  {
+    "id": "row09-jpeg35",
+    "family": "constructed-jpeg35",
+    "file": "row09-jpeg35.png",
+    "expected": [
+      62,
+      61,
+      73,
+      3
+    ],
+    "source_ids": [
+      "51_01",
+      "51_02",
+      "51_03",
+      "51_05"
+    ]
+  },
+  {
+    "id": "row10-baseline",
+    "family": "constructed-baseline",
+    "file": "row10-baseline.png",
+    "expected": [
+      60,
+      8,
+      69,
+      8
+    ],
+    "source_ids": [
+      "51_06",
+      "51_07",
+      "51_08",
+      "56_00"
+    ]
+  },
+  {
+    "id": "row10-low_resolution",
+    "family": "constructed-low_resolution",
+    "file": "row10-low_resolution.png",
+    "expected": [
+      60,
+      8,
+      69,
+      8
+    ],
+    "source_ids": [
+      "51_06",
+      "51_07",
+      "51_08",
+      "56_00"
+    ]
+  },
+  {
+    "id": "row10-dark",
+    "family": "constructed-dark",
+    "file": "row10-dark.png",
+    "expected": [
+      60,
+      8,
+      69,
+      8
+    ],
+    "source_ids": [
+      "51_06",
+      "51_07",
+      "51_08",
+      "56_00"
+    ]
+  },
+  {
+    "id": "row10-shadow",
+    "family": "constructed-shadow",
+    "file": "row10-shadow.png",
+    "expected": [
+      60,
+      8,
+      69,
+      8
+    ],
+    "source_ids": [
+      "51_06",
+      "51_07",
+      "51_08",
+      "56_00"
+    ]
+  },
+  {
+    "id": "row10-blur",
+    "family": "constructed-blur",
+    "file": "row10-blur.png",
+    "expected": [
+      60,
+      8,
+      69,
+      8
+    ],
+    "source_ids": [
+      "51_06",
+      "51_07",
+      "51_08",
+      "56_00"
+    ]
+  },
+  {
+    "id": "row10-jpeg35",
+    "family": "constructed-jpeg35",
+    "file": "row10-jpeg35.png",
+    "expected": [
+      60,
+      8,
+      69,
+      8
+    ],
+    "source_ids": [
+      "51_06",
+      "51_07",
+      "51_08",
+      "56_00"
+    ]
+  },
+  {
+    "id": "row11-baseline",
+    "family": "constructed-baseline",
+    "file": "row11-baseline.png",
+    "expected": [
+      7,
+      10,
+      6,
+      9
+    ],
+    "source_ids": [
+      "56_01",
+      "56_02",
+      "56_03",
+      "56_04"
+    ]
+  },
+  {
+    "id": "row11-low_resolution",
+    "family": "constructed-low_resolution",
+    "file": "row11-low_resolution.png",
+    "expected": [
+      7,
+      10,
+      6,
+      9
+    ],
+    "source_ids": [
+      "56_01",
+      "56_02",
+      "56_03",
+      "56_04"
+    ]
+  },
+  {
+    "id": "row11-dark",
+    "family": "constructed-dark",
+    "file": "row11-dark.png",
+    "expected": [
+      7,
+      10,
+      6,
+      9
+    ],
+    "source_ids": [
+      "56_01",
+      "56_02",
+      "56_03",
+      "56_04"
+    ]
+  },
+  {
+    "id": "row11-shadow",
+    "family": "constructed-shadow",
+    "file": "row11-shadow.png",
+    "expected": [
+      7,
+      10,
+      6,
+      9
+    ],
+    "source_ids": [
+      "56_01",
+      "56_02",
+      "56_03",
+      "56_04"
+    ]
+  },
+  {
+    "id": "row11-blur",
+    "family": "constructed-blur",
+    "file": "row11-blur.png",
+    "expected": [
+      7,
+      10,
+      6,
+      9
+    ],
+    "source_ids": [
+      "56_01",
+      "56_02",
+      "56_03",
+      "56_04"
+    ]
+  },
+  {
+    "id": "row11-jpeg35",
+    "family": "constructed-jpeg35",
+    "file": "row11-jpeg35.png",
+    "expected": [
+      7,
+      10,
+      6,
+      9
+    ],
+    "source_ids": [
+      "56_01",
+      "56_02",
+      "56_03",
+      "56_04"
+    ]
+  },
+  {
+    "id": "row12-baseline",
+    "family": "constructed-baseline",
+    "file": "row12-baseline.png",
+    "expected": [
+      36,
+      35,
+      34,
+      33
+    ],
+    "source_ids": [
+      "61_00",
+      "61_01",
+      "61_02",
+      "61_03"
+    ]
+  },
+  {
+    "id": "row12-low_resolution",
+    "family": "constructed-low_resolution",
+    "file": "row12-low_resolution.png",
+    "expected": [
+      36,
+      35,
+      34,
+      33
+    ],
+    "source_ids": [
+      "61_00",
+      "61_01",
+      "61_02",
+      "61_03"
+    ]
+  },
+  {
+    "id": "row12-dark",
+    "family": "constructed-dark",
+    "file": "row12-dark.png",
+    "expected": [
+      36,
+      35,
+      34,
+      33
+    ],
+    "source_ids": [
+      "61_00",
+      "61_01",
+      "61_02",
+      "61_03"
+    ]
+  },
+  {
+    "id": "row12-shadow",
+    "family": "constructed-shadow",
+    "file": "row12-shadow.png",
+    "expected": [
+      36,
+      35,
+      34,
+      33
+    ],
+    "source_ids": [
+      "61_00",
+      "61_01",
+      "61_02",
+      "61_03"
+    ]
+  },
+  {
+    "id": "row12-blur",
+    "family": "constructed-blur",
+    "file": "row12-blur.png",
+    "expected": [
+      36,
+      35,
+      34,
+      33
+    ],
+    "source_ids": [
+      "61_00",
+      "61_01",
+      "61_02",
+      "61_03"
+    ]
+  },
+  {
+    "id": "row12-jpeg35",
+    "family": "constructed-jpeg35",
+    "file": "row12-jpeg35.png",
+    "expected": [
+      36,
+      35,
+      34,
+      33
+    ],
+    "source_ids": [
+      "61_00",
+      "61_01",
+      "61_02",
+      "61_03"
+    ]
+  },
+  {
+    "id": "row13-baseline",
+    "family": "constructed-baseline",
+    "file": "row13-baseline.png",
+    "expected": [
+      32,
+      55,
+      58,
+      57
+    ],
+    "source_ids": [
+      "61_04",
+      "66_00",
+      "66_01",
+      "66_02"
+    ]
+  },
+  {
+    "id": "row13-low_resolution",
+    "family": "constructed-low_resolution",
+    "file": "row13-low_resolution.png",
+    "expected": [
+      32,
+      55,
+      58,
+      57
+    ],
+    "source_ids": [
+      "61_04",
+      "66_00",
+      "66_01",
+      "66_02"
+    ]
+  },
+  {
+    "id": "row13-dark",
+    "family": "constructed-dark",
+    "file": "row13-dark.png",
+    "expected": [
+      32,
+      55,
+      58,
+      57
+    ],
+    "source_ids": [
+      "61_04",
+      "66_00",
+      "66_01",
+      "66_02"
+    ]
+  },
+  {
+    "id": "row13-shadow",
+    "family": "constructed-shadow",
+    "file": "row13-shadow.png",
+    "expected": [
+      32,
+      55,
+      58,
+      57
+    ],
+    "source_ids": [
+      "61_04",
+      "66_00",
+      "66_01",
+      "66_02"
+    ]
+  },
+  {
+    "id": "row13-blur",
+    "family": "constructed-blur",
+    "file": "row13-blur.png",
+    "expected": [
+      32,
+      55,
+      58,
+      57
+    ],
+    "source_ids": [
+      "61_04",
+      "66_00",
+      "66_01",
+      "66_02"
+    ]
+  },
+  {
+    "id": "row13-jpeg35",
+    "family": "constructed-jpeg35",
+    "file": "row13-jpeg35.png",
+    "expected": [
+      32,
+      55,
+      58,
+      57
+    ],
+    "source_ids": [
+      "61_04",
+      "66_00",
+      "66_01",
+      "66_02"
+    ]
+  },
+  {
+    "id": "row14-baseline",
+    "family": "constructed-baseline",
+    "file": "row14-baseline.png",
+    "expected": [
+      59,
+      60,
+      84,
+      83
+    ],
+    "source_ids": [
+      "66_03",
+      "66_04",
+      "71_00",
+      "71_01"
+    ]
+  },
+  {
+    "id": "row14-low_resolution",
+    "family": "constructed-low_resolution",
+    "file": "row14-low_resolution.png",
+    "expected": [
+      59,
+      60,
+      84,
+      83
+    ],
+    "source_ids": [
+      "66_03",
+      "66_04",
+      "71_00",
+      "71_01"
+    ]
+  },
+  {
+    "id": "row14-dark",
+    "family": "constructed-dark",
+    "file": "row14-dark.png",
+    "expected": [
+      59,
+      60,
+      84,
+      83
+    ],
+    "source_ids": [
+      "66_03",
+      "66_04",
+      "71_00",
+      "71_01"
+    ]
+  },
+  {
+    "id": "row14-shadow",
+    "family": "constructed-shadow",
+    "file": "row14-shadow.png",
+    "expected": [
+      59,
+      60,
+      84,
+      83
+    ],
+    "source_ids": [
+      "66_03",
+      "66_04",
+      "71_00",
+      "71_01"
+    ]
+  },
+  {
+    "id": "row14-blur",
+    "family": "constructed-blur",
+    "file": "row14-blur.png",
+    "expected": [
+      59,
+      60,
+      84,
+      83
+    ],
+    "source_ids": [
+      "66_03",
+      "66_04",
+      "71_00",
+      "71_01"
+    ]
+  },
+  {
+    "id": "row14-jpeg35",
+    "family": "constructed-jpeg35",
+    "file": "row14-jpeg35.png",
+    "expected": [
+      59,
+      60,
+      84,
+      83
+    ],
+    "source_ids": [
+      "66_03",
+      "66_04",
+      "71_00",
+      "71_01"
+    ]
+  },
+  {
+    "id": "row15-baseline",
+    "family": "constructed-baseline",
+    "file": "row15-baseline.png",
+    "expected": [
+      86,
+      85,
+      87,
+      88
+    ],
+    "source_ids": [
+      "71_02",
+      "71_03",
+      "71_04",
+      "71_05"
+    ]
+  },
+  {
+    "id": "row15-low_resolution",
+    "family": "constructed-low_resolution",
+    "file": "row15-low_resolution.png",
+    "expected": [
+      86,
+      85,
+      87,
+      88
+    ],
+    "source_ids": [
+      "71_02",
+      "71_03",
+      "71_04",
+      "71_05"
+    ]
+  },
+  {
+    "id": "row15-dark",
+    "family": "constructed-dark",
+    "file": "row15-dark.png",
+    "expected": [
+      86,
+      85,
+      87,
+      88
+    ],
+    "source_ids": [
+      "71_02",
+      "71_03",
+      "71_04",
+      "71_05"
+    ]
+  },
+  {
+    "id": "row15-shadow",
+    "family": "constructed-shadow",
+    "file": "row15-shadow.png",
+    "expected": [
+      86,
+      85,
+      87,
+      88
+    ],
+    "source_ids": [
+      "71_02",
+      "71_03",
+      "71_04",
+      "71_05"
+    ]
+  },
+  {
+    "id": "row15-blur",
+    "family": "constructed-blur",
+    "file": "row15-blur.png",
+    "expected": [
+      86,
+      85,
+      87,
+      88
+    ],
+    "source_ids": [
+      "71_02",
+      "71_03",
+      "71_04",
+      "71_05"
+    ]
+  },
+  {
+    "id": "row15-jpeg35",
+    "family": "constructed-jpeg35",
+    "file": "row15-jpeg35.png",
+    "expected": [
+      86,
+      85,
+      87,
+      88
+    ],
+    "source_ids": [
+      "71_02",
+      "71_03",
+      "71_04",
+      "71_05"
+    ]
+  },
+  {
+    "id": "row16-baseline",
+    "family": "constructed-baseline",
+    "file": "row16-baseline.png",
+    "expected": [
+      5,
+      2,
+      3,
+      4
+    ],
+    "source_ids": [
+      "76_00",
+      "76_01",
+      "76_02",
+      "76_04"
+    ]
+  },
+  {
+    "id": "row16-low_resolution",
+    "family": "constructed-low_resolution",
+    "file": "row16-low_resolution.png",
+    "expected": [
+      5,
+      2,
+      3,
+      4
+    ],
+    "source_ids": [
+      "76_00",
+      "76_01",
+      "76_02",
+      "76_04"
+    ]
+  },
+  {
+    "id": "row16-dark",
+    "family": "constructed-dark",
+    "file": "row16-dark.png",
+    "expected": [
+      5,
+      2,
+      3,
+      4
+    ],
+    "source_ids": [
+      "76_00",
+      "76_01",
+      "76_02",
+      "76_04"
+    ]
+  },
+  {
+    "id": "row16-shadow",
+    "family": "constructed-shadow",
+    "file": "row16-shadow.png",
+    "expected": [
+      5,
+      2,
+      3,
+      4
+    ],
+    "source_ids": [
+      "76_00",
+      "76_01",
+      "76_02",
+      "76_04"
+    ]
+  },
+  {
+    "id": "row16-blur",
+    "family": "constructed-blur",
+    "file": "row16-blur.png",
+    "expected": [
+      5,
+      2,
+      3,
+      4
+    ],
+    "source_ids": [
+      "76_00",
+      "76_01",
+      "76_02",
+      "76_04"
+    ]
+  },
+  {
+    "id": "row16-jpeg35",
+    "family": "constructed-jpeg35",
+    "file": "row16-jpeg35.png",
+    "expected": [
+      5,
+      2,
+      3,
+      4
+    ],
+    "source_ids": [
+      "76_00",
+      "76_01",
+      "76_02",
+      "76_04"
+    ]
+  },
+  {
+    "id": "row17-baseline",
+    "family": "constructed-baseline",
+    "file": "row17-baseline.png",
+    "expected": [
+      0,
+      30,
+      33,
+      32
+    ],
+    "source_ids": [
+      "76_05",
+      "81_00",
+      "81_01",
+      "81_02"
+    ]
+  },
+  {
+    "id": "row17-low_resolution",
+    "family": "constructed-low_resolution",
+    "file": "row17-low_resolution.png",
+    "expected": [
+      0,
+      30,
+      33,
+      32
+    ],
+    "source_ids": [
+      "76_05",
+      "81_00",
+      "81_01",
+      "81_02"
+    ]
+  },
+  {
+    "id": "row17-dark",
+    "family": "constructed-dark",
+    "file": "row17-dark.png",
+    "expected": [
+      0,
+      30,
+      33,
+      32
+    ],
+    "source_ids": [
+      "76_05",
+      "81_00",
+      "81_01",
+      "81_02"
+    ]
+  },
+  {
+    "id": "row17-shadow",
+    "family": "constructed-shadow",
+    "file": "row17-shadow.png",
+    "expected": [
+      0,
+      30,
+      33,
+      32
+    ],
+    "source_ids": [
+      "76_05",
+      "81_00",
+      "81_01",
+      "81_02"
+    ]
+  },
+  {
+    "id": "row17-blur",
+    "family": "constructed-blur",
+    "file": "row17-blur.png",
+    "expected": [
+      0,
+      30,
+      33,
+      32
+    ],
+    "source_ids": [
+      "76_05",
+      "81_00",
+      "81_01",
+      "81_02"
+    ]
+  },
+  {
+    "id": "row17-jpeg35",
+    "family": "constructed-jpeg35",
+    "file": "row17-jpeg35.png",
+    "expected": [
+      0,
+      30,
+      33,
+      32
+    ],
+    "source_ids": [
+      "76_05",
+      "81_00",
+      "81_01",
+      "81_02"
+    ]
+  },
+  {
+    "id": "row18-baseline",
+    "family": "constructed-baseline",
+    "file": "row18-baseline.png",
+    "expected": [
+      35,
+      34,
+      31,
+      61
+    ],
+    "source_ids": [
+      "81_03",
+      "81_04",
+      "81_05",
+      "86_00"
+    ]
+  },
+  {
+    "id": "row18-low_resolution",
+    "family": "constructed-low_resolution",
+    "file": "row18-low_resolution.png",
+    "expected": [
+      35,
+      34,
+      31,
+      61
+    ],
+    "source_ids": [
+      "81_03",
+      "81_04",
+      "81_05",
+      "86_00"
+    ]
+  },
+  {
+    "id": "row18-dark",
+    "family": "constructed-dark",
+    "file": "row18-dark.png",
+    "expected": [
+      35,
+      34,
+      31,
+      61
+    ],
+    "source_ids": [
+      "81_03",
+      "81_04",
+      "81_05",
+      "86_00"
+    ]
+  },
+  {
+    "id": "row18-shadow",
+    "family": "constructed-shadow",
+    "file": "row18-shadow.png",
+    "expected": [
+      35,
+      34,
+      31,
+      61
+    ],
+    "source_ids": [
+      "81_03",
+      "81_04",
+      "81_05",
+      "86_00"
+    ]
+  },
+  {
+    "id": "row18-blur",
+    "family": "constructed-blur",
+    "file": "row18-blur.png",
+    "expected": [
+      35,
+      34,
+      31,
+      61
+    ],
+    "source_ids": [
+      "81_03",
+      "81_04",
+      "81_05",
+      "86_00"
+    ]
+  },
+  {
+    "id": "row18-jpeg35",
+    "family": "constructed-jpeg35",
+    "file": "row18-jpeg35.png",
+    "expected": [
+      35,
+      34,
+      31,
+      61
+    ],
+    "source_ids": [
+      "81_03",
+      "81_04",
+      "81_05",
+      "86_00"
+    ]
+  },
+  {
+    "id": "row19-baseline",
+    "family": "constructed-baseline",
+    "file": "row19-baseline.png",
+    "expected": [
+      62,
+      63,
+      64,
+      65
+    ],
+    "source_ids": [
+      "86_01",
+      "86_02",
+      "86_03",
+      "86_04"
+    ]
+  },
+  {
+    "id": "row19-low_resolution",
+    "family": "constructed-low_resolution",
+    "file": "row19-low_resolution.png",
+    "expected": [
+      62,
+      63,
+      64,
+      65
+    ],
+    "source_ids": [
+      "86_01",
+      "86_02",
+      "86_03",
+      "86_04"
+    ]
+  },
+  {
+    "id": "row19-dark",
+    "family": "constructed-dark",
+    "file": "row19-dark.png",
+    "expected": [
+      62,
+      63,
+      64,
+      65
+    ],
+    "source_ids": [
+      "86_01",
+      "86_02",
+      "86_03",
+      "86_04"
+    ]
+  },
+  {
+    "id": "row19-shadow",
+    "family": "constructed-shadow",
+    "file": "row19-shadow.png",
+    "expected": [
+      62,
+      63,
+      64,
+      65
+    ],
+    "source_ids": [
+      "86_01",
+      "86_02",
+      "86_03",
+      "86_04"
+    ]
+  },
+  {
+    "id": "row19-blur",
+    "family": "constructed-blur",
+    "file": "row19-blur.png",
+    "expected": [
+      62,
+      63,
+      64,
+      65
+    ],
+    "source_ids": [
+      "86_01",
+      "86_02",
+      "86_03",
+      "86_04"
+    ]
+  },
+  {
+    "id": "row19-jpeg35",
+    "family": "constructed-jpeg35",
+    "file": "row19-jpeg35.png",
+    "expected": [
+      62,
+      63,
+      64,
+      65
+    ],
+    "source_ids": [
+      "86_01",
+      "86_02",
+      "86_03",
+      "86_04"
+    ]
+  },
+  {
+    "id": "row20-baseline",
+    "family": "constructed-baseline",
+    "file": "row20-baseline.png",
+    "expected": [
+      66,
+      67,
+      99,
+      98
+    ],
+    "source_ids": [
+      "86_05",
+      "86_06",
+      "91_00",
+      "91_01"
+    ]
+  },
+  {
+    "id": "row20-low_resolution",
+    "family": "constructed-low_resolution",
+    "file": "row20-low_resolution.png",
+    "expected": [
+      66,
+      67,
+      99,
+      98
+    ],
+    "source_ids": [
+      "86_05",
+      "86_06",
+      "91_00",
+      "91_01"
+    ]
+  },
+  {
+    "id": "row20-dark",
+    "family": "constructed-dark",
+    "file": "row20-dark.png",
+    "expected": [
+      66,
+      67,
+      99,
+      98
+    ],
+    "source_ids": [
+      "86_05",
+      "86_06",
+      "91_00",
+      "91_01"
+    ]
+  },
+  {
+    "id": "row20-shadow",
+    "family": "constructed-shadow",
+    "file": "row20-shadow.png",
+    "expected": [
+      66,
+      67,
+      99,
+      98
+    ],
+    "source_ids": [
+      "86_05",
+      "86_06",
+      "91_00",
+      "91_01"
+    ]
+  },
+  {
+    "id": "row20-blur",
+    "family": "constructed-blur",
+    "file": "row20-blur.png",
+    "expected": [
+      66,
+      67,
+      99,
+      98
+    ],
+    "source_ids": [
+      "86_05",
+      "86_06",
+      "91_00",
+      "91_01"
+    ]
+  },
+  {
+    "id": "row20-jpeg35",
+    "family": "constructed-jpeg35",
+    "file": "row20-jpeg35.png",
+    "expected": [
+      66,
+      67,
+      99,
+      98
+    ],
+    "source_ids": [
+      "86_05",
+      "86_06",
+      "91_00",
+      "91_01"
+    ]
+  },
+  {
+    "id": "row21-baseline",
+    "family": "constructed-baseline",
+    "file": "row21-baseline.png",
+    "expected": [
+      97,
+      93,
+      96,
+      95
+    ],
+    "source_ids": [
+      "91_02",
+      "91_03",
+      "91_04",
+      "91_05"
+    ]
+  },
+  {
+    "id": "row21-low_resolution",
+    "family": "constructed-low_resolution",
+    "file": "row21-low_resolution.png",
+    "expected": [
+      97,
+      93,
+      96,
+      95
+    ],
+    "source_ids": [
+      "91_02",
+      "91_03",
+      "91_04",
+      "91_05"
+    ]
+  },
+  {
+    "id": "row21-dark",
+    "family": "constructed-dark",
+    "file": "row21-dark.png",
+    "expected": [
+      97,
+      93,
+      96,
+      95
+    ],
+    "source_ids": [
+      "91_02",
+      "91_03",
+      "91_04",
+      "91_05"
+    ]
+  },
+  {
+    "id": "row21-shadow",
+    "family": "constructed-shadow",
+    "file": "row21-shadow.png",
+    "expected": [
+      97,
+      93,
+      96,
+      95
+    ],
+    "source_ids": [
+      "91_02",
+      "91_03",
+      "91_04",
+      "91_05"
+    ]
+  },
+  {
+    "id": "row21-blur",
+    "family": "constructed-blur",
+    "file": "row21-blur.png",
+    "expected": [
+      97,
+      93,
+      96,
+      95
+    ],
+    "source_ids": [
+      "91_02",
+      "91_03",
+      "91_04",
+      "91_05"
+    ]
+  },
+  {
+    "id": "row21-jpeg35",
+    "family": "constructed-jpeg35",
+    "file": "row21-jpeg35.png",
+    "expected": [
+      97,
+      93,
+      96,
+      95
+    ],
+    "source_ids": [
+      "91_02",
+      "91_03",
+      "91_04",
+      "91_05"
+    ]
+  },
+  {
+    "id": "row22-baseline",
+    "family": "constructed-baseline",
+    "file": "row22-baseline.png",
+    "expected": [
+      94,
+      27,
+      28,
+      29
+    ],
+    "source_ids": [
+      "91_06",
+      "96_00",
+      "96_01",
+      "96_02"
+    ]
+  },
+  {
+    "id": "row22-low_resolution",
+    "family": "constructed-low_resolution",
+    "file": "row22-low_resolution.png",
+    "expected": [
+      94,
+      27,
+      28,
+      29
+    ],
+    "source_ids": [
+      "91_06",
+      "96_00",
+      "96_01",
+      "96_02"
+    ]
+  },
+  {
+    "id": "row22-dark",
+    "family": "constructed-dark",
+    "file": "row22-dark.png",
+    "expected": [
+      94,
+      27,
+      28,
+      29
+    ],
+    "source_ids": [
+      "91_06",
+      "96_00",
+      "96_01",
+      "96_02"
+    ]
+  },
+  {
+    "id": "row22-shadow",
+    "family": "constructed-shadow",
+    "file": "row22-shadow.png",
+    "expected": [
+      94,
+      27,
+      28,
+      29
+    ],
+    "source_ids": [
+      "91_06",
+      "96_00",
+      "96_01",
+      "96_02"
+    ]
+  },
+  {
+    "id": "row22-blur",
+    "family": "constructed-blur",
+    "file": "row22-blur.png",
+    "expected": [
+      94,
+      27,
+      28,
+      29
+    ],
+    "source_ids": [
+      "91_06",
+      "96_00",
+      "96_01",
+      "96_02"
+    ]
+  },
+  {
+    "id": "row22-jpeg35",
+    "family": "constructed-jpeg35",
+    "file": "row22-jpeg35.png",
+    "expected": [
+      94,
+      27,
+      28,
+      29
+    ],
+    "source_ids": [
+      "91_06",
+      "96_00",
+      "96_01",
+      "96_02"
+    ]
+  },
+  {
+    "id": "row23-baseline",
+    "family": "constructed-baseline",
+    "file": "row23-baseline.png",
+    "expected": [
+      30,
+      31,
+      32,
+      34,
+      33
+    ],
+    "source_ids": [
+      "96_03",
+      "96_04",
+      "96_05",
+      "96_06",
+      "96_07"
+    ]
+  },
+  {
+    "id": "row23-low_resolution",
+    "family": "constructed-low_resolution",
+    "file": "row23-low_resolution.png",
+    "expected": [
+      30,
+      31,
+      32,
+      34,
+      33
+    ],
+    "source_ids": [
+      "96_03",
+      "96_04",
+      "96_05",
+      "96_06",
+      "96_07"
+    ]
+  },
+  {
+    "id": "row23-dark",
+    "family": "constructed-dark",
+    "file": "row23-dark.png",
+    "expected": [
+      30,
+      31,
+      32,
+      34,
+      33
+    ],
+    "source_ids": [
+      "96_03",
+      "96_04",
+      "96_05",
+      "96_06",
+      "96_07"
+    ]
+  },
+  {
+    "id": "row23-shadow",
+    "family": "constructed-shadow",
+    "file": "row23-shadow.png",
+    "expected": [
+      30,
+      31,
+      32,
+      34,
+      33
+    ],
+    "source_ids": [
+      "96_03",
+      "96_04",
+      "96_05",
+      "96_06",
+      "96_07"
+    ]
+  },
+  {
+    "id": "row23-blur",
+    "family": "constructed-blur",
+    "file": "row23-blur.png",
+    "expected": [
+      30,
+      31,
+      32,
+      34,
+      33
+    ],
+    "source_ids": [
+      "96_03",
+      "96_04",
+      "96_05",
+      "96_06",
+      "96_07"
+    ]
+  },
+  {
+    "id": "row23-jpeg35",
+    "family": "constructed-jpeg35",
+    "file": "row23-jpeg35.png",
+    "expected": [
+      30,
+      31,
+      32,
+      34,
+      33
+    ],
+    "source_ids": [
+      "96_03",
+      "96_04",
+      "96_05",
+      "96_06",
+      "96_07"
+    ]
+  },
+  {
+    "id": "sample-2400",
+    "family": "existing-whole-sheet",
+    "file": "sample-2400.png",
+    "expected": [
+      12,
+      95,
+      84
+    ],
+    "source_ids": [
+      "sample-answer"
+    ]
+  },
+  {
+    "id": "sample-1920",
+    "family": "existing-whole-sheet",
+    "file": "sample-1920.png",
+    "expected": [
+      12,
+      95,
+      84
+    ],
+    "source_ids": [
+      "sample-answer"
+    ]
+  },
+  {
+    "id": "sample-1280",
+    "family": "existing-whole-sheet",
+    "file": "sample-1280.png",
+    "expected": [
+      12,
+      95,
+      84
+    ],
+    "source_ids": [
+      "sample-answer"
+    ]
+  },
+  {
+    "id": "sample-1080",
+    "family": "existing-whole-sheet",
+    "file": "sample-1080.png",
+    "expected": [
+      12,
+      95,
+      84
+    ],
+    "source_ids": [
+      "sample-answer"
+    ]
+  },
+  {
+    "id": "sample-720",
+    "family": "existing-whole-sheet",
+    "file": "sample-720.png",
+    "expected": [
+      12,
+      95,
+      84
+    ],
+    "source_ids": [
+      "sample-answer"
+    ]
+  },
+  {
+    "id": "reported-auto-qr",
+    "family": "existing-screenshot-auto",
+    "file": "reported-auto-qr.png",
+    "expected": [
+      6,
+      13,
+      42,
+      10
+    ],
+    "source_ids": [
+      "reported-live"
+    ]
+  },
+  {
+    "id": "reported-injected-qr",
+    "family": "existing-screenshot-injected",
+    "file": "reported-injected-qr.png",
+    "expected": [
+      6,
+      13,
+      42,
+      10
+    ],
+    "source_ids": [
+      "reported-live"
+    ],
+    "qr": [
+      [
+        17,
+        1137
+      ],
+      [
+        77,
+        1137
+      ],
+      [
+        77,
+        1200
+      ],
+      [
+        17,
+        1200
+      ]
+    ]
+  }
+]

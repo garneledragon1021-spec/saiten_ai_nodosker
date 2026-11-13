@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_blue">#1769E0</color>
+    <color name="brand_blue_dark">#0D47A1</color>
+    <color name="surface_tint">#EAF2FF</color>
+    <color name="text_primary">#172033</color>
+    <color name="text_secondary">#5D6678</color>
+</resources>

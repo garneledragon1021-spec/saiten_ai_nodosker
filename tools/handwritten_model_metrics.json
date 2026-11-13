@@ -1,0 +1,10 @@
+{
+  "dataset": "MNIST",
+  "training_images": 60000,
+  "held_out_images": 10000,
+  "held_out_accuracy": 0.9891,
+  "epochs": 4,
+  "seed": 20261019,
+  "normalization": "float32 [0,1], white foreground on black, NCHW 1x1x28x28",
+  "limitations": "MNIST test accuracy is not real-world score-sheet accuracy. User screenshots are evaluation only."
+}

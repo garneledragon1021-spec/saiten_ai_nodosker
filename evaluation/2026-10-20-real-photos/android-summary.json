@@ -1,0 +1,324 @@
+{
+  "apk_sha256": "e0203fd2a90131b5d0eac1322aca0ce761fcb4d57111640f62de33fdedd2b329",
+  "distinct_photos": 8,
+  "field_truth": "Visually read four fields; user-confirmed totals in ascending file-number order",
+  "metrics": {
+    "2400": {
+      "cases": 8,
+      "fields": 32,
+      "correct_fields": 23,
+      "wrong_fields": 3,
+      "unread_fields": 6,
+      "accepted_field_accuracy": 0.884615,
+      "correct_field_coverage": 0.71875,
+      "complete_sheets": 4,
+      "exact_sheets": 3,
+      "wrong_complete_sheets": 1,
+      "wrong_totals": 1,
+      "failed_pipeline_cases": 0,
+      "median_ms": 2715.0,
+      "max_ms": 10110
+    },
+    "1920": {
+      "cases": 8,
+      "fields": 32,
+      "correct_fields": 21,
+      "wrong_fields": 3,
+      "unread_fields": 8,
+      "accepted_field_accuracy": 0.875,
+      "correct_field_coverage": 0.65625,
+      "complete_sheets": 3,
+      "exact_sheets": 2,
+      "wrong_complete_sheets": 1,
+      "wrong_totals": 1,
+      "failed_pipeline_cases": 1,
+      "median_ms": 2240.5,
+      "max_ms": 3271
+    }
+  },
+  "cases": [
+    {
+      "id": "user05-2400",
+      "expected": [
+        10,
+        14,
+        23,
+        24
+      ],
+      "scores": [
+        null,
+        14,
+        23,
+        null
+      ],
+      "total": null,
+      "error": null,
+      "elapsed_ms": 10110
+    },
+    {
+      "id": "user05-1920",
+      "expected": [
+        10,
+        14,
+        23,
+        24
+      ],
+      "scores": [
+        10,
+        14,
+        23,
+        null
+      ],
+      "total": null,
+      "error": null,
+      "elapsed_ms": 3271
+    },
+    {
+      "id": "user06-2400",
+      "expected": [
+        8,
+        20,
+        27,
+        18
+      ],
+      "scores": [
+        null,
+        20,
+        27,
+        null
+      ],
+      "total": null,
+      "error": null,
+      "elapsed_ms": 2925
+    },
+    {
+      "id": "user06-1920",
+      "expected": [
+        8,
+        20,
+        27,
+        18
+      ],
+      "scores": [
+        null,
+        20,
+        27,
+        18
+      ],
+      "total": null,
+      "error": null,
+      "elapsed_ms": 2510
+    },
+    {
+      "id": "user07-2400",
+      "expected": [
+        6,
+        4,
+        30,
+        27
+      ],
+      "scores": [
+        6,
+        4,
+        30,
+        27
+      ],
+      "total": 67,
+      "error": null,
+      "elapsed_ms": 2590
+    },
+    {
+      "id": "user07-1920",
+      "expected": [
+        6,
+        4,
+        30,
+        27
+      ],
+      "scores": null,
+      "total": null,
+      "error": "ScoringException: 得点枠は5個です。指定の4個すべてが写るよう撮り直すか、得点欄数を確認してください。",
+      "elapsed_ms": 794
+    },
+    {
+      "id": "user08-2400",
+      "expected": [
+        18,
+        20,
+        30,
+        27
+      ],
+      "scores": [
+        18,
+        20,
+        3,
+        27
+      ],
+      "total": 68,
+      "error": null,
+      "elapsed_ms": 2518
+    },
+    {
+      "id": "user08-1920",
+      "expected": [
+        18,
+        20,
+        30,
+        27
+      ],
+      "scores": [
+        18,
+        20,
+        3,
+        27
+      ],
+      "total": 68,
+      "error": null,
+      "elapsed_ms": 2332
+    },
+    {
+      "id": "user09-2400",
+      "expected": [
+        18,
+        20,
+        27,
+        3
+      ],
+      "scores": [
+        18,
+        20,
+        27,
+        3
+      ],
+      "total": 68,
+      "error": null,
+      "elapsed_ms": 2825
+    },
+    {
+      "id": "user09-1920",
+      "expected": [
+        18,
+        20,
+        27,
+        3
+      ],
+      "scores": [
+        18,
+        20,
+        27,
+        3
+      ],
+      "total": 68,
+      "error": null,
+      "elapsed_ms": 2108
+    },
+    {
+      "id": "user10-2400",
+      "expected": [
+        20,
+        20,
+        30,
+        30
+      ],
+      "scores": [
+        20,
+        0,
+        30,
+        null
+      ],
+      "total": null,
+      "error": null,
+      "elapsed_ms": 2454
+    },
+    {
+      "id": "user10-1920",
+      "expected": [
+        20,
+        20,
+        30,
+        30
+      ],
+      "scores": [
+        20,
+        0,
+        30,
+        null
+      ],
+      "total": null,
+      "error": null,
+      "elapsed_ms": 2149
+    },
+    {
+      "id": "user11-2400",
+      "expected": [
+        12,
+        18,
+        6,
+        24
+      ],
+      "scores": [
+        12,
+        18,
+        6,
+        24
+      ],
+      "total": 60,
+      "error": null,
+      "elapsed_ms": 2845
+    },
+    {
+      "id": "user11-1920",
+      "expected": [
+        12,
+        18,
+        6,
+        24
+      ],
+      "scores": [
+        12,
+        18,
+        6,
+        24
+      ],
+      "total": 60,
+      "error": null,
+      "elapsed_ms": 2411
+    },
+    {
+      "id": "user12-2400",
+      "expected": [
+        16,
+        20,
+        30,
+        30
+      ],
+      "scores": [
+        16,
+        null,
+        3,
+        30
+      ],
+      "total": null,
+      "error": null,
+      "elapsed_ms": 2605
+    },
+    {
+      "id": "user12-1920",
+      "expected": [
+        16,
+        20,
+        30,
+        30
+      ],
+      "scores": [
+        16,
+        null,
+        3,
+        30
+      ],
+      "total": null,
+      "error": null,
+      "elapsed_ms": 2057
+    }
+  ]
+}

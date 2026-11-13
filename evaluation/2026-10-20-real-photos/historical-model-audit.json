@@ -1,0 +1,96 @@
+{
+  "best_detecter.pt": {
+    "sha256": "690a55bfde7fc88bbad93de28fe2a09dd36afeee833f02bacad52eb09b436cd2",
+    "git_blob": "b3fe11ddfcd828ed2853bf1a78751d716f9a1402",
+    "pre_ios_blob": "b3fe11ddfcd828ed2853bf1a78751d716f9a1402",
+    "date": "2025-09-23T03:20:14.862453",
+    "version": "8.3.203",
+    "epoch": -1,
+    "train_args": {
+      "model": "yolo11n.pt",
+      "data": "data.yaml",
+      "epochs": 100,
+      "imgsz": 512,
+      "name": "train",
+      "project": null
+    },
+    "classes": {
+      "0": "zero",
+      "1": "one",
+      "2": "two",
+      "3": "three",
+      "4": "four",
+      "5": "five",
+      "6": "six",
+      "7": "seven",
+      "8": "eight",
+      "9": "nine"
+    }
+  },
+  "best_detecter_finetuned.pt": {
+    "sha256": "e8992c24c6fce8b2a53893c5a88642e806f67e9924be327d4d744b019692d596",
+    "git_blob": "cf94ae86b20bd9db9240cb997d601fb2b4783f8b",
+    "pre_ios_blob": "cf94ae86b20bd9db9240cb997d601fb2b4783f8b",
+    "date": "2026-06-25T17:51:31.810563",
+    "version": "8.4.50",
+    "epoch": -1,
+    "train_args": {
+      "model": "docker/ai/train_data/ref/best_detecter.pt",
+      "data": "docker/ai/train_data/generated/digit_detector/data.yaml",
+      "epochs": 3,
+      "imgsz": 512,
+      "name": "digit_finetune",
+      "project": "/Users/sou/github/saiten_ai_ebina/docker/ai/train_data/runs"
+    },
+    "classes": {
+      "0": "zero",
+      "1": "one",
+      "2": "two",
+      "3": "three",
+      "4": "four",
+      "5": "five",
+      "6": "six",
+      "7": "seven",
+      "8": "eight",
+      "9": "nine"
+    }
+  },
+  "best_cripper.pt": {
+    "sha256": "c26a03816f39e00a88a0f0ed50a10235ca8d7e53f19cd714bf1e0305def66da1",
+    "git_blob": "57f50dd4dd76124ad3820072d907a66815649349",
+    "pre_ios_blob": "57f50dd4dd76124ad3820072d907a66815649349",
+    "date": "2025-10-31T18:22:47.365430",
+    "version": "8.3.223",
+    "epoch": -1,
+    "train_args": {
+      "model": "yolov8n.pt",
+      "data": "data.yaml",
+      "epochs": 50,
+      "imgsz": 640,
+      "name": "train3",
+      "project": null
+    },
+    "classes": {
+      "0": "box"
+    }
+  },
+  "best_cripper_finetuned.pt": {
+    "sha256": "131402531b74b728a29331da01bbfae1de2503397cee1f01b129799cd02ba5c7",
+    "git_blob": "c04a77a4a16b206da5ffad1304373a46c9b77ec7",
+    "pre_ios_blob": "c04a77a4a16b206da5ffad1304373a46c9b77ec7",
+    "date": "2026-06-25T17:33:49.356561",
+    "version": "8.4.50",
+    "epoch": -1,
+    "train_args": {
+      "model": "docker/ai/train_data/ref/best_cripper.pt",
+      "data": "docker/ai/train_data/generated/box_detector/data.yaml",
+      "epochs": 8,
+      "imgsz": 640,
+      "name": "box_finetune",
+      "project": "/Users/sou/github/saiten_ai_ebina/docker/ai/train_data/runs"
+    },
+    "classes": {
+      "0": "box"
+    }
+  }
+}

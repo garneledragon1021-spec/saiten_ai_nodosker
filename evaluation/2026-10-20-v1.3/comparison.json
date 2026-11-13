@@ -1,0 +1,787 @@
+{
+  "apk_sha256": "fec4dc2470c3c80d3722b71c48abf1f7ffd2640778134b9b70955bdc777567cf",
+  "limitation": "Known development/regression images, not an independent holdout or Motorola camera benchmark",
+  "real_photos": {
+    "2400": {
+      "before": {
+        "cases": 8,
+        "fields": 32,
+        "correct_fields": 23,
+        "wrong_fields": 3,
+        "unread_fields": 6,
+        "accepted_field_accuracy": 0.884615,
+        "correct_field_coverage": 0.71875,
+        "complete_sheets": 4,
+        "exact_sheets": 3,
+        "wrong_complete_sheets": 1,
+        "wrong_totals": 1,
+        "failed_pipeline_cases": 0,
+        "median_ms": 2715.0,
+        "max_ms": 10110
+      },
+      "after": {
+        "cases": 8,
+        "fields": 32,
+        "correct_fields": 29,
+        "wrong_fields": 0,
+        "unread_fields": 3,
+        "accepted_field_accuracy": 1.0,
+        "correct_field_coverage": 0.90625,
+        "complete_sheets": 5,
+        "exact_sheets": 5,
+        "wrong_complete_sheets": 0,
+        "wrong_totals": 0,
+        "failed_pipeline_cases": 0,
+        "median_ms": 3086.5,
+        "max_ms": 4347
+      }
+    },
+    "1920": {
+      "before": {
+        "cases": 8,
+        "fields": 32,
+        "correct_fields": 21,
+        "wrong_fields": 3,
+        "unread_fields": 8,
+        "accepted_field_accuracy": 0.875,
+        "correct_field_coverage": 0.65625,
+        "complete_sheets": 3,
+        "exact_sheets": 2,
+        "wrong_complete_sheets": 1,
+        "wrong_totals": 1,
+        "failed_pipeline_cases": 1,
+        "median_ms": 2240.5,
+        "max_ms": 3271
+      },
+      "after": {
+        "cases": 8,
+        "fields": 32,
+        "correct_fields": 30,
+        "wrong_fields": 0,
+        "unread_fields": 2,
+        "accepted_field_accuracy": 1.0,
+        "correct_field_coverage": 0.9375,
+        "complete_sheets": 6,
+        "exact_sheets": 6,
+        "wrong_complete_sheets": 0,
+        "wrong_totals": 0,
+        "failed_pipeline_cases": 0,
+        "median_ms": 2360.5,
+        "max_ms": 3171
+      }
+    }
+  },
+  "broad_all": {
+    "before": {
+      "cases": 145,
+      "fields": 581,
+      "correct_fields": 520,
+      "wrong_fields": 10,
+      "unread_fields": 51,
+      "accepted_field_accuracy": 0.981132,
+      "correct_field_coverage": 0.895009,
+      "complete_sheets": 108,
+      "exact_sheets": 101,
+      "wrong_complete_sheets": 7,
+      "wrong_totals": 7,
+      "failed_pipeline_cases": 2,
+      "median_ms": 2529,
+      "max_ms": 4766
+    },
+    "after": {
+      "cases": 145,
+      "fields": 581,
+      "correct_fields": 524,
+      "wrong_fields": 1,
+      "unread_fields": 56,
+      "accepted_field_accuracy": 0.998095,
+      "correct_field_coverage": 0.901893,
+      "complete_sheets": 108,
+      "exact_sheets": 108,
+      "wrong_complete_sheets": 0,
+      "wrong_totals": 0,
+      "failed_pipeline_cases": 2,
+      "median_ms": 2066,
+      "max_ms": 5411
+    }
+  },
+  "constructed": {
+    "before": {
+      "cases": 138,
+      "fields": 558,
+      "correct_fields": 501,
+      "wrong_fields": 10,
+      "unread_fields": 47,
+      "accepted_field_accuracy": 0.980431,
+      "correct_field_coverage": 0.897849,
+      "complete_sheets": 102,
+      "exact_sheets": 95,
+      "wrong_complete_sheets": 7,
+      "wrong_totals": 7,
+      "failed_pipeline_cases": 1,
+      "median_ms": 2541.0,
+      "max_ms": 4766
+    },
+    "after": {
+      "cases": 138,
+      "fields": 558,
+      "correct_fields": 505,
+      "wrong_fields": 1,
+      "unread_fields": 52,
+      "accepted_field_accuracy": 0.998024,
+      "correct_field_coverage": 0.905018,
+      "complete_sheets": 102,
+      "exact_sheets": 102,
+      "wrong_complete_sheets": 0,
+      "wrong_totals": 0,
+      "failed_pipeline_cases": 1,
+      "median_ms": 2095.0,
+      "max_ms": 5411
+    }
+  },
+  "broad_automatic_qr": {
+    "before": {
+      "cases": 144,
+      "fields": 577,
+      "correct_fields": 516,
+      "wrong_fields": 10,
+      "unread_fields": 51,
+      "accepted_field_accuracy": 0.980989,
+      "correct_field_coverage": 0.894281,
+      "complete_sheets": 107,
+      "exact_sheets": 100,
+      "wrong_complete_sheets": 7,
+      "wrong_totals": 7,
+      "failed_pipeline_cases": 2,
+      "median_ms": 2532.0,
+      "max_ms": 4766
+    },
+    "after": {
+      "cases": 144,
+      "fields": 577,
+      "correct_fields": 520,
+      "wrong_fields": 1,
+      "unread_fields": 56,
+      "accepted_field_accuracy": 0.998081,
+      "correct_field_coverage": 0.901213,
+      "complete_sheets": 107,
+      "exact_sheets": 107,
+      "wrong_complete_sheets": 0,
+      "wrong_totals": 0,
+      "failed_pipeline_cases": 2,
+      "median_ms": 2067.0,
+      "max_ms": 5411
+    }
+  },
+  "broad_by_family": {
+    "constructed-baseline": {
+      "before": {
+        "cases": 23,
+        "fields": 93,
+        "correct_fields": 85,
+        "wrong_fields": 2,
+        "unread_fields": 6,
+        "accepted_field_accuracy": 0.977011,
+        "correct_field_coverage": 0.913978,
+        "complete_sheets": 17,
+        "exact_sheets": 16,
+        "wrong_complete_sheets": 1,
+        "wrong_totals": 1,
+        "failed_pipeline_cases": 0,
+        "median_ms": 2554,
+        "max_ms": 4597
+      },
+      "after": {
+        "cases": 23,
+        "fields": 93,
+        "correct_fields": 89,
+        "wrong_fields": 0,
+        "unread_fields": 4,
+        "accepted_field_accuracy": 1.0,
+        "correct_field_coverage": 0.956989,
+        "complete_sheets": 19,
+        "exact_sheets": 19,
+        "wrong_complete_sheets": 0,
+        "wrong_totals": 0,
+        "failed_pipeline_cases": 0,
+        "median_ms": 1811,
+        "max_ms": 3805
+      }
+    },
+    "constructed-blur": {
+      "before": {
+        "cases": 23,
+        "fields": 93,
+        "correct_fields": 86,
+        "wrong_fields": 2,
+        "unread_fields": 5,
+        "accepted_field_accuracy": 0.977273,
+        "correct_field_coverage": 0.924731,
+        "complete_sheets": 19,
+        "exact_sheets": 17,
+        "wrong_complete_sheets": 2,
+        "wrong_totals": 2,
+        "failed_pipeline_cases": 0,
+        "median_ms": 2471,
+        "max_ms": 4253
+      },
+      "after": {
+        "cases": 23,
+        "fields": 93,
+        "correct_fields": 91,
+        "wrong_fields": 0,
+        "unread_fields": 2,
+        "accepted_field_accuracy": 1.0,
+        "correct_field_coverage": 0.978495,
+        "complete_sheets": 22,
+        "exact_sheets": 22,
+        "wrong_complete_sheets": 0,
+        "wrong_totals": 0,
+        "failed_pipeline_cases": 0,
+        "median_ms": 1716,
+        "max_ms": 3188
+      }
+    },
+    "constructed-dark": {
+      "before": {
+        "cases": 23,
+        "fields": 93,
+        "correct_fields": 82,
+        "wrong_fields": 2,
+        "unread_fields": 9,
+        "accepted_field_accuracy": 0.97619,
+        "correct_field_coverage": 0.88172,
+        "complete_sheets": 18,
+        "exact_sheets": 16,
+        "wrong_complete_sheets": 2,
+        "wrong_totals": 2,
+        "failed_pipeline_cases": 1,
+        "median_ms": 2604,
+        "max_ms": 4233
+      },
+      "after": {
+        "cases": 23,
+        "fields": 93,
+        "correct_fields": 80,
+        "wrong_fields": 0,
+        "unread_fields": 13,
+        "accepted_field_accuracy": 1.0,
+        "correct_field_coverage": 0.860215,
+        "complete_sheets": 14,
+        "exact_sheets": 14,
+        "wrong_complete_sheets": 0,
+        "wrong_totals": 0,
+        "failed_pipeline_cases": 1,
+        "median_ms": 2570,
+        "max_ms": 3757
+      }
+    },
+    "constructed-jpeg35": {
+      "before": {
+        "cases": 23,
+        "fields": 93,
+        "correct_fields": 79,
+        "wrong_fields": 1,
+        "unread_fields": 13,
+        "accepted_field_accuracy": 0.9875,
+        "correct_field_coverage": 0.849462,
+        "complete_sheets": 14,
+        "exact_sheets": 14,
+        "wrong_complete_sheets": 0,
+        "wrong_totals": 0,
+        "failed_pipeline_cases": 0,
+        "median_ms": 2632,
+        "max_ms": 3938
+      },
+      "after": {
+        "cases": 23,
+        "fields": 93,
+        "correct_fields": 70,
+        "wrong_fields": 1,
+        "unread_fields": 22,
+        "accepted_field_accuracy": 0.985915,
+        "correct_field_coverage": 0.752688,
+        "complete_sheets": 11,
+        "exact_sheets": 11,
+        "wrong_complete_sheets": 0,
+        "wrong_totals": 0,
+        "failed_pipeline_cases": 0,
+        "median_ms": 3547,
+        "max_ms": 5411
+      }
+    },
+    "constructed-low_resolution": {
+      "before": {
+        "cases": 23,
+        "fields": 93,
+        "correct_fields": 89,
+        "wrong_fields": 1,
+        "unread_fields": 3,
+        "accepted_field_accuracy": 0.988889,
+        "correct_field_coverage": 0.956989,
+        "complete_sheets": 21,
+        "exact_sheets": 20,
+        "wrong_complete_sheets": 1,
+        "wrong_totals": 1,
+        "failed_pipeline_cases": 0,
+        "median_ms": 2470,
+        "max_ms": 4766
+      },
+      "after": {
+        "cases": 23,
+        "fields": 93,
+        "correct_fields": 89,
+        "wrong_fields": 0,
+        "unread_fields": 4,
+        "accepted_field_accuracy": 1.0,
+        "correct_field_coverage": 0.956989,
+        "complete_sheets": 20,
+        "exact_sheets": 20,
+        "wrong_complete_sheets": 0,
+        "wrong_totals": 0,
+        "failed_pipeline_cases": 0,
+        "median_ms": 1869,
+        "max_ms": 4087
+      }
+    },
+    "constructed-shadow": {
+      "before": {
+        "cases": 23,
+        "fields": 93,
+        "correct_fields": 80,
+        "wrong_fields": 2,
+        "unread_fields": 11,
+        "accepted_field_accuracy": 0.97561,
+        "correct_field_coverage": 0.860215,
+        "complete_sheets": 13,
+        "exact_sheets": 12,
+        "wrong_complete_sheets": 1,
+        "wrong_totals": 1,
+        "failed_pipeline_cases": 0,
+        "median_ms": 2519,
+        "max_ms": 3773
+      },
+      "after": {
+        "cases": 23,
+        "fields": 93,
+        "correct_fields": 86,
+        "wrong_fields": 0,
+        "unread_fields": 7,
+        "accepted_field_accuracy": 1.0,
+        "correct_field_coverage": 0.924731,
+        "complete_sheets": 16,
+        "exact_sheets": 16,
+        "wrong_complete_sheets": 0,
+        "wrong_totals": 0,
+        "failed_pipeline_cases": 0,
+        "median_ms": 1924,
+        "max_ms": 5052
+      }
+    },
+    "existing-screenshot-auto": {
+      "before": {
+        "cases": 1,
+        "fields": 4,
+        "correct_fields": 0,
+        "wrong_fields": 0,
+        "unread_fields": 4,
+        "accepted_field_accuracy": null,
+        "correct_field_coverage": 0.0,
+        "complete_sheets": 0,
+        "exact_sheets": 0,
+        "wrong_complete_sheets": 0,
+        "wrong_totals": 0,
+        "failed_pipeline_cases": 1,
+        "median_ms": 113,
+        "max_ms": 113
+      },
+      "after": {
+        "cases": 1,
+        "fields": 4,
+        "correct_fields": 0,
+        "wrong_fields": 0,
+        "unread_fields": 4,
+        "accepted_field_accuracy": null,
+        "correct_field_coverage": 0.0,
+        "complete_sheets": 0,
+        "exact_sheets": 0,
+        "wrong_complete_sheets": 0,
+        "wrong_totals": 0,
+        "failed_pipeline_cases": 1,
+        "median_ms": 48,
+        "max_ms": 48
+      }
+    },
+    "existing-screenshot-injected": {
+      "before": {
+        "cases": 1,
+        "fields": 4,
+        "correct_fields": 4,
+        "wrong_fields": 0,
+        "unread_fields": 0,
+        "accepted_field_accuracy": 1.0,
+        "correct_field_coverage": 1.0,
+        "complete_sheets": 1,
+        "exact_sheets": 1,
+        "wrong_complete_sheets": 0,
+        "wrong_totals": 0,
+        "failed_pipeline_cases": 0,
+        "median_ms": 1376,
+        "max_ms": 1376
+      },
+      "after": {
+        "cases": 1,
+        "fields": 4,
+        "correct_fields": 4,
+        "wrong_fields": 0,
+        "unread_fields": 0,
+        "accepted_field_accuracy": 1.0,
+        "correct_field_coverage": 1.0,
+        "complete_sheets": 1,
+        "exact_sheets": 1,
+        "wrong_complete_sheets": 0,
+        "wrong_totals": 0,
+        "failed_pipeline_cases": 0,
+        "median_ms": 953,
+        "max_ms": 953
+      }
+    },
+    "existing-whole-sheet": {
+      "before": {
+        "cases": 5,
+        "fields": 15,
+        "correct_fields": 15,
+        "wrong_fields": 0,
+        "unread_fields": 0,
+        "accepted_field_accuracy": 1.0,
+        "correct_field_coverage": 1.0,
+        "complete_sheets": 5,
+        "exact_sheets": 5,
+        "wrong_complete_sheets": 0,
+        "wrong_totals": 0,
+        "failed_pipeline_cases": 0,
+        "median_ms": 1282,
+        "max_ms": 1604
+      },
+      "after": {
+        "cases": 5,
+        "fields": 15,
+        "correct_fields": 15,
+        "wrong_fields": 0,
+        "unread_fields": 0,
+        "accepted_field_accuracy": 1.0,
+        "correct_field_coverage": 1.0,
+        "complete_sheets": 5,
+        "exact_sheets": 5,
+        "wrong_complete_sheets": 0,
+        "wrong_totals": 0,
+        "failed_pipeline_cases": 0,
+        "median_ms": 659,
+        "max_ms": 739
+      }
+    }
+  },
+  "remaining_wrong": [
+    {
+      "id": "row07-jpeg35",
+      "family": "constructed-jpeg35",
+      "file": "row07-jpeg35.png",
+      "expected": [
+        90,
+        92,
+        91,
+        78
+      ],
+      "source_ids": [
+        "41_01",
+        "41_02",
+        "41_03",
+        "46_00"
+      ],
+      "scores": [
+        90,
+        92,
+        9,
+        null
+      ],
+      "total": null,
+      "rotation": 0,
+      "diagnostic": "得点枠: 4個 / 数字: 5個 / 向き・枠の傾き・明るさ補正あり / 2.467秒 / 1欄は読取不能（合計未確定）",
+      "elapsed_ms": 2468
+    }
+  ],
+  "real_photo_cases": [
+    {
+      "id": "user05-2400",
+      "expected": [
+        10,
+        14,
+        23,
+        24
+      ],
+      "scores": [
+        10,
+        14,
+        23,
+        24
+      ],
+      "total": 71,
+      "error": null
+    },
+    {
+      "id": "user05-1920",
+      "expected": [
+        10,
+        14,
+        23,
+        24
+      ],
+      "scores": [
+        10,
+        14,
+        23,
+        24
+      ],
+      "total": 71,
+      "error": null
+    },
+    {
+      "id": "user06-2400",
+      "expected": [
+        8,
+        20,
+        27,
+        18
+      ],
+      "scores": [
+        8,
+        20,
+        27,
+        null
+      ],
+      "total": null,
+      "error": null
+    },
+    {
+      "id": "user06-1920",
+      "expected": [
+        8,
+        20,
+        27,
+        18
+      ],
+      "scores": [
+        8,
+        20,
+        27,
+        null
+      ],
+      "total": null,
+      "error": null
+    },
+    {
+      "id": "user07-2400",
+      "expected": [
+        6,
+        4,
+        30,
+        27
+      ],
+      "scores": [
+        6,
+        4,
+        30,
+        27
+      ],
+      "total": 67,
+      "error": null
+    },
+    {
+      "id": "user07-1920",
+      "expected": [
+        6,
+        4,
+        30,
+        27
+      ],
+      "scores": [
+        6,
+        4,
+        30,
+        27
+      ],
+      "total": 67,
+      "error": null
+    },
+    {
+      "id": "user08-2400",
+      "expected": [
+        18,
+        20,
+        30,
+        27
+      ],
+      "scores": [
+        18,
+        20,
+        30,
+        27
+      ],
+      "total": 95,
+      "error": null
+    },
+    {
+      "id": "user08-1920",
+      "expected": [
+        18,
+        20,
+        30,
+        27
+      ],
+      "scores": [
+        18,
+        20,
+        30,
+        27
+      ],
+      "total": 95,
+      "error": null
+    },
+    {
+      "id": "user09-2400",
+      "expected": [
+        18,
+        20,
+        27,
+        3
+      ],
+      "scores": [
+        18,
+        20,
+        27,
+        3
+      ],
+      "total": 68,
+      "error": null
+    },
+    {
+      "id": "user09-1920",
+      "expected": [
+        18,
+        20,
+        27,
+        3
+      ],
+      "scores": [
+        18,
+        20,
+        27,
+        3
+      ],
+      "total": 68,
+      "error": null
+    },
+    {
+      "id": "user10-2400",
+      "expected": [
+        20,
+        20,
+        30,
+        30
+      ],
+      "scores": [
+        20,
+        20,
+        30,
+        30
+      ],
+      "total": 100,
+      "error": null
+    },
+    {
+      "id": "user10-1920",
+      "expected": [
+        20,
+        20,
+        30,
+        30
+      ],
+      "scores": [
+        20,
+        20,
+        30,
+        30
+      ],
+      "total": 100,
+      "error": null
+    },
+    {
+      "id": "user11-2400",
+      "expected": [
+        12,
+        18,
+        6,
+        24
+      ],
+      "scores": [
+        12,
+        null,
+        6,
+        24
+      ],
+      "total": null,
+      "error": null
+    },
+    {
+      "id": "user11-1920",
+      "expected": [
+        12,
+        18,
+        6,
+        24
+      ],
+      "scores": [
+        12,
+        null,
+        6,
+        24
+      ],
+      "total": null,
+      "error": null
+    },
+    {
+      "id": "user12-2400",
+      "expected": [
+        16,
+        20,
+        30,
+        30
+      ],
+      "scores": [
+        16,
+        null,
+        30,
+        30
+      ],
+      "total": null,
+      "error": null
+    },
+    {
+      "id": "user12-1920",
+      "expected": [
+        16,
+        20,
+        30,
+        30
+      ],
+      "scores": [
+        16,
+        20,
+        30,
+        30
+      ],
+      "total": 96,
+      "error": null
+    }
+  ]
+}

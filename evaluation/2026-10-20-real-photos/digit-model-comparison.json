@@ -1,0 +1,957 @@
+{
+  "scope": "Manually located fields, approximate production YOLO preprocessing, no QR/frame/CNN/OCR/score-resolver evaluation",
+  "summary": {
+    "original": {
+      "fields": 32,
+      "correct": 30,
+      "wrong": 2,
+      "unread": 0,
+      "exact_photos": 6
+    },
+    "auto_finetuned": {
+      "fields": 32,
+      "correct": 30,
+      "wrong": 2,
+      "unread": 0,
+      "exact_photos": 6
+    }
+  },
+  "results": [
+    {
+      "photo": 5,
+      "field": 1,
+      "expected": 10,
+      "original": {
+        "value": 10,
+        "digits": [
+          {
+            "digit": 1,
+            "confidence": 0.7982372045516968
+          },
+          {
+            "digit": 0,
+            "confidence": 0.7840687036514282
+          }
+        ]
+      },
+      "auto_finetuned": {
+        "value": 10,
+        "digits": [
+          {
+            "digit": 1,
+            "confidence": 0.5648980736732483
+          },
+          {
+            "digit": 0,
+            "confidence": 0.8012166023254395
+          }
+        ]
+      }
+    },
+    {
+      "photo": 5,
+      "field": 2,
+      "expected": 14,
+      "original": {
+        "value": 14,
+        "digits": [
+          {
+            "digit": 1,
+            "confidence": 0.7244138717651367
+          },
+          {
+            "digit": 4,
+            "confidence": 0.8669214248657227
+          }
+        ]
+      },
+      "auto_finetuned": {
+        "value": 14,
+        "digits": [
+          {
+            "digit": 1,
+            "confidence": 0.5259881615638733
+          },
+          {
+            "digit": 4,
+            "confidence": 0.8320671319961548
+          }
+        ]
+      }
+    },
+    {
+      "photo": 5,
+      "field": 3,
+      "expected": 23,
+      "original": {
+        "value": 23,
+        "digits": [
+          {
+            "digit": 2,
+            "confidence": 0.899715781211853
+          },
+          {
+            "digit": 3,
+            "confidence": 0.9131797552108765
+          }
+        ]
+      },
+      "auto_finetuned": {
+        "value": 23,
+        "digits": [
+          {
+            "digit": 2,
+            "confidence": 0.9080616235733032
+          },
+          {
+            "digit": 3,
+            "confidence": 0.8918275237083435
+          }
+        ]
+      }
+    },
+    {
+      "photo": 5,
+      "field": 4,
+      "expected": 24,
+      "original": {
+        "value": 24,
+        "digits": [
+          {
+            "digit": 2,
+            "confidence": 0.8535762429237366
+          },
+          {
+            "digit": 4,
+            "confidence": 0.8923155069351196
+          }
+        ]
+      },
+      "auto_finetuned": {
+        "value": 24,
+        "digits": [
+          {
+            "digit": 2,
+            "confidence": 0.8562265634536743
+          },
+          {
+            "digit": 4,
+            "confidence": 0.8424777984619141
+          }
+        ]
+      }
+    },
+    {
+      "photo": 6,
+      "field": 1,
+      "expected": 8,
+      "original": {
+        "value": 8,
+        "digits": [
+          {
+            "digit": 8,
+            "confidence": 0.9582690000534058
+          }
+        ]
+      },
+      "auto_finetuned": {
+        "value": 8,
+        "digits": [
+          {
+            "digit": 8,
+            "confidence": 0.9167376756668091
+          }
+        ]
+      }
+    },
+    {
+      "photo": 6,
+      "field": 2,
+      "expected": 20,
+      "original": {
+        "value": 20,
+        "digits": [
+          {
+            "digit": 2,
+            "confidence": 0.8849178552627563
+          },
+          {
+            "digit": 0,
+            "confidence": 0.8883618712425232
+          }
+        ]
+      },
+      "auto_finetuned": {
+        "value": 20,
+        "digits": [
+          {
+            "digit": 2,
+            "confidence": 0.897804856300354
+          },
+          {
+            "digit": 0,
+            "confidence": 0.7780332565307617
+          }
+        ]
+      }
+    },
+    {
+      "photo": 6,
+      "field": 3,
+      "expected": 27,
+      "original": {
+        "value": 27,
+        "digits": [
+          {
+            "digit": 2,
+            "confidence": 0.9076929092407227
+          },
+          {
+            "digit": 7,
+            "confidence": 0.8848799467086792
+          }
+        ]
+      },
+      "auto_finetuned": {
+        "value": 27,
+        "digits": [
+          {
+            "digit": 2,
+            "confidence": 0.8952563405036926
+          },
+          {
+            "digit": 7,
+            "confidence": 0.8907502889633179
+          }
+        ]
+      }
+    },
+    {
+      "photo": 6,
+      "field": 4,
+      "expected": 18,
+      "original": {
+        "value": 8,
+        "digits": [
+          {
+            "digit": 8,
+            "confidence": 0.941980242729187
+          }
+        ]
+      },
+      "auto_finetuned": {
+        "value": 8,
+        "digits": [
+          {
+            "digit": 8,
+            "confidence": 0.9361408948898315
+          }
+        ]
+      }
+    },
+    {
+      "photo": 7,
+      "field": 1,
+      "expected": 6,
+      "original": {
+        "value": 6,
+        "digits": [
+          {
+            "digit": 6,
+            "confidence": 0.8675813674926758
+          }
+        ]
+      },
+      "auto_finetuned": {
+        "value": 6,
+        "digits": [
+          {
+            "digit": 6,
+            "confidence": 0.8597993850708008
+          }
+        ]
+      }
+    },
+    {
+      "photo": 7,
+      "field": 2,
+      "expected": 4,
+      "original": {
+        "value": 4,
+        "digits": [
+          {
+            "digit": 4,
+            "confidence": 0.7055231332778931
+          }
+        ]
+      },
+      "auto_finetuned": {
+        "value": 4,
+        "digits": [
+          {
+            "digit": 4,
+            "confidence": 0.8488907814025879
+          }
+        ]
+      }
+    },
+    {
+      "photo": 7,
+      "field": 3,
+      "expected": 30,
+      "original": {
+        "value": 3,
+        "digits": [
+          {
+            "digit": 3,
+            "confidence": 0.8315286636352539
+          }
+        ]
+      },
+      "auto_finetuned": {
+        "value": 30,
+        "digits": [
+          {
+            "digit": 3,
+            "confidence": 0.8779762983322144
+          },
+          {
+            "digit": 0,
+            "confidence": 0.6462228298187256
+          }
+        ]
+      }
+    },
+    {
+      "photo": 7,
+      "field": 4,
+      "expected": 27,
+      "original": {
+        "value": 27,
+        "digits": [
+          {
+            "digit": 2,
+            "confidence": 0.7992525100708008
+          },
+          {
+            "digit": 7,
+            "confidence": 0.8418302536010742
+          }
+        ]
+      },
+      "auto_finetuned": {
+        "value": 27,
+        "digits": [
+          {
+            "digit": 2,
+            "confidence": 0.8555598258972168
+          },
+          {
+            "digit": 7,
+            "confidence": 0.860926628112793
+          }
+        ]
+      }
+    },
+    {
+      "photo": 8,
+      "field": 1,
+      "expected": 18,
+      "original": {
+        "value": 18,
+        "digits": [
+          {
+            "digit": 1,
+            "confidence": 0.8247411251068115
+          },
+          {
+            "digit": 8,
+            "confidence": 0.914371132850647
+          }
+        ]
+      },
+      "auto_finetuned": {
+        "value": 18,
+        "digits": [
+          {
+            "digit": 1,
+            "confidence": 0.658319890499115
+          },
+          {
+            "digit": 8,
+            "confidence": 0.9182697534561157
+          }
+        ]
+      }
+    },
+    {
+      "photo": 8,
+      "field": 2,
+      "expected": 20,
+      "original": {
+        "value": 20,
+        "digits": [
+          {
+            "digit": 2,
+            "confidence": 0.8183945417404175
+          },
+          {
+            "digit": 0,
+            "confidence": 0.7106649875640869
+          }
+        ]
+      },
+      "auto_finetuned": {
+        "value": 20,
+        "digits": [
+          {
+            "digit": 2,
+            "confidence": 0.8543077707290649
+          },
+          {
+            "digit": 0,
+            "confidence": 0.6931054592132568
+          }
+        ]
+      }
+    },
+    {
+      "photo": 8,
+      "field": 3,
+      "expected": 30,
+      "original": {
+        "value": 30,
+        "digits": [
+          {
+            "digit": 3,
+            "confidence": 0.9090358018875122
+          },
+          {
+            "digit": 0,
+            "confidence": 0.8511062860488892
+          }
+        ]
+      },
+      "auto_finetuned": {
+        "value": 30,
+        "digits": [
+          {
+            "digit": 3,
+            "confidence": 0.9195682406425476
+          },
+          {
+            "digit": 0,
+            "confidence": 0.7557371854782104
+          }
+        ]
+      }
+    },
+    {
+      "photo": 8,
+      "field": 4,
+      "expected": 27,
+      "original": {
+        "value": 27,
+        "digits": [
+          {
+            "digit": 2,
+            "confidence": 0.879705548286438
+          },
+          {
+            "digit": 7,
+            "confidence": 0.8996213674545288
+          }
+        ]
+      },
+      "auto_finetuned": {
+        "value": 27,
+        "digits": [
+          {
+            "digit": 2,
+            "confidence": 0.8568514585494995
+          },
+          {
+            "digit": 7,
+            "confidence": 0.8864117860794067
+          }
+        ]
+      }
+    },
+    {
+      "photo": 9,
+      "field": 1,
+      "expected": 18,
+      "original": {
+        "value": 18,
+        "digits": [
+          {
+            "digit": 1,
+            "confidence": 0.5855106115341187
+          },
+          {
+            "digit": 8,
+            "confidence": 0.942538321018219
+          }
+        ]
+      },
+      "auto_finetuned": {
+        "value": 8,
+        "digits": [
+          {
+            "digit": 8,
+            "confidence": 0.9031628966331482
+          }
+        ]
+      }
+    },
+    {
+      "photo": 9,
+      "field": 2,
+      "expected": 20,
+      "original": {
+        "value": 20,
+        "digits": [
+          {
+            "digit": 2,
+            "confidence": 0.9012686014175415
+          },
+          {
+            "digit": 0,
+            "confidence": 0.8481448292732239
+          }
+        ]
+      },
+      "auto_finetuned": {
+        "value": 20,
+        "digits": [
+          {
+            "digit": 2,
+            "confidence": 0.8868451118469238
+          },
+          {
+            "digit": 0,
+            "confidence": 0.7513628005981445
+          }
+        ]
+      }
+    },
+    {
+      "photo": 9,
+      "field": 3,
+      "expected": 27,
+      "original": {
+        "value": 27,
+        "digits": [
+          {
+            "digit": 2,
+            "confidence": 0.8852809071540833
+          },
+          {
+            "digit": 7,
+            "confidence": 0.9160283207893372
+          }
+        ]
+      },
+      "auto_finetuned": {
+        "value": 27,
+        "digits": [
+          {
+            "digit": 2,
+            "confidence": 0.8632635474205017
+          },
+          {
+            "digit": 7,
+            "confidence": 0.885601818561554
+          }
+        ]
+      }
+    },
+    {
+      "photo": 9,
+      "field": 4,
+      "expected": 3,
+      "original": {
+        "value": 3,
+        "digits": [
+          {
+            "digit": 3,
+            "confidence": 0.8937188386917114
+          }
+        ]
+      },
+      "auto_finetuned": {
+        "value": 3,
+        "digits": [
+          {
+            "digit": 3,
+            "confidence": 0.8964184522628784
+          }
+        ]
+      }
+    },
+    {
+      "photo": 10,
+      "field": 1,
+      "expected": 20,
+      "original": {
+        "value": 20,
+        "digits": [
+          {
+            "digit": 2,
+            "confidence": 0.8122994303703308
+          },
+          {
+            "digit": 0,
+            "confidence": 0.6983481645584106
+          }
+        ]
+      },
+      "auto_finetuned": {
+        "value": 20,
+        "digits": [
+          {
+            "digit": 2,
+            "confidence": 0.844632625579834
+          },
+          {
+            "digit": 0,
+            "confidence": 0.7584222555160522
+          }
+        ]
+      }
+    },
+    {
+      "photo": 10,
+      "field": 2,
+      "expected": 20,
+      "original": {
+        "value": 20,
+        "digits": [
+          {
+            "digit": 2,
+            "confidence": 0.8765599131584167
+          },
+          {
+            "digit": 0,
+            "confidence": 0.572235643863678
+          }
+        ]
+      },
+      "auto_finetuned": {
+        "value": 20,
+        "digits": [
+          {
+            "digit": 2,
+            "confidence": 0.8591067790985107
+          },
+          {
+            "digit": 0,
+            "confidence": 0.6932663321495056
+          }
+        ]
+      }
+    },
+    {
+      "photo": 10,
+      "field": 3,
+      "expected": 30,
+      "original": {
+        "value": 30,
+        "digits": [
+          {
+            "digit": 3,
+            "confidence": 0.8950532078742981
+          },
+          {
+            "digit": 0,
+            "confidence": 0.7917478084564209
+          }
+        ]
+      },
+      "auto_finetuned": {
+        "value": 30,
+        "digits": [
+          {
+            "digit": 3,
+            "confidence": 0.902347981929779
+          },
+          {
+            "digit": 0,
+            "confidence": 0.7732752561569214
+          }
+        ]
+      }
+    },
+    {
+      "photo": 10,
+      "field": 4,
+      "expected": 30,
+      "original": {
+        "value": 30,
+        "digits": [
+          {
+            "digit": 3,
+            "confidence": 0.8541189432144165
+          },
+          {
+            "digit": 0,
+            "confidence": 0.6309709548950195
+          }
+        ]
+      },
+      "auto_finetuned": {
+        "value": 30,
+        "digits": [
+          {
+            "digit": 3,
+            "confidence": 0.9062004089355469
+          },
+          {
+            "digit": 0,
+            "confidence": 0.709301769733429
+          }
+        ]
+      }
+    },
+    {
+      "photo": 11,
+      "field": 1,
+      "expected": 12,
+      "original": {
+        "value": 12,
+        "digits": [
+          {
+            "digit": 1,
+            "confidence": 0.6288584470748901
+          },
+          {
+            "digit": 2,
+            "confidence": 0.8187862038612366
+          }
+        ]
+      },
+      "auto_finetuned": {
+        "value": 12,
+        "digits": [
+          {
+            "digit": 1,
+            "confidence": 0.47599732875823975
+          },
+          {
+            "digit": 2,
+            "confidence": 0.8820911645889282
+          }
+        ]
+      }
+    },
+    {
+      "photo": 11,
+      "field": 2,
+      "expected": 18,
+      "original": {
+        "value": 18,
+        "digits": [
+          {
+            "digit": 1,
+            "confidence": 0.6467285752296448
+          },
+          {
+            "digit": 8,
+            "confidence": 0.9015887975692749
+          }
+        ]
+      },
+      "auto_finetuned": {
+        "value": 18,
+        "digits": [
+          {
+            "digit": 1,
+            "confidence": 0.5371716618537903
+          },
+          {
+            "digit": 8,
+            "confidence": 0.8902842998504639
+          }
+        ]
+      }
+    },
+    {
+      "photo": 11,
+      "field": 3,
+      "expected": 6,
+      "original": {
+        "value": 6,
+        "digits": [
+          {
+            "digit": 6,
+            "confidence": 0.868372917175293
+          }
+        ]
+      },
+      "auto_finetuned": {
+        "value": 6,
+        "digits": [
+          {
+            "digit": 6,
+            "confidence": 0.8796616792678833
+          }
+        ]
+      }
+    },
+    {
+      "photo": 11,
+      "field": 4,
+      "expected": 24,
+      "original": {
+        "value": 24,
+        "digits": [
+          {
+            "digit": 2,
+            "confidence": 0.8388157486915588
+          },
+          {
+            "digit": 4,
+            "confidence": 0.8890446424484253
+          }
+        ]
+      },
+      "auto_finetuned": {
+        "value": 24,
+        "digits": [
+          {
+            "digit": 2,
+            "confidence": 0.8746036291122437
+          },
+          {
+            "digit": 4,
+            "confidence": 0.8118201494216919
+          }
+        ]
+      }
+    },
+    {
+      "photo": 12,
+      "field": 1,
+      "expected": 16,
+      "original": {
+        "value": 16,
+        "digits": [
+          {
+            "digit": 1,
+            "confidence": 0.800325870513916
+          },
+          {
+            "digit": 6,
+            "confidence": 0.8785820603370667
+          }
+        ]
+      },
+      "auto_finetuned": {
+        "value": 16,
+        "digits": [
+          {
+            "digit": 1,
+            "confidence": 0.6391416192054749
+          },
+          {
+            "digit": 6,
+            "confidence": 0.8322737216949463
+          }
+        ]
+      }
+    },
+    {
+      "photo": 12,
+      "field": 2,
+      "expected": 20,
+      "original": {
+        "value": 20,
+        "digits": [
+          {
+            "digit": 2,
+            "confidence": 0.8753325939178467
+          },
+          {
+            "digit": 0,
+            "confidence": 0.7331950664520264
+          }
+        ]
+      },
+      "auto_finetuned": {
+        "value": 20,
+        "digits": [
+          {
+            "digit": 2,
+            "confidence": 0.8651484847068787
+          },
+          {
+            "digit": 0,
+            "confidence": 0.7509551644325256
+          }
+        ]
+      }
+    },
+    {
+      "photo": 12,
+      "field": 3,
+      "expected": 30,
+      "original": {
+        "value": 30,
+        "digits": [
+          {
+            "digit": 3,
+            "confidence": 0.8976103067398071
+          },
+          {
+            "digit": 0,
+            "confidence": 0.8231050968170166
+          }
+        ]
+      },
+      "auto_finetuned": {
+        "value": 30,
+        "digits": [
+          {
+            "digit": 3,
+            "confidence": 0.8937135934829712
+          },
+          {
+            "digit": 0,
+            "confidence": 0.782164990901947
+          }
+        ]
+      }
+    },
+    {
+      "photo": 12,
+      "field": 4,
+      "expected": 30,
+      "original": {
+        "value": 30,
+        "digits": [
+          {
+            "digit": 3,
+            "confidence": 0.90558922290802
+          },
+          {
+            "digit": 0,
+            "confidence": 0.8269400596618652
+          }
+        ]
+      },
+      "auto_finetuned": {
+        "value": 30,
+        "digits": [
+          {
+            "digit": 3,
+            "confidence": 0.8882699012756348
+          },
+          {
+            "digit": 0,
+            "confidence": 0.7344328165054321
+          }
+        ]
+      }
+    }
+  ]
+}

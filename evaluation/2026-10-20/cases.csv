@@ -1,0 +1,146 @@
+﻿id,family,expected,scores,error,elapsed_ms
+row01-baseline,constructed-baseline,"[1, 8, 9, 92]","[1, 8, 9, 92]",,4009
+row01-low_resolution,constructed-low_resolution,"[1, 8, 9, 92]","[1, 8, 9, 92]",,1388
+row01-dark,constructed-dark,"[1, 8, 9, 92]","[1, 8, None, 92]",,1744
+row01-shadow,constructed-shadow,"[1, 8, 9, 92]","[1, 8, 9, 92]",,1714
+row01-blur,constructed-blur,"[1, 8, 9, 92]","[1, 8, 9, 92]",,1848
+row01-jpeg35,constructed-jpeg35,"[1, 8, 9, 92]","[1, None, 9, None]",,1493
+row02-baseline,constructed-baseline,"[94, 93, 77, 78]","[94, 93, 77, None]",,1585
+row02-low_resolution,constructed-low_resolution,"[94, 93, 77, 78]","[94, 93, 77, 78]",,1534
+row02-dark,constructed-dark,"[94, 93, 77, 78]","[94, 93, 77, 78]",,1503
+row02-shadow,constructed-shadow,"[94, 93, 77, 78]","[94, 93, 77, None]",,1683
+row02-blur,constructed-blur,"[94, 93, 77, 78]","[94, 93, 77, 78]",,1502
+row02-jpeg35,constructed-jpeg35,"[94, 93, 77, 78]","[94, 93, 77, 78]",,1518
+row03-baseline,constructed-baseline,"[79, 64, 63, 49]","[None, 64, 63, 49]",,1712
+row03-low_resolution,constructed-low_resolution,"[79, 64, 63, 49]","[79, 64, 63, 49]",,1531
+row03-dark,constructed-dark,"[79, 64, 63, 49]","[79, 64, 63, 49]",,1574
+row03-shadow,constructed-shadow,"[79, 64, 63, 49]","[79, 64, 63, 49]",,2087
+row03-blur,constructed-blur,"[79, 64, 63, 49]","[79, 64, 63, 49]",,2407
+row03-jpeg35,constructed-jpeg35,"[79, 64, 63, 49]","[None, 64, 63, 49]",,1922
+row04-baseline,constructed-baseline,"[48, 47, 46, 30]","[48, 47, 46, 30]",,1666
+row04-low_resolution,constructed-low_resolution,"[48, 47, 46, 30]","[48, 47, 46, 30]",,2265
+row04-dark,constructed-dark,"[48, 47, 46, 30]",,ScoringException: 得点枠は3個です。指定の4個すべてが写るよう撮り直すか、得点欄数を確認してください。,241
+row04-shadow,constructed-shadow,"[48, 47, 46, 30]","[48, 47, 46, 30]",,1787
+row04-blur,constructed-blur,"[48, 47, 46, 30]","[48, 47, 46, 30]",,1863
+row04-jpeg35,constructed-jpeg35,"[48, 47, 46, 30]","[48, 47, 46, None]",,1834
+row05-baseline,constructed-baseline,"[31, 28, 29, 9]","[31, 28, 29, 9]",,2044
+row05-low_resolution,constructed-low_resolution,"[31, 28, 29, 9]","[31, 28, 29, 9]",,1601
+row05-dark,constructed-dark,"[31, 28, 29, 9]","[31, 28, 29, 9]",,1704
+row05-shadow,constructed-shadow,"[31, 28, 29, 9]","[31, 28, 29, None]",,1714
+row05-blur,constructed-blur,"[31, 28, 29, 9]","[31, 28, 29, 9]",,1527
+row05-jpeg35,constructed-jpeg35,"[31, 28, 29, 9]","[31, 28, 29, 9]",,1667
+row06-baseline,constructed-baseline,"[10, 12, 11, 93]","[10, 12, 11, 93]",,1674
+row06-low_resolution,constructed-low_resolution,"[10, 12, 11, 93]","[10, 12, 11, 93]",,2185
+row06-dark,constructed-dark,"[10, 12, 11, 93]","[10, 12, 11, 93]",,2607
+row06-shadow,constructed-shadow,"[10, 12, 11, 93]","[None, 12, 11, 93]",,2617
+row06-blur,constructed-blur,"[10, 12, 11, 93]","[10, 12, 11, 93]",,2627
+row06-jpeg35,constructed-jpeg35,"[10, 12, 11, 93]","[10, 12, None, 93]",,2653
+row07-baseline,constructed-baseline,"[90, 92, 91, 78]","[90, 92, 91, 78]",,2555
+row07-low_resolution,constructed-low_resolution,"[90, 92, 91, 78]","[90, 92, 91, 78]",,2511
+row07-dark,constructed-dark,"[90, 92, 91, 78]","[None, 92, 91, 78]",,2564
+row07-shadow,constructed-shadow,"[90, 92, 91, 78]","[90, 92, None, 78]",,2519
+row07-blur,constructed-blur,"[90, 92, 91, 78]","[90, 92, 91, None]",,2878
+row07-jpeg35,constructed-jpeg35,"[90, 92, 91, 78]","[90, 92, 91, 78]",,2529
+row08-baseline,constructed-baseline,"[79, 77, 25, 5]","[79, 77, 25, 5]",,2522
+row08-low_resolution,constructed-low_resolution,"[79, 77, 25, 5]","[79, 77, 25, 5]",,2503
+row08-dark,constructed-dark,"[79, 77, 25, 5]","[79, 77, 25, 5]",,2604
+row08-shadow,constructed-shadow,"[79, 77, 25, 5]","[79, 77, 25, None]",,2469
+row08-blur,constructed-blur,"[79, 77, 25, 5]","[79, 77, 25, 5]",,2535
+row08-jpeg35,constructed-jpeg35,"[79, 77, 25, 5]","[79, 77, 25, 5]",,2469
+row09-baseline,constructed-baseline,"[62, 61, 73, 3]","[62, 61, 73, None]",,4597
+row09-low_resolution,constructed-low_resolution,"[62, 61, 73, 3]","[62, 61, 73, 3]",,4766
+row09-dark,constructed-dark,"[62, 61, 73, 3]","[62, 61, 73, 3]",,2499
+row09-shadow,constructed-shadow,"[62, 61, 73, 3]","[62, None, 73, 3]",,2483
+row09-blur,constructed-blur,"[62, 61, 73, 3]","[62, None, 73, 3]",,2445
+row09-jpeg35,constructed-jpeg35,"[62, 61, 73, 3]","[62, 61, 73, None]",,2729
+row10-baseline,constructed-baseline,"[60, 8, 69, 8]","[None, 8, 69, 8]",,2647
+row10-low_resolution,constructed-low_resolution,"[60, 8, 69, 8]","[60, 8, 69, 8]",,2398
+row10-dark,constructed-dark,"[60, 8, 69, 8]","[None, 8, 69, 8]",,2510
+row10-shadow,constructed-shadow,"[60, 8, 69, 8]","[None, 8, 69, None]",,2605
+row10-blur,constructed-blur,"[60, 8, 69, 8]","[60, 8, 69, 8]",,2463
+row10-jpeg35,constructed-jpeg35,"[60, 8, 69, 8]","[None, 8, 69, 8]",,2632
+row11-baseline,constructed-baseline,"[7, 10, 6, 9]","[7, 10, 6, 9]",,2419
+row11-low_resolution,constructed-low_resolution,"[7, 10, 6, 9]","[7, 10, 6, 9]",,2394
+row11-dark,constructed-dark,"[7, 10, 6, 9]","[7, 10, 6, 9]",,2525
+row11-shadow,constructed-shadow,"[7, 10, 6, 9]","[7, 10, 6, 9]",,2494
+row11-blur,constructed-blur,"[7, 10, 6, 9]","[7, 10, None, 9]",,2943
+row11-jpeg35,constructed-jpeg35,"[7, 10, 6, 9]","[7, 10, 6, 9]",,2539
+row12-baseline,constructed-baseline,"[36, 35, 34, 33]","[36, 35, 34, 33]",,2540
+row12-low_resolution,constructed-low_resolution,"[36, 35, 34, 33]","[36, 35, 34, 33]",,2676
+row12-dark,constructed-dark,"[36, 35, 34, 33]","[36, 35, 34, 33]",,3004
+row12-shadow,constructed-shadow,"[36, 35, 34, 33]","[36, 35, 34, 33]",,2762
+row12-blur,constructed-blur,"[36, 35, 34, 33]","[36, 35, 34, 33]",,3332
+row12-jpeg35,constructed-jpeg35,"[36, 35, 34, 33]","[36, 35, 34, 33]",,3550
+row13-baseline,constructed-baseline,"[32, 55, 58, 57]","[32, 55, 58, 57]",,4582
+row13-low_resolution,constructed-low_resolution,"[32, 55, 58, 57]","[32, 55, 58, 57]",,2954
+row13-dark,constructed-dark,"[32, 55, 58, 57]","[32, 55, 58, 57]",,3421
+row13-shadow,constructed-shadow,"[32, 55, 58, 57]","[None, 55, 58, 57]",,3773
+row13-blur,constructed-blur,"[32, 55, 58, 57]","[32, 55, 58, 57]",,4253
+row13-jpeg35,constructed-jpeg35,"[32, 55, 58, 57]","[32, 55, 58, 57]",,3938
+row14-baseline,constructed-baseline,"[59, 60, 84, 83]","[59, 60, 84, 83]",,3506
+row14-low_resolution,constructed-low_resolution,"[59, 60, 84, 83]","[59, 60, 84, 83]",,2999
+row14-dark,constructed-dark,"[59, 60, 84, 83]","[59, 60, 84, 83]",,4233
+row14-shadow,constructed-shadow,"[59, 60, 84, 83]","[59, 60, 84, 83]",,3305
+row14-blur,constructed-blur,"[59, 60, 84, 83]","[59, 60, 84, 83]",,3086
+row14-jpeg35,constructed-jpeg35,"[59, 60, 84, 83]","[59, 60, 84, 83]",,3900
+row15-baseline,constructed-baseline,"[86, 85, 87, 88]","[86, 85, 87, 88]",,2954
+row15-low_resolution,constructed-low_resolution,"[86, 85, 87, 88]","[86, 85, 87, 88]",,2840
+row15-dark,constructed-dark,"[86, 85, 87, 88]","[86, 85, 87, 88]",,2881
+row15-shadow,constructed-shadow,"[86, 85, 87, 88]","[86, 85, 87, 88]",,2752
+row15-blur,constructed-blur,"[86, 85, 87, 88]","[86, 85, 87, 88]",,2732
+row15-jpeg35,constructed-jpeg35,"[86, 85, 87, 88]","[86, 85, 87, 88]",,2691
+row16-baseline,constructed-baseline,"[5, 2, 3, 4]","[5, 2, 3, 4]",,2643
+row16-low_resolution,constructed-low_resolution,"[5, 2, 3, 4]","[5, 2, 3, 4]",,2465
+row16-dark,constructed-dark,"[5, 2, 3, 4]","[5, 2, 3, 4]",,2664
+row16-shadow,constructed-shadow,"[5, 2, 3, 4]","[5, 2, 3, 4]",,2549
+row16-blur,constructed-blur,"[5, 2, 3, 4]","[5, 2, 3, 4]",,2471
+row16-jpeg35,constructed-jpeg35,"[5, 2, 3, 4]","[5, 2, 3, 4]",,2542
+row17-baseline,constructed-baseline,"[0, 30, 33, 32]","[None, 30, 33, 2]",,2546
+row17-low_resolution,constructed-low_resolution,"[0, 30, 33, 32]","[0, 30, 33, 2]",,2527
+row17-dark,constructed-dark,"[0, 30, 33, 32]","[0, 30, 33, 2]",,2641
+row17-shadow,constructed-shadow,"[0, 30, 33, 32]","[0, 30, 33, 2]",,2445
+row17-blur,constructed-blur,"[0, 30, 33, 32]","[0, 30, 33, 2]",,2567
+row17-jpeg35,constructed-jpeg35,"[0, 30, 33, 32]","[0, 30, None, 2]",,2874
+row18-baseline,constructed-baseline,"[35, 34, 31, 61]","[35, None, 31, 61]",,2398
+row18-low_resolution,constructed-low_resolution,"[35, 34, 31, 61]","[35, None, 31, 61]",,2282
+row18-dark,constructed-dark,"[35, 34, 31, 61]","[35, None, 31, None]",,2492
+row18-shadow,constructed-shadow,"[35, 34, 31, 61]","[35, None, 31, 61]",,2565
+row18-blur,constructed-blur,"[35, 34, 31, 61]","[35, None, 31, None]",,2433
+row18-jpeg35,constructed-jpeg35,"[35, 34, 31, 61]","[35, None, 31, None]",,2565
+row19-baseline,constructed-baseline,"[62, 63, 64, 65]","[62, 63, 64, 65]",,2472
+row19-low_resolution,constructed-low_resolution,"[62, 63, 64, 65]","[62, 63, 64, 65]",,2470
+row19-dark,constructed-dark,"[62, 63, 64, 65]","[62, 63, 64, 65]",,2374
+row19-shadow,constructed-shadow,"[62, 63, 64, 65]","[62, 63, 64, 65]",,2437
+row19-blur,constructed-blur,"[62, 63, 64, 65]","[62, 63, 64, 65]",,2407
+row19-jpeg35,constructed-jpeg35,"[62, 63, 64, 65]","[62, 63, 64, 65]",,2695
+row20-baseline,constructed-baseline,"[66, 67, 99, 98]","[66, 67, 99, 98]",,2554
+row20-low_resolution,constructed-low_resolution,"[66, 67, 99, 98]","[66, 67, 99, 98]",,2443
+row20-dark,constructed-dark,"[66, 67, 99, 98]","[66, 67, 99, 98]",,2704
+row20-shadow,constructed-shadow,"[66, 67, 99, 98]","[66, 67, 99, 98]",,2417
+row20-blur,constructed-blur,"[66, 67, 99, 98]","[66, 67, 99, 98]",,2771
+row20-jpeg35,constructed-jpeg35,"[66, 67, 99, 98]","[66, 67, 99, 98]",,3087
+row21-baseline,constructed-baseline,"[97, 93, 96, 95]","[97, 93, 96, 95]",,2710
+row21-low_resolution,constructed-low_resolution,"[97, 93, 96, 95]","[97, 93, 96, 95]",,3339
+row21-dark,constructed-dark,"[97, 93, 96, 95]","[97, 93, 96, 95]",,3119
+row21-shadow,constructed-shadow,"[97, 93, 96, 95]","[97, 93, 96, 95]",,3357
+row21-blur,constructed-blur,"[97, 93, 96, 95]","[97, 93, 96, 95]",,3296
+row21-jpeg35,constructed-jpeg35,"[97, 93, 96, 95]","[97, 93, 96, 95]",,3433
+row22-baseline,constructed-baseline,"[94, 27, 28, 29]","[94, 27, 28, 29]",,3767
+row22-low_resolution,constructed-low_resolution,"[94, 27, 28, 29]","[94, 27, 28, 29]",,3038
+row22-dark,constructed-dark,"[94, 27, 28, 29]","[94, 27, 28, 29]",,3832
+row22-shadow,constructed-shadow,"[94, 27, 28, 29]","[94, 27, 28, 29]",,3647
+row22-blur,constructed-blur,"[94, 27, 28, 29]","[94, 27, 28, 29]",,2338
+row22-jpeg35,constructed-jpeg35,"[94, 27, 28, 29]","[94, 27, 28, 29]",,2719
+row23-baseline,constructed-baseline,"[30, 31, 32, 34, 33]","[30, 1, 32, 34, 33]",,3500
+row23-low_resolution,constructed-low_resolution,"[30, 31, 32, 34, 33]","[30, None, None, 34, 33]",,3185
+row23-dark,constructed-dark,"[30, 31, 32, 34, 33]","[30, 1, 32, 34, 33]",,3318
+row23-shadow,constructed-shadow,"[30, 31, 32, 34, 33]","[30, 1, 32, 34, None]",,2780
+row23-blur,constructed-blur,"[30, 31, 32, 34, 33]","[30, 1, 32, 34, 33]",,1791
+row23-jpeg35,constructed-jpeg35,"[30, 31, 32, 34, 33]","[None, None, 32, 34, None]",,1898
+sample-2400,existing-whole-sheet,"[12, 95, 84]","[12, 95, 84]",,1604
+sample-1920,existing-whole-sheet,"[12, 95, 84]","[12, 95, 84]",,1341
+sample-1280,existing-whole-sheet,"[12, 95, 84]","[12, 95, 84]",,1282
+sample-1080,existing-whole-sheet,"[12, 95, 84]","[12, 95, 84]",,1259
+sample-720,existing-whole-sheet,"[12, 95, 84]","[12, 95, 84]",,1277
+reported-auto-qr,existing-screenshot-auto,"[6, 13, 42, 10]",,ScoringException: 指定QRを読み取れません。QRを大きく写し、ピントを合わせてください。,113
+reported-injected-qr,existing-screenshot-injected,"[6, 13, 42, 10]","[6, 13, 42, 10]",,1376

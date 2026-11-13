@@ -1,0 +1,419 @@
+{
+  "apk_sha256": "e0203fd2a90131b5d0eac1322aca0ce761fcb4d57111640f62de33fdedd2b329",
+  "truth_sha256": "6826253997762696ed9d1a313dc1e506fc01cc24a08fa928c3d0370200ea924a",
+  "overall": {
+    "cases": 145,
+    "fields": 581,
+    "correct_fields": 520,
+    "wrong_fields": 10,
+    "unread_fields": 51,
+    "accepted_field_accuracy": 0.981132,
+    "correct_field_coverage": 0.895009,
+    "complete_sheets": 108,
+    "exact_sheets": 101,
+    "wrong_complete_sheets": 7,
+    "wrong_totals": 7,
+    "failed_pipeline_cases": 2,
+    "median_ms": 2529,
+    "max_ms": 4766
+  },
+  "constructed_only": {
+    "cases": 138,
+    "fields": 558,
+    "correct_fields": 501,
+    "wrong_fields": 10,
+    "unread_fields": 47,
+    "accepted_field_accuracy": 0.980431,
+    "correct_field_coverage": 0.897849,
+    "complete_sheets": 102,
+    "exact_sheets": 95,
+    "wrong_complete_sheets": 7,
+    "wrong_totals": 7,
+    "failed_pipeline_cases": 1,
+    "median_ms": 2541.0,
+    "max_ms": 4766
+  },
+  "automatic_qr_only": {
+    "cases": 144,
+    "fields": 577,
+    "correct_fields": 516,
+    "wrong_fields": 10,
+    "unread_fields": 51,
+    "accepted_field_accuracy": 0.980989,
+    "correct_field_coverage": 0.894281,
+    "complete_sheets": 107,
+    "exact_sheets": 100,
+    "wrong_complete_sheets": 7,
+    "wrong_totals": 7,
+    "failed_pipeline_cases": 2,
+    "median_ms": 2532.0,
+    "max_ms": 4766
+  },
+  "by_family": {
+    "constructed-baseline": {
+      "cases": 23,
+      "fields": 93,
+      "correct_fields": 85,
+      "wrong_fields": 2,
+      "unread_fields": 6,
+      "accepted_field_accuracy": 0.977011,
+      "correct_field_coverage": 0.913978,
+      "complete_sheets": 17,
+      "exact_sheets": 16,
+      "wrong_complete_sheets": 1,
+      "wrong_totals": 1,
+      "failed_pipeline_cases": 0,
+      "median_ms": 2554,
+      "max_ms": 4597
+    },
+    "constructed-blur": {
+      "cases": 23,
+      "fields": 93,
+      "correct_fields": 86,
+      "wrong_fields": 2,
+      "unread_fields": 5,
+      "accepted_field_accuracy": 0.977273,
+      "correct_field_coverage": 0.924731,
+      "complete_sheets": 19,
+      "exact_sheets": 17,
+      "wrong_complete_sheets": 2,
+      "wrong_totals": 2,
+      "failed_pipeline_cases": 0,
+      "median_ms": 2471,
+      "max_ms": 4253
+    },
+    "constructed-dark": {
+      "cases": 23,
+      "fields": 93,
+      "correct_fields": 82,
+      "wrong_fields": 2,
+      "unread_fields": 9,
+      "accepted_field_accuracy": 0.97619,
+      "correct_field_coverage": 0.88172,
+      "complete_sheets": 18,
+      "exact_sheets": 16,
+      "wrong_complete_sheets": 2,
+      "wrong_totals": 2,
+      "failed_pipeline_cases": 1,
+      "median_ms": 2604,
+      "max_ms": 4233
+    },
+    "constructed-jpeg35": {
+      "cases": 23,
+      "fields": 93,
+      "correct_fields": 79,
+      "wrong_fields": 1,
+      "unread_fields": 13,
+      "accepted_field_accuracy": 0.9875,
+      "correct_field_coverage": 0.849462,
+      "complete_sheets": 14,
+      "exact_sheets": 14,
+      "wrong_complete_sheets": 0,
+      "wrong_totals": 0,
+      "failed_pipeline_cases": 0,
+      "median_ms": 2632,
+      "max_ms": 3938
+    },
+    "constructed-low_resolution": {
+      "cases": 23,
+      "fields": 93,
+      "correct_fields": 89,
+      "wrong_fields": 1,
+      "unread_fields": 3,
+      "accepted_field_accuracy": 0.988889,
+      "correct_field_coverage": 0.956989,
+      "complete_sheets": 21,
+      "exact_sheets": 20,
+      "wrong_complete_sheets": 1,
+      "wrong_totals": 1,
+      "failed_pipeline_cases": 0,
+      "median_ms": 2470,
+      "max_ms": 4766
+    },
+    "constructed-shadow": {
+      "cases": 23,
+      "fields": 93,
+      "correct_fields": 80,
+      "wrong_fields": 2,
+      "unread_fields": 11,
+      "accepted_field_accuracy": 0.97561,
+      "correct_field_coverage": 0.860215,
+      "complete_sheets": 13,
+      "exact_sheets": 12,
+      "wrong_complete_sheets": 1,
+      "wrong_totals": 1,
+      "failed_pipeline_cases": 0,
+      "median_ms": 2519,
+      "max_ms": 3773
+    },
+    "existing-screenshot-auto": {
+      "cases": 1,
+      "fields": 4,
+      "correct_fields": 0,
+      "wrong_fields": 0,
+      "unread_fields": 4,
+      "accepted_field_accuracy": null,
+      "correct_field_coverage": 0.0,
+      "complete_sheets": 0,
+      "exact_sheets": 0,
+      "wrong_complete_sheets": 0,
+      "wrong_totals": 0,
+      "failed_pipeline_cases": 1,
+      "median_ms": 113,
+      "max_ms": 113
+    },
+    "existing-screenshot-injected": {
+      "cases": 1,
+      "fields": 4,
+      "correct_fields": 4,
+      "wrong_fields": 0,
+      "unread_fields": 0,
+      "accepted_field_accuracy": 1.0,
+      "correct_field_coverage": 1.0,
+      "complete_sheets": 1,
+      "exact_sheets": 1,
+      "wrong_complete_sheets": 0,
+      "wrong_totals": 0,
+      "failed_pipeline_cases": 0,
+      "median_ms": 1376,
+      "max_ms": 1376
+    },
+    "existing-whole-sheet": {
+      "cases": 5,
+      "fields": 15,
+      "correct_fields": 15,
+      "wrong_fields": 0,
+      "unread_fields": 0,
+      "accepted_field_accuracy": 1.0,
+      "correct_field_coverage": 1.0,
+      "complete_sheets": 5,
+      "exact_sheets": 5,
+      "wrong_complete_sheets": 0,
+      "wrong_totals": 0,
+      "failed_pipeline_cases": 0,
+      "median_ms": 1282,
+      "max_ms": 1604
+    }
+  },
+  "pseudo_label_differences": [
+    {
+      "id": "1_00",
+      "manual": 1,
+      "pseudo": 511
+    },
+    {
+      "id": "41_00",
+      "manual": 93,
+      "pseudo": 593
+    },
+    {
+      "id": "46_00",
+      "manual": 78,
+      "pseudo": 8
+    },
+    {
+      "id": "51_08",
+      "manual": 69,
+      "pseudo": 169
+    },
+    {
+      "id": "56_00",
+      "manual": 8,
+      "pseudo": 6
+    },
+    {
+      "id": "56_03",
+      "manual": 6,
+      "pseudo": 70
+    },
+    {
+      "id": "61_04",
+      "manual": 32,
+      "pseudo": 0
+    },
+    {
+      "id": "76_01",
+      "manual": 2,
+      "pseudo": 121
+    },
+    {
+      "id": "81_05",
+      "manual": 31,
+      "pseudo": 81
+    },
+    {
+      "id": "91_06",
+      "manual": 94,
+      "pseudo": 914
+    },
+    {
+      "id": "96_06",
+      "manual": 34,
+      "pseudo": 31
+    }
+  ],
+  "pipeline_errors": {
+    "ScoringException: 得点枠は3個です。指定の4個すべてが写るよう撮り直すか、得点欄数を確認してください。": 1,
+    "ScoringException: 指定QRを読み取れません。QRを大きく写し、ピントを合わせてください。": 1
+  },
+  "wrong_cases": [
+    {
+      "id": "row17-baseline",
+      "expected": [
+        0,
+        30,
+        33,
+        32
+      ],
+      "scores": [
+        null,
+        30,
+        33,
+        2
+      ]
+    },
+    {
+      "id": "row17-low_resolution",
+      "expected": [
+        0,
+        30,
+        33,
+        32
+      ],
+      "scores": [
+        0,
+        30,
+        33,
+        2
+      ]
+    },
+    {
+      "id": "row17-dark",
+      "expected": [
+        0,
+        30,
+        33,
+        32
+      ],
+      "scores": [
+        0,
+        30,
+        33,
+        2
+      ]
+    },
+    {
+      "id": "row17-shadow",
+      "expected": [
+        0,
+        30,
+        33,
+        32
+      ],
+      "scores": [
+        0,
+        30,
+        33,
+        2
+      ]
+    },
+    {
+      "id": "row17-blur",
+      "expected": [
+        0,
+        30,
+        33,
+        32
+      ],
+      "scores": [
+        0,
+        30,
+        33,
+        2
+      ]
+    },
+    {
+      "id": "row17-jpeg35",
+      "expected": [
+        0,
+        30,
+        33,
+        32
+      ],
+      "scores": [
+        0,
+        30,
+        null,
+        2
+      ]
+    },
+    {
+      "id": "row23-baseline",
+      "expected": [
+        30,
+        31,
+        32,
+        34,
+        33
+      ],
+      "scores": [
+        30,
+        1,
+        32,
+        34,
+        33
+      ]
+    },
+    {
+      "id": "row23-dark",
+      "expected": [
+        30,
+        31,
+        32,
+        34,
+        33
+      ],
+      "scores": [
+        30,
+        1,
+        32,
+        34,
+        33
+      ]
+    },
+    {
+      "id": "row23-shadow",
+      "expected": [
+        30,
+        31,
+        32,
+        34,
+        33
+      ],
+      "scores": [
+        30,
+        1,
+        32,
+        34,
+        null
+      ]
+    },
+    {
+      "id": "row23-blur",
+      "expected": [
+        30,
+        31,
+        32,
+        34,
+        33
+      ],
+      "scores": [
+        30,
+        1,
+        32,
+        34,
+        33
+      ]
+    }
+  ]
+}
